@@ -72,6 +72,14 @@ export class InvitationRepository {
     return lastInvitation;
   }
 
+  async cancelInvitation({
+      invitationId
+                         }:{
+    invitationId: string;
+  }): Promise<void>{
+    await this.client.request.invitation.cancelInvitation({invitationId})
+  }
+
   private async fetchReceived({ skip = 0, limit = 100 } = {}): Promise<Invitation[]> {
     const response = await this.client.request.invitation.getReceivedInvitations({ skip, limit });
 

@@ -20,8 +20,16 @@ export class InvitationRequest {
       },
       ...(message && { message }),
     };
-
     return this.request.post('growth/normInvitations', requestPayload);
+  }
+
+  cancelInvitation({invitationId}:{invitationId: string}):Promise<void>{
+    const requestPayload = {
+      invitationId: invitationId,
+      invitationSharedSecret: null,
+      isGenericInvitation: true,
+    }
+    return this.request.post(`relationships/invitations/${invitationId}?action=withdraw`, requestPayload);
   }
 
   getReceivedInvitations({ skip = 0, limit = 100 } = {}): Promise<GetReceivedInvitationResponse> {
