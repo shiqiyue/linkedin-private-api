@@ -1,4 +1,4 @@
-**[linkedin-private-api](README.md)**
+**[shiqiyue-linkedin-private-api](README.md)**
 
 > [Globals](globals.md)
 

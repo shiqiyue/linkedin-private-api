@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[shiqiyue-linkedin-private-api](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/mini-company.entity"
 
@@ -20,4 +20,4 @@
 
 Ƭ  **CompanyId**: string
 
-*Defined in [src/entities/mini-company.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/mini-company.entity.ts#L3)*
+*Defined in [src/entities/mini-company.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/entities/mini-company.entity.ts#L3)*

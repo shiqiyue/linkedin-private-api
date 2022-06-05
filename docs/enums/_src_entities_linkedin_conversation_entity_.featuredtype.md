@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[shiqiyue-linkedin-private-api](../README.md)**
 
 > [Globals](../globals.md) / ["src/entities/linkedin-conversation.entity"](../modules/_src_entities_linkedin_conversation_entity_.md) / FeaturedType
 
@@ -17,7 +17,7 @@
 
 •  **CREATE\_NEW\_GROUP\_CHAT**: 
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-conversation.entity.ts#L5)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:5](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/entities/linkedin-conversation.entity.ts#L5)*
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 •  **REACTIONS**: 
 
-*Defined in [src/entities/linkedin-conversation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-conversation.entity.ts#L4)*
+*Defined in [src/entities/linkedin-conversation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/entities/linkedin-conversation.entity.ts#L4)*

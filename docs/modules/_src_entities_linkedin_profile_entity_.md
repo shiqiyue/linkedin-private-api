@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[shiqiyue-linkedin-private-api](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/linkedin-profile.entity"
 
@@ -25,7 +25,7 @@
 
 Ƭ  **ProfileUrn**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:38](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-profile.entity.ts#L38)*
+*Defined in [src/entities/linkedin-profile.entity.ts:38](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/entities/linkedin-profile.entity.ts#L38)*
 
 ## Variables
 
@@ -33,4 +33,4 @@
 
 • `Const` **PROFILE\_TYPE**: \"com.linkedin.voyager.dash.identity.profile.Profile\" = "com.linkedin.voyager.dash.identity.profile.Profile"
 
-*Defined in [src/entities/linkedin-profile.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/linkedin-profile.entity.ts#L4)*
+*Defined in [src/entities/linkedin-profile.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/entities/linkedin-profile.entity.ts#L4)*

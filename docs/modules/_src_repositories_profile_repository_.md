@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[shiqiyue-linkedin-private-api](../README.md)**
 
 > [Globals](../globals.md) / "src/repositories/profile.repository"
 
@@ -20,7 +20,7 @@
 
 ▸ `Const`**getProfilesFromResponse**<T\>(`response`: T): Record<[ProfileId](_src_entities_mini_profile_entity_.md#profileid), [MiniProfile](../interfaces/_src_entities_mini_profile_entity_.miniprofile.md)\>
 
-*Defined in [src/repositories/profile.repository.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/repositories/profile.repository.ts#L20)*
+*Defined in [src/repositories/profile.repository.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/repositories/profile.repository.ts#L20)*
 
 #### Type parameters:
 

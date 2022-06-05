@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[shiqiyue-linkedin-private-api](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/conversation.entity"
 
@@ -20,4 +20,4 @@
 
 Ƭ  **ConversationId**: string
 
-*Defined in [src/entities/conversation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/a05191c/src/entities/conversation.entity.ts#L4)*
+*Defined in [src/entities/conversation.entity.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/entities/conversation.entity.ts#L4)*
