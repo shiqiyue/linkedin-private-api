@@ -12,7 +12,7 @@ export class ProfileRequest {
   getProfile({ publicIdentifier }: { publicIdentifier: string }): Promise<GetProfileResponse> {
     const queryParams = {
       q: 'memberIdentity',
-      memberIdentity: publicIdentifier,
+      memberIdentity: encodeURIComponent(publicIdentifier),
       decorationId: 'com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-35',
     };
 
