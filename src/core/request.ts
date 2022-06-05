@@ -26,6 +26,8 @@ export class Request {
       httpsAgent,
       ...(proxy && { proxy }),
     });
+    this.request.defaults.adapter = require('axios/lib/adapters/http');
+
   }
 
   setHeaders(headers: Record<string, string>): void {
