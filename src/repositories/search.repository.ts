@@ -84,6 +84,14 @@ export class SearchRepository {
     });
   }
 
+  searchGeo({
+      keywords
+            }:{
+    keywords:string
+  }):any{
+    return this.client.request.search.searchGeo({keywords})
+  }
+
   searchConnectionsOf({
     profileId,
     skip = 0,

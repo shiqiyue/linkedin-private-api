@@ -40,6 +40,11 @@ export class SearchRequest {
     });
   }
 
+  searchGeo({keywords}:{keywords:string}):any{
+    keywords = encodeURIComponent(keywords)
+    return this.request.get<GetBlendedSearchResponse>(`voyagerSearchDashReusableTypeahead?decorationId=com.linkedin.voyager.dash.deco.search.typeahead.ReusableTypeaheadCollection-26&keywords=${keywords}&q=type&query=(typeaheadFilterQuery:(geoSearchTypes:List(MARKET_AREA,COUNTRY_REGION,ADMIN_DIVISION_1,CITY)))&type=GEO`);
+  }
+
   searchJobs({
     skip = 0,
     limit = 10,
