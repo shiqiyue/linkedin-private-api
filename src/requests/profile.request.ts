@@ -37,7 +37,7 @@ export class ProfileRequest {
             .then((responses) => {
                 const fullProfile = {account}
                 responses.map(res => Object.assign(fullProfile, res))
-                console.log(fullProfile)
+                //console.log(fullProfile)
 
                 return Promise.resolve(this._scrubFullProfileResponse({profile: fullProfile}))
             })
