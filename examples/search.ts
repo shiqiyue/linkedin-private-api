@@ -24,13 +24,12 @@ var li_at = "AQEDATp3vT0FeQRWAAABgEd2ry0AAAGBUJ0tVlYAG--0uWMuRh8DweF5nMjcNPSv6tc
   const peopleScroller = await client.search.searchPeople({
     keywords: 'Shoe',
   });
-  const [{ profile: billGates }] = await peopleScroller.scrollNext();
+  const profiles = await peopleScroller.scrollNext();
 
   const ownConnectionsScroller = await client.search.searchOwnConnections();
   const connections = await ownConnectionsScroller.scrollNext();
 
-  const profileConnectionsScroller = await client.search.searchConnectionsOf({ profileId: connections[0].profile.profileId });
-  const profileConnections = await profileConnectionsScroller.scrollNext();
 
-  console.log(billGates,  connections[0], profileConnections[0]);
+
+  console.log(profiles,  connections);
 })();

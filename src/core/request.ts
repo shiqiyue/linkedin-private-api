@@ -26,6 +26,19 @@ export class Request {
       httpsAgent,
       ...(proxy && { proxy }),
     });
+    this.request.interceptors.request.use(function (config){
+      console.log('请求参数:', config)
+      return config
+    }, error => {
+      return Promise.reject(error);
+    })
+    this.request.interceptors.response.use(function (response){
+      console.log('返回结果', response)
+      return response
+    }, error => {
+      console.log('返回错误:', error)
+      return Promise.reject(error)
+    })
     this.request.defaults.adapter = require('axios/lib/adapters/http');
 
   }

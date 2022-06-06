@@ -16,6 +16,7 @@
 
 ### Methods
 
+* [cancelInvitation](_src_repositories_invitation_repository_.invitationrepository.md#cancelinvitation)
 * [getReceivedInvitations](_src_repositories_invitation_repository_.invitationrepository.md#getreceivedinvitations)
 * [getSentInvitations](_src_repositories_invitation_repository_.invitationrepository.md#getsentinvitations)
 * [sendInvitation](_src_repositories_invitation_repository_.invitationrepository.md#sendinvitation)
@@ -26,7 +27,7 @@
 
 \+ **new InvitationRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [InvitationRepository](_src_repositories_invitation_repository_.invitationrepository.md)
 
-*Defined in [src/repositories/invitation.repository.ts:37](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/repositories/invitation.repository.ts#L37)*
+*Defined in [src/repositories/invitation.repository.ts:37](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/repositories/invitation.repository.ts#L37)*
 
 #### Parameters:
 
@@ -38,11 +39,27 @@ Name | Type |
 
 ## Methods
 
+### cancelInvitation
+
+▸ **cancelInvitation**(`__namedParameters`: { invitationId: string  }): Promise<void\>
+
+*Defined in [src/repositories/invitation.repository.ts:75](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/repositories/invitation.repository.ts#L75)*
+
+#### Parameters:
+
+Name | Type |
+------ | ------ |
+`__namedParameters` | { invitationId: string  } |
+
+**Returns:** Promise<void\>
+
+___
+
 ### getReceivedInvitations
 
 ▸ **getReceivedInvitations**(`__namedParameters?`: { limit: number = 100; skip: number = 0 }): [InvitationScroller](_src_scrollers_invitation_scroller_.invitationscroller.md)
 
-*Defined in [src/repositories/invitation.repository.ts:51](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/repositories/invitation.repository.ts#L51)*
+*Defined in [src/repositories/invitation.repository.ts:51](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/repositories/invitation.repository.ts#L51)*
 
 #### Parameters:
 
@@ -58,7 +75,7 @@ ___
 
 ▸ **getSentInvitations**(`__namedParameters?`: { limit: number = 100; skip: number = 0 }): [InvitationScroller](_src_scrollers_invitation_scroller_.invitationscroller.md)
 
-*Defined in [src/repositories/invitation.repository.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/repositories/invitation.repository.ts#L43)*
+*Defined in [src/repositories/invitation.repository.ts:43](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/repositories/invitation.repository.ts#L43)*
 
 #### Parameters:
 
@@ -74,7 +91,7 @@ ___
 
 ▸ **sendInvitation**(`__namedParameters`: { message: undefined \| string ; profileId: string ; trackingId: string  }): Promise<[Invitation](../interfaces/_src_entities_invitation_entity_.invitation.md)\>
 
-*Defined in [src/repositories/invitation.repository.ts:59](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/repositories/invitation.repository.ts#L59)*
+*Defined in [src/repositories/invitation.repository.ts:59](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/repositories/invitation.repository.ts#L59)*
 
 #### Parameters:
 

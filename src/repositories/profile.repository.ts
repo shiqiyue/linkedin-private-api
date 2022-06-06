@@ -1,12 +1,12 @@
-import { filter, get, keyBy, map } from 'lodash';
+import {filter, get, keyBy, map} from 'lodash';
 
-import { Client } from '../core/client';
-import { COMPANY_TYPE, LinkedInCompany } from '../entities/linkedin-company.entity';
-import { LinkedInMiniProfile, MINI_PROFILE_TYPE } from '../entities/linkedin-mini-profile.entity';
-import { LinkedInProfile, PROFILE_TYPE } from '../entities/linkedin-profile.entity';
-import { LinkedInVectorImage } from '../entities/linkedin-vector-image.entity';
-import { MiniProfile, ProfileId } from '../entities/mini-profile.entity';
-import { Profile } from '../entities/profile.entity';
+import {Client} from '../core/client';
+import {COMPANY_TYPE, LinkedInCompany} from '../entities/linkedin-company.entity';
+import {LinkedInMiniProfile, MINI_PROFILE_TYPE} from '../entities/linkedin-mini-profile.entity';
+import {LinkedInProfile, PROFILE_TYPE} from '../entities/linkedin-profile.entity';
+import {LinkedInVectorImage} from '../entities/linkedin-vector-image.entity';
+import {MiniProfile, ProfileId} from '../entities/mini-profile.entity';
+import {Profile} from '../entities/profile.entity';
 
 const getProfilePictureUrls = (picture?: LinkedInVectorImage): string[] =>
   map(picture?.artifacts, artifact => `${picture?.rootUrl}${artifact.fileIdentifyingUrlPathSegment}`);
@@ -60,5 +60,9 @@ export class ProfileRepository {
     }
 
     return this.getProfile(miniProfile);
+  }
+
+  async getFullProfile({ publicIdentifier }: { publicIdentifier: string }):Promise<any>{
+    return  this.client.request.profile.getFullProfile({account: publicIdentifier})
   }
 }

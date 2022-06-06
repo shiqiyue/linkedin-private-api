@@ -25,7 +25,7 @@ export class Login {
   }
 
   private setRequestHeaders({ cookies }: { cookies: AuthCookies }): void {
-    const cookieStr = reduce(cookies, (res, v, k) => `${res}${k}="${v}"; `, '');
+     const cookieStr = reduce(cookies, (res, v, k) => `${res}${k}="${v}"; `, '');
 
     this.client.request.setHeaders({
       ...requestHeaders,
@@ -114,7 +114,7 @@ export class Login {
     useCache = true,
   }: {
     username?: string;
-    cookies: { JSESSIONID: string; li_at?: string };
+    cookies: AuthCookies;
     useCache?: boolean;
   }): Promise<Client> {
     const cachedSessions = await this.readCacheFile();

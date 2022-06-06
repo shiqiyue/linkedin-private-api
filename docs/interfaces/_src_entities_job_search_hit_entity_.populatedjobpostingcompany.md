@@ -22,4 +22,4 @@
 
 •  **company**: [LinkedInBaseCompany](_src_entities_linkedin_base_company_.linkedinbasecompany.md)
 
-*Defined in [src/entities/job-search-hit.entity.ts:7](https://github.com/eilonmore/linkedin-private-api/blob/20fd7f3/src/entities/job-search-hit.entity.ts#L7)*
+*Defined in [src/entities/job-search-hit.entity.ts:7](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/entities/job-search-hit.entity.ts#L7)*
