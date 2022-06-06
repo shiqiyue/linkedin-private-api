@@ -663,7 +663,8 @@
       {
         "value": "reddit.com"
       }
-    ]
+    ],
+    "linkedinGeo": "103644278"
   },
   {
     "alpha2": "AW",
@@ -693,7 +694,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105763200"
+    "linkedinGeo": "105763200"
   },
   {
     "alpha2": "AF",
@@ -1235,7 +1236,7 @@
     "google_site": "google.com.af",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101240012"
+    "linkedinGeo": "101240012"
   },
   {
     "alpha2": "AO",
@@ -1425,7 +1426,7 @@
     "google_site": "google.it.ao",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105371935"
+    "linkedinGeo": "105371935"
   },
   {
     "alpha2": "AI",
@@ -1447,7 +1448,7 @@
     "google_site": "google.com.ai",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102287072"
+    "linkedinGeo": "102287072"
   },
   {
     "alpha2": "AX",
@@ -1469,7 +1470,8 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": null
   },
   {
     "alpha2": "AL",
@@ -1807,7 +1809,7 @@
     "google_site": "google.al",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102845717"
+    "linkedinGeo": "102845717"
   },
   {
     "alpha2": "AD",
@@ -1859,7 +1861,7 @@
     "google_site": "google.ad",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106296266"
+    "linkedinGeo": "106296266"
   },
   {
     "alpha2": "AE",
@@ -1917,7 +1919,7 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104305776"
+    "linkedinGeo": "104305776"
   },
   {
     "alpha2": "AR",
@@ -2153,7 +2155,7 @@
     "google_site": "google.com.ar",
     "yahoo_site": "ar.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100446943"
+    "linkedinGeo": "100446943"
   },
   {
     "alpha2": "AM",
@@ -2340,7 +2342,7 @@
     "google_site": "google.am",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103030111"
+    "linkedinGeo": "103030111"
   },
   {
     "alpha2": "AS",
@@ -2519,7 +2521,7 @@
     ],
     "yahoo_site": "as.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102431220"
+    "linkedinGeo": "102431220"
   },
   {
     "alpha2": "AG",
@@ -2540,7 +2542,7 @@
     "yahoo_site": null,
     "bing_site": null,
     "citys": [],
-    "linkedinGeo": "urn:li:fsd_geo:100270819"
+    "linkedinGeo": "100270819"
   },
   {
     "alpha2": "AU",
@@ -3710,7 +3712,7 @@
         "value": "reddit.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:101452733"
+    "linkedinGeo": "101452733"
   },
   {
     "alpha2": "AT",
@@ -5088,7 +5090,7 @@
     "google_site": "google.at",
     "yahoo_site": "at.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103883259"
+    "linkedinGeo": "103883259"
   },
   {
     "alpha2": "AZ",
@@ -5497,7 +5499,7 @@
     "google_site": "google.az",
     "yahoo_site": "az.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103226548"
+    "linkedinGeo": "103226548"
   },
   {
     "alpha2": "BI",
@@ -5580,7 +5582,7 @@
     "google_site": "google.bi",
     "yahoo_site": "bi.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100800406"
+    "linkedinGeo": "100800406"
   },
   {
     "alpha2": "BE",
@@ -7974,7 +7976,7 @@
     "google_site": "google.be",
     "yahoo_site": "be.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100565514"
+    "linkedinGeo": "100565514"
   },
   {
     "alpha2": "BJ",
@@ -8178,7 +8180,7 @@
     "google_site": "google.bj",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101519029"
+    "linkedinGeo": "101519029"
   },
   {
     "alpha2": "BF",
@@ -8557,7 +8559,7 @@
     "google_site": "google.bf",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100587095"
+    "linkedinGeo": "100587095"
   },
   {
     "alpha2": "BD",
@@ -9181,7 +9183,7 @@
     "google_site": "google.com.bd",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106215326"
+    "linkedinGeo": "106215326"
   },
   {
     "alpha2": "BG",
@@ -10025,7 +10027,7 @@
     "google_site": "google.bg",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105333783"
+    "linkedinGeo": "105333783"
   },
   {
     "alpha2": "BH",
@@ -10087,7 +10089,7 @@
     "google_site": "google.com.bh",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100425729"
+    "linkedinGeo": "100425729"
   },
   {
     "alpha2": "BS",
@@ -10107,7 +10109,8 @@
     "google_site": "google.bs",
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "106662619"
   },
   {
     "alpha2": "BA",
@@ -10139,7 +10142,7 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102869081"
+    "linkedinGeo": "102869081"
   },
   {
     "alpha2": "BY",
@@ -10517,7 +10520,7 @@
     "google_site": "google.com.by",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101705918"
+    "linkedinGeo": "101705918"
   },
   {
     "alpha2": "BZ",
@@ -10584,7 +10587,7 @@
     "google_site": "google.com.bz",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105912732"
+    "linkedinGeo": "105912732"
   },
   {
     "alpha2": "BM",
@@ -10616,7 +10619,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100061709"
+    "linkedinGeo": "100061709"
   },
   {
     "alpha2": "BO",
@@ -10894,7 +10897,7 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104379274"
+    "linkedinGeo": "104379274"
   },
   {
     "alpha2": "BR",
@@ -15904,7 +15907,7 @@
         "value": "scribd.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:106057199"
+    "linkedinGeo": "106057199"
   },
   {
     "alpha2": "BB",
@@ -15970,7 +15973,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102118611"
+    "linkedinGeo": "102118611"
   },
   {
     "alpha2": "BN",
@@ -15991,7 +15994,8 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "103809722"
   },
   {
     "alpha2": "BT",
@@ -16115,7 +16119,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103613266"
+    "linkedinGeo": "103613266"
   },
   {
     "alpha2": "BW",
@@ -17438,7 +17442,7 @@
     "google_site": "google.co.bw",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105698121"
+    "linkedinGeo": "105698121"
   },
   {
     "alpha2": "CF",
@@ -17676,7 +17680,7 @@
     ],
     "yahoo_site": "qc.search.yahoo.com      ",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100134827"
+    "linkedinGeo": "100134827"
   },
   {
     "alpha2": "CA",
@@ -20874,7 +20878,7 @@
         "value": "reddit.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:101174742"
+    "linkedinGeo": "101174742"
   },
   {
     "alpha2": "CH",
@@ -21036,7 +21040,7 @@
         "value": "xing.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:106693272"
+    "linkedinGeo": "106693272"
   },
   {
     "alpha2": "CL",
@@ -21822,7 +21826,7 @@
     "google_site": "google.cl",
     "yahoo_site": "cl.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104621616"
+    "linkedinGeo": "104621616"
   },
   {
     "alpha2": "CN",
@@ -25594,7 +25598,7 @@
     ],
     "yahoo_site": "cn.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102890883"
+    "linkedinGeo": "102890883"
   },
   {
     "alpha2": "CI",
@@ -25619,7 +25623,8 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "103295271"
   },
   {
     "alpha2": "CM",
@@ -25974,7 +25979,7 @@
     "google_site": "google.cm",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105745966"
+    "linkedinGeo": "105745966"
   },
   {
     "alpha2": "CD",
@@ -25996,7 +26001,8 @@
     ],
     "yahoo_site": "cd.search.yahoo.com",
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "101271829"
   },
   {
     "alpha2": "CG",
@@ -26173,7 +26179,8 @@
       "fr"
     ],
     "yahoo_site": "cg.search.yahoo.com",
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "106796687"
   },
   {
     "alpha2": "CK",
@@ -26260,7 +26267,7 @@
     "google_site": "google.co.ck",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103118752"
+    "linkedinGeo": "103118752"
   },
   {
     "alpha2": "CO",
@@ -30078,7 +30085,7 @@
     "google_site": "google.com.co",
     "yahoo_site": "co.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100876405"
+    "linkedinGeo": "100876405"
   },
   {
     "alpha2": "KM",
@@ -30134,7 +30141,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103069791"
+    "linkedinGeo": "103069791"
   },
   {
     "alpha2": "CV",
@@ -30217,7 +30224,7 @@
     "google_site": "google.cv",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101679268"
+    "linkedinGeo": "101679268"
   },
   {
     "alpha2": "CR",
@@ -30778,7 +30785,7 @@
     "google_site": "google.co.cr",
     "yahoo_site": "cr.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101739942"
+    "linkedinGeo": "101739942"
   },
   {
     "alpha2": "CU",
@@ -31100,7 +31107,7 @@
     "google_site": "google.com.cu",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106429766"
+    "linkedinGeo": "106429766"
   },
   {
     "alpha2": "KY",
@@ -31126,7 +31133,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101679506"
+    "linkedinGeo": "101679506"
   },
   {
     "alpha2": "CY",
@@ -31170,7 +31177,7 @@
     "google_site": "google.com.cy",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106774002"
+    "linkedinGeo": "106774002"
   },
   {
     "alpha2": "CZ",
@@ -32409,7 +32416,8 @@
     ],
     "google_site": "google.cz",
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "104508036"
   },
   {
     "alpha2": "DE",
@@ -40645,7 +40653,7 @@
         "value": "reddit.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:101282230"
+    "linkedinGeo": "101282230"
   },
   {
     "alpha2": "DJ",
@@ -40688,7 +40696,7 @@
     "google_site": "google.dj",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100371290"
+    "linkedinGeo": "100371290"
   },
   {
     "alpha2": "DM",
@@ -40750,7 +40758,7 @@
     "google_site": "google.dm",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100720695"
+    "linkedinGeo": "100720695"
   },
   {
     "alpha2": "DK",
@@ -42212,7 +42220,7 @@
     "google_site": "google.dk",
     "yahoo_site": "dk.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104514075"
+    "linkedinGeo": "104514075"
   },
   {
     "alpha2": "DO",
@@ -42428,7 +42436,7 @@
     ],
     "yahoo_site": "do.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105057336"
+    "linkedinGeo": "105057336"
   },
   {
     "alpha2": "DZ",
@@ -43800,7 +43808,7 @@
     "google_site": "google.dz",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106395874"
+    "linkedinGeo": "106395874"
   },
   {
     "alpha2": "EC",
@@ -44262,7 +44270,7 @@
     "google_site": "google.com.ec",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106373116"
+    "linkedinGeo": "106373116"
   },
   {
     "alpha2": "EG",
@@ -45201,7 +45209,7 @@
     "google_site": "google.com.eg",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106155005"
+    "linkedinGeo": "106155005"
   },
   {
     "alpha2": "ER",
@@ -45322,7 +45330,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104219996"
+    "linkedinGeo": "104219996"
   },
   {
     "alpha2": "ES",
@@ -45612,7 +45620,7 @@
     "google_site": "google.es",
     "yahoo_site": "es.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105646813"
+    "linkedinGeo": "105646813"
   },
   {
     "alpha2": "EE",
@@ -49546,7 +49554,7 @@
     "google_site": "google.ee",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102974008"
+    "linkedinGeo": "102974008"
   },
   {
     "alpha2": "ET",
@@ -50164,7 +50172,7 @@
     "google_site": "google.com.et",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100212432"
+    "linkedinGeo": "100212432"
   },
   {
     "alpha2": "FI",
@@ -50745,7 +50753,7 @@
     "google_site": "google.fi",
     "yahoo_site": "fi.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100456013"
+    "linkedinGeo": "100456013"
   },
   {
     "alpha2": "FJ",
@@ -50769,7 +50777,7 @@
     "yahoo_site": "fj.search.yahoo.com",
     "bing_site": null,
     "citys": [],
-    "linkedinGeo": "urn:li:fsd_geo:105733447"
+    "linkedinGeo": "105733447"
   },
   {
     "alpha2": "FK",
@@ -50790,7 +50798,8 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "104961595"
   },
   {
     "alpha2": "FR",
@@ -55883,7 +55892,7 @@
         "value": "skyrock.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:105015875"
+    "linkedinGeo": "105015875"
   },
   {
     "alpha2": "FO",
@@ -56021,7 +56030,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104630756"
+    "linkedinGeo": "104630756"
   },
   {
     "alpha2": "FM",
@@ -56039,7 +56048,8 @@
     "google_site": "google.fm",
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "102762290"
   },
   {
     "alpha2": "GA",
@@ -56242,7 +56252,7 @@
     "google_site": "google.ga",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104471338"
+    "linkedinGeo": "104471338"
   },
   {
     "alpha2": "GB",
@@ -56725,7 +56735,7 @@
         "value": "pinterest.co.uk"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:101165590"
+    "linkedinGeo": "101165590"
   },
   {
     "alpha2": "GE",
@@ -56976,7 +56986,7 @@
     "google_site": "google.ge",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106315325"
+    "linkedinGeo": "106315325"
   },
   {
     "alpha2": "GH",
@@ -57299,7 +57309,7 @@
     "google_site": "google.com.gh",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105769538"
+    "linkedinGeo": "105769538"
   },
   {
     "alpha2": "GI",
@@ -57325,7 +57335,7 @@
     "google_site": "google.com.gi",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100674501"
+    "linkedinGeo": "100674501"
   },
   {
     "alpha2": "GN",
@@ -57479,7 +57489,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100099594"
+    "linkedinGeo": "100099594"
   },
   {
     "alpha2": "GP",
@@ -57620,7 +57630,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "104232339"
   },
   {
     "alpha2": "GM",
@@ -57641,7 +57652,8 @@
     "google_site": "google.gm",
     "yahoo_site": "gm.search.yahoo.com",
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "106100033"
   },
   {
     "alpha2": "GW",
@@ -57733,7 +57745,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100115557"
+    "linkedinGeo": "100115557"
   },
   {
     "alpha2": "GQ",
@@ -57821,7 +57833,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105141335"
+    "linkedinGeo": "105141335"
   },
   {
     "alpha2": "GR",
@@ -58531,7 +58543,7 @@
     "google_site": "google.gr",
     "yahoo_site": "gr.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104677530"
+    "linkedinGeo": "104677530"
   },
   {
     "alpha2": "GD",
@@ -58581,7 +58593,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104579260"
+    "linkedinGeo": "104579260"
   },
   {
     "alpha2": "GL",
@@ -59055,7 +59067,7 @@
     "google_site": "google.gl",
     "yahoo_site": "gl.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103705642"
+    "linkedinGeo": "103705642"
   },
   {
     "alpha2": "GT",
@@ -59263,7 +59275,7 @@
     "google_site": "google.com.gt",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100877388"
+    "linkedinGeo": "100877388"
   },
   {
     "alpha2": "GF",
@@ -59345,7 +59357,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105001561"
+    "linkedinGeo": "105001561"
   },
   {
     "alpha2": "GU",
@@ -59472,7 +59484,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:107006862"
+    "linkedinGeo": "107006862"
   },
   {
     "alpha2": "GY",
@@ -59602,7 +59614,7 @@
     "google_site": "google.gy",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105836293"
+    "linkedinGeo": "105836293"
   },
   {
     "alpha2": "HK",
@@ -59639,7 +59651,8 @@
     "yahoo_site": "hk.search.yahoo.com/",
     "google_site": "google.com.hk",
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "103291313"
   },
   {
     "alpha2": "HN",
@@ -59872,7 +59885,7 @@
     "google_site": "google.hn",
     "yahoo_site": "hn.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101937718"
+    "linkedinGeo": "101937718"
   },
   {
     "alpha2": "HR",
@@ -59894,7 +59907,7 @@
     "yahoo_site": null,
     "bing_site": null,
     "citys": [],
-    "linkedinGeo": "urn:li:fsd_geo:104688944"
+    "linkedinGeo": "104688944"
   },
   {
     "alpha2": "HT",
@@ -60105,7 +60118,7 @@
     "google_site": "google.ht",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100993490"
+    "linkedinGeo": "100993490"
   },
   {
     "alpha2": "HU",
@@ -62266,7 +62279,7 @@
     "google_site": "google.hu",
     "yahoo_site": "hu.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100288700"
+    "linkedinGeo": "100288700"
   },
   {
     "alpha2": "ID",
@@ -62732,7 +62745,7 @@
         "value": "id.pinterest.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:102478259"
+    "linkedinGeo": "102478259"
   },
   {
     "alpha2": "IN",
@@ -85237,7 +85250,7 @@
         "value": "in.pinterest.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:102713980"
+    "linkedinGeo": "102713980"
   },
   {
     "alpha2": "IE",
@@ -85938,7 +85951,7 @@
     "google_site": "google.ie",
     "yahoo_site": "ie.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104738515"
+    "linkedinGeo": "104738515"
   },
   {
     "alpha2": "IR",
@@ -85958,7 +85971,8 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "101934083"
   },
   {
     "alpha2": "IQ",
@@ -86348,7 +86362,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106725625"
+    "linkedinGeo": "106725625"
   },
   {
     "alpha2": "IS",
@@ -86508,7 +86522,7 @@
     "google_site": "google.is",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105238872"
+    "linkedinGeo": "105238872"
   },
   {
     "alpha2": "IL",
@@ -87150,7 +87164,7 @@
     "google_site": "google.co.il",
     "yahoo_site": "il.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101620260"
+    "linkedinGeo": "101620260"
   },
   {
     "alpha2": "IT",
@@ -92558,7 +92572,7 @@
         "value": "it-it.facebook.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:103350119"
+    "linkedinGeo": "103350119"
   },
   {
     "alpha2": "JM",
@@ -92640,7 +92654,7 @@
     "google_site": "google.com.jm",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105126983"
+    "linkedinGeo": "105126983"
   },
   {
     "alpha2": "JO",
@@ -92710,7 +92724,7 @@
     "google_site": "google.jo",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103710677"
+    "linkedinGeo": "103710677"
   },
   {
     "alpha2": "JP",
@@ -92943,7 +92957,7 @@
         "value": "jp.linkedin.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:101355337"
+    "linkedinGeo": "101355337"
   },
   {
     "alpha2": "KZ",
@@ -93028,7 +93042,7 @@
     "google_site": "google.kz",
     "yahoo_site": "kz.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106049128"
+    "linkedinGeo": "106049128"
   },
   {
     "alpha2": "KE",
@@ -93084,7 +93098,7 @@
     "google_site": "google.co.ke",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100710459"
+    "linkedinGeo": "100710459"
   },
   {
     "alpha2": "KG",
@@ -93140,7 +93154,7 @@
     "google_site": "google.kg",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103490790"
+    "linkedinGeo": "103490790"
   },
   {
     "alpha2": "KH",
@@ -93271,7 +93285,7 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102500897"
+    "linkedinGeo": "102500897"
   },
   {
     "alpha2": "KI",
@@ -93386,7 +93400,7 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104742735"
+    "linkedinGeo": "104742735"
   },
   {
     "alpha2": "KN",
@@ -93463,7 +93477,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "102098694"
   },
   {
     "alpha2": "KR",
@@ -93495,7 +93510,8 @@
       {
         "value": "pinterest.co.kr"
       }
-    ]
+    ],
+    "linkedinGeo": "105149562"
   },
   {
     "alpha2": "KW",
@@ -93559,7 +93575,7 @@
     "google_site": "google.com.kw",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103239229"
+    "linkedinGeo": "103239229"
   },
   {
     "alpha2": "LA",
@@ -93579,7 +93595,8 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "100664862"
   },
   {
     "alpha2": "LB",
@@ -93640,7 +93657,7 @@
     "google_site": "google.com.lb",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101834488"
+    "linkedinGeo": "101834488"
   },
   {
     "alpha2": "LR",
@@ -93714,7 +93731,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106579411"
+    "linkedinGeo": "106579411"
   },
   {
     "alpha2": "LY",
@@ -93734,7 +93751,8 @@
     "google_site": "google.com.ly",
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "104036859"
   },
   {
     "alpha2": "LC",
@@ -93796,7 +93814,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104022923"
+    "linkedinGeo": "104022923"
   },
   {
     "alpha2": "LI",
@@ -93862,7 +93880,7 @@
     "google_site": "google.li",
     "yahoo_site": "li.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100878084"
+    "linkedinGeo": "100878084"
   },
   {
     "alpha2": "LK",
@@ -94017,7 +94035,7 @@
     "google_site": "google.lk",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100446352"
+    "linkedinGeo": "100446352"
   },
   {
     "alpha2": "LS",
@@ -94080,7 +94098,7 @@
     "google_site": "google.co.ls",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103712797"
+    "linkedinGeo": "103712797"
   },
   {
     "alpha2": "LT",
@@ -94154,7 +94172,7 @@
     "google_site": "google.lt",
     "yahoo_site": "lt.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101464403"
+    "linkedinGeo": "101464403"
   },
   {
     "alpha2": "LU",
@@ -94225,7 +94243,7 @@
     "google_site": "google.lu",
     "yahoo_site": "lu.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104042105"
+    "linkedinGeo": "104042105"
   },
   {
     "alpha2": "LV",
@@ -94379,7 +94397,7 @@
     "google_site": "google.lv",
     "yahoo_site": "lv.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104341318"
+    "linkedinGeo": "104341318"
   },
   {
     "alpha2": "MO",
@@ -94400,7 +94418,8 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "101316508"
   },
   {
     "alpha2": "MA",
@@ -94511,7 +94530,7 @@
     "google_site": "google.co.ma",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102787409"
+    "linkedinGeo": "102787409"
   },
   {
     "alpha2": "MC",
@@ -94551,7 +94570,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101352147"
+    "linkedinGeo": "101352147"
   },
   {
     "alpha2": "MD",
@@ -94572,7 +94591,8 @@
     "google_site": "google.md",
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "106178099"
   },
   {
     "alpha2": "MG",
@@ -94618,7 +94638,7 @@
     "google_site": "google.mg",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105587166"
+    "linkedinGeo": "105587166"
   },
   {
     "alpha2": "MV",
@@ -94723,7 +94743,7 @@
     "google_site": "google.mv",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102161637"
+    "linkedinGeo": "102161637"
   },
   {
     "alpha2": "MX",
@@ -94878,7 +94898,7 @@
     "google_site": "google.com.mx",
     "yahoo_site": "mx.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103323778"
+    "linkedinGeo": "103323778"
   },
   {
     "alpha2": "MH",
@@ -94998,7 +95018,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106516799"
+    "linkedinGeo": "106516799"
   },
   {
     "alpha2": "MK",
@@ -95018,7 +95038,8 @@
     "google_site": "google.mk",
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "103420483"
   },
   {
     "alpha2": "ML",
@@ -95077,7 +95098,7 @@
     "google_site": "google.ml",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100770782"
+    "linkedinGeo": "100770782"
   },
   {
     "alpha2": "MT",
@@ -95128,7 +95149,7 @@
     "google_site": "google.com.mt",
     "yahoo_site": "mt.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100961908"
+    "linkedinGeo": "100961908"
   },
   {
     "alpha2": "MM",
@@ -95212,7 +95233,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104136533"
+    "linkedinGeo": "104136533"
   },
   {
     "alpha2": "ME",
@@ -95236,7 +95257,7 @@
     "yahoo_site": null,
     "bing_site": null,
     "citys": [],
-    "linkedinGeo": "urn:li:fsd_geo:100733275"
+    "linkedinGeo": "100733275"
   },
   {
     "alpha2": "MN",
@@ -95348,7 +95369,7 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102396337"
+    "linkedinGeo": "102396337"
   },
   {
     "alpha2": "MP",
@@ -95386,7 +95407,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103666514"
+    "linkedinGeo": "103666514"
   },
   {
     "alpha2": "MZ",
@@ -95452,7 +95473,7 @@
     "google_site": "google.co.mz",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100474128"
+    "linkedinGeo": "100474128"
   },
   {
     "alpha2": "MR",
@@ -95524,7 +95545,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106950838"
+    "linkedinGeo": "106950838"
   },
   {
     "alpha2": "MS",
@@ -95550,7 +95571,7 @@
     "google_site": "google.ms",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101150476"
+    "linkedinGeo": "101150476"
   },
   {
     "alpha2": "MQ",
@@ -95587,7 +95608,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "103091690"
   },
   {
     "alpha2": "MU",
@@ -95661,7 +95683,7 @@
     "google_site": "google.mu",
     "yahoo_site": "mu.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106931611"
+    "linkedinGeo": "106931611"
   },
   {
     "alpha2": "MW",
@@ -95793,7 +95815,7 @@
     "google_site": "google.mw",
     "yahoo_site": "mw.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105992277"
+    "linkedinGeo": "105992277"
   },
   {
     "alpha2": "MY",
@@ -95890,7 +95912,7 @@
     ],
     "yahoo_site": "my.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106808692"
+    "linkedinGeo": "106808692"
   },
   {
     "alpha2": "YT",
@@ -95920,7 +95942,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104097939"
+    "linkedinGeo": "104097939"
   },
   {
     "alpha2": "NA",
@@ -95998,7 +96020,7 @@
     "google_site": "google.com.na",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106682822"
+    "linkedinGeo": "106682822"
   },
   {
     "alpha2": "NC",
@@ -96034,7 +96056,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105535747"
+    "linkedinGeo": "105535747"
   },
   {
     "alpha2": "NE",
@@ -96088,7 +96110,7 @@
     "google_site": "google.ne",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103550069"
+    "linkedinGeo": "103550069"
   },
   {
     "alpha2": "NF",
@@ -96115,7 +96137,7 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:116224156"
+    "linkedinGeo": "116224156"
   },
   {
     "alpha2": "NG",
@@ -96288,7 +96310,7 @@
     "google_site": "google.com.ng",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105365761"
+    "linkedinGeo": "105365761"
   },
   {
     "alpha2": "NI",
@@ -96378,7 +96400,7 @@
     "google_site": "google.com.ni",
     "yahoo_site": "ni.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105517145"
+    "linkedinGeo": "105517145"
   },
   {
     "alpha2": "NU",
@@ -96402,7 +96424,7 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102139488"
+    "linkedinGeo": "102139488"
   },
   {
     "alpha2": "NL",
@@ -96437,7 +96459,7 @@
         "value": " vine.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:102890719"
+    "linkedinGeo": "102890719"
   },
   {
     "alpha2": "NO",
@@ -96552,7 +96574,7 @@
     "google_site": "google.no",
     "yahoo_site": "no.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103819153"
+    "linkedinGeo": "103819153"
   },
   {
     "alpha2": "NP",
@@ -96631,7 +96653,7 @@
     "google_site": "google.com.np",
     "yahoo_site": "np.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104630404"
+    "linkedinGeo": "104630404"
   },
   {
     "alpha2": "NR",
@@ -96657,7 +96679,7 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100348836"
+    "linkedinGeo": "100348836"
   },
   {
     "alpha2": "NZ",
@@ -96760,7 +96782,7 @@
     "google_site": "google.co.nz",
     "yahoo_site": "nz.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105490917"
+    "linkedinGeo": "105490917"
   },
   {
     "alpha2": "OM",
@@ -96822,7 +96844,7 @@
     "google_site": "google.com.om",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103619019"
+    "linkedinGeo": "103619019"
   },
   {
     "alpha2": "PK",
@@ -97541,7 +97563,7 @@
     "google_site": "google.com.pk",
     "yahoo_site": "pk.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101022442"
+    "linkedinGeo": "101022442"
   },
   {
     "alpha2": "PA",
@@ -97611,7 +97633,7 @@
     "google_site": "google.com.pa",
     "yahoo_site": "pa.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100808673"
+    "linkedinGeo": "100808673"
   },
   {
     "alpha2": "PE",
@@ -97731,7 +97753,7 @@
     "google_site": "google.com.pe",
     "yahoo_site": "pe.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102927786"
+    "linkedinGeo": "102927786"
   },
   {
     "alpha2": "PH",
@@ -97845,7 +97867,7 @@
     ],
     "yahoo_site": "ph.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103121230"
+    "linkedinGeo": "103121230"
   },
   {
     "alpha2": "PW",
@@ -97929,7 +97951,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106779877"
+    "linkedinGeo": "106779877"
   },
   {
     "alpha2": "PG",
@@ -97950,7 +97972,7 @@
     "yahoo_site": null,
     "bing_site": null,
     "citys": [],
-    "linkedinGeo": "urn:li:fsd_geo:100152180"
+    "linkedinGeo": "100152180"
   },
   {
     "alpha2": "PL",
@@ -98120,7 +98142,7 @@
     "google_site": "google.pl",
     "yahoo_site": "pl.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105072130"
+    "linkedinGeo": "105072130"
   },
   {
     "alpha2": "PR",
@@ -98184,7 +98206,7 @@
     "yahoo_site": "pr.search.yahoo.com",
     "google_site": "google.com.pr",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105245958"
+    "linkedinGeo": "105245958"
   },
   {
     "alpha2": "PT",
@@ -98262,7 +98284,7 @@
     "google_site": "google.pt",
     "yahoo_site": "pt.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100364837"
+    "linkedinGeo": "100364837"
   },
   {
     "alpha2": "PY",
@@ -98356,7 +98378,7 @@
     "google_site": "google.com.py",
     "yahoo_site": "py.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104065273"
+    "linkedinGeo": "104065273"
   },
   {
     "alpha2": "PS",
@@ -98376,7 +98398,8 @@
     "google_site": "google.ps",
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "93000000"
   },
   {
     "alpha2": "PF",
@@ -98658,7 +98681,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102681285"
+    "linkedinGeo": "102681285"
   },
   {
     "alpha2": "QA",
@@ -98723,7 +98746,7 @@
     "google_site": "google.com.qa",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104170880"
+    "linkedinGeo": "104170880"
   },
   {
     "alpha2": "RE",
@@ -98744,7 +98767,8 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "104265812"
   },
   {
     "alpha2": "RO",
@@ -98938,7 +98962,7 @@
     "google_site": "google.ro",
     "yahoo_site": "ro.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106670623"
+    "linkedinGeo": "106670623"
   },
   {
     "alpha2": "RU",
@@ -100271,7 +100295,8 @@
       {
         "value": "ru.linkedin.com"
       }
-    ]
+    ],
+    "linkedinGeo": "101728296"
   },
   {
     "alpha2": "RW",
@@ -100334,7 +100359,7 @@
     "google_site": "google.rw",
     "yahoo_site": "rw.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103547315"
+    "linkedinGeo": "103547315"
   },
   {
     "alpha2": "SA",
@@ -100428,7 +100453,7 @@
     "google_site": "google.com.sa",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100459316"
+    "linkedinGeo": "100459316"
   },
   {
     "alpha2": "SD",
@@ -100563,7 +100588,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106740205"
+    "linkedinGeo": "106740205"
   },
   {
     "alpha2": "SS",
@@ -100589,7 +100614,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103622308"
+    "linkedinGeo": "103622308"
   },
   {
     "alpha2": "SN",
@@ -100651,7 +100676,7 @@
     "google_site": "google.sn",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103587512"
+    "linkedinGeo": "103587512"
   },
   {
     "alpha2": "SG",
@@ -100681,7 +100706,7 @@
     ],
     "yahoo_site": "sg.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102454443"
+    "linkedinGeo": "102454443"
   },
   {
     "alpha2": "SH",
@@ -100716,7 +100741,8 @@
       "en"
     ],
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "105392771"
   },
   {
     "alpha2": "SJ",
@@ -100734,7 +100760,8 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "104980232"
   },
   {
     "alpha2": "SB",
@@ -100793,7 +100820,7 @@
     "google_site": "google.com.sb",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104980134"
+    "linkedinGeo": "104980134"
   },
   {
     "alpha2": "SL",
@@ -100844,7 +100871,7 @@
     "google_site": "google.com.sl",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106524187"
+    "linkedinGeo": "106524187"
   },
   {
     "alpha2": "SV",
@@ -101090,7 +101117,7 @@
     "google_site": "google.com.sv",
     "yahoo_site": "sv.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106522560"
+    "linkedinGeo": "106522560"
   },
   {
     "alpha2": "SM",
@@ -101149,7 +101176,7 @@
     "google_site": "google.sm",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105730022"
+    "linkedinGeo": "105730022"
   },
   {
     "alpha2": "SO",
@@ -101239,7 +101266,7 @@
     "google_site": "google.so",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104725424"
+    "linkedinGeo": "104725424"
   },
   {
     "alpha2": "SX",
@@ -101261,7 +101288,7 @@
     "yahoo_site": null,
     "bing_site": null,
     "citys": [],
-    "linkedinGeo": "urn:li:fsd_geo:105519673"
+    "linkedinGeo": "105519673"
   },
   {
     "alpha2": "PM",
@@ -101282,7 +101309,7 @@
     "yahoo_site": null,
     "bing_site": null,
     "citys": [],
-    "linkedinGeo": "urn:li:fsd_geo:102024132"
+    "linkedinGeo": "102024132"
   },
   {
     "alpha2": "RS",
@@ -101317,7 +101344,7 @@
     "google_site": "google.rs",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101855366"
+    "linkedinGeo": "101855366"
   },
   {
     "alpha2": "ST",
@@ -101363,7 +101390,8 @@
     ],
     "google_site": "google.st",
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "106867470"
   },
   {
     "alpha2": "SR",
@@ -101423,7 +101451,7 @@
     "google_site": "google.sr",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105530931"
+    "linkedinGeo": "105530931"
   },
   {
     "alpha2": "SK",
@@ -101477,7 +101505,7 @@
     "google_site": "google.sk",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103119917"
+    "linkedinGeo": "103119917"
   },
   {
     "alpha2": "SI",
@@ -101567,7 +101595,7 @@
     "google_site": "google.si",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106137034"
+    "linkedinGeo": "106137034"
   },
   {
     "alpha2": "SE",
@@ -101705,7 +101733,7 @@
     "google_site": "google.se",
     "yahoo_site": "se.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105117694"
+    "linkedinGeo": "105117694"
   },
   {
     "alpha2": "SC",
@@ -101748,7 +101776,7 @@
     "google_site": "google.sc",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:107007050"
+    "linkedinGeo": "107007050"
   },
   {
     "alpha2": "SY",
@@ -101768,7 +101796,8 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "106714035"
   },
   {
     "alpha2": "TC",
@@ -101791,7 +101820,7 @@
     "yahoo_site": null,
     "bing_site": null,
     "citys": [],
-    "linkedinGeo": "urn:li:fsd_geo:100771715"
+    "linkedinGeo": "100771715"
   },
   {
     "alpha2": "TD",
@@ -102040,7 +102069,7 @@
     "google_site": "google.td",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104655384"
+    "linkedinGeo": "104655384"
   },
   {
     "alpha2": "TG",
@@ -102082,7 +102111,7 @@
     "google_site": "google.tg",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103603395"
+    "linkedinGeo": "103603395"
   },
   {
     "alpha2": "TH",
@@ -102418,7 +102447,7 @@
     ],
     "yahoo_site": "th.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105146118"
+    "linkedinGeo": "105146118"
   },
   {
     "alpha2": "TJ",
@@ -102460,7 +102489,7 @@
     "google_site": "google.com.tj",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105925962"
+    "linkedinGeo": "105925962"
   },
   {
     "alpha2": "TK",
@@ -102492,7 +102521,7 @@
     "google_site": "google.tk",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100212364"
+    "linkedinGeo": "100212364"
   },
   {
     "alpha2": "TM",
@@ -102538,7 +102567,7 @@
     "google_site": "google.tm",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105449295"
+    "linkedinGeo": "105449295"
   },
   {
     "alpha2": "TL",
@@ -102559,7 +102588,7 @@
     "yahoo_site": null,
     "bing_site": null,
     "citys": [],
-    "linkedinGeo": "urn:li:fsd_geo:101101678"
+    "linkedinGeo": "101101678"
   },
   {
     "alpha2": "TO",
@@ -102599,7 +102628,7 @@
     "google_site": "google.to",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105646927"
+    "linkedinGeo": "105646927"
   },
   {
     "alpha2": "TT",
@@ -102620,7 +102649,7 @@
     "yahoo_site": null,
     "bing_site": null,
     "citys": [],
-    "linkedinGeo": "urn:li:fsd_geo:106947126"
+    "linkedinGeo": "106947126"
   },
   {
     "alpha2": "TN",
@@ -102765,7 +102794,7 @@
     "google_site": "google.tn",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102134353"
+    "linkedinGeo": "102134353"
   },
   {
     "alpha2": "TR",
@@ -103130,7 +103159,7 @@
         "value": "tr.pinterest.com"
       }
     ],
-    "linkedinGeo": "urn:li:fsd_geo:102105699"
+    "linkedinGeo": "102105699"
   },
   {
     "alpha2": "TV",
@@ -103182,7 +103211,7 @@
     "google_site": "google.com.tv",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:103609605"
+    "linkedinGeo": "103609605"
   },
   {
     "alpha2": "TW",
@@ -103320,7 +103349,7 @@
     "yahoo_site": "tw.search.yahoo.com",
     "bing_site": null,
     "google_site": "google.com.tw",
-    "linkedinGeo": "urn:li:fsd_geo:104187078"
+    "linkedinGeo": "104187078"
   },
   {
     "alpha2": "TZ",
@@ -103342,7 +103371,8 @@
     "google_site": "google.co.tz",
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "104604145"
   },
   {
     "alpha2": "UG",
@@ -103381,7 +103411,7 @@
     "google_site": "google.co.ug",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106943612"
+    "linkedinGeo": "106943612"
   },
   {
     "alpha2": "UA",
@@ -103530,7 +103560,7 @@
     "google_site": "google.com.ua",
     "yahoo_site": "ua.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102264497"
+    "linkedinGeo": "102264497"
   },
   {
     "alpha2": "UY",
@@ -103628,7 +103658,7 @@
     "google_site": "google.com.uy",
     "yahoo_site": "uy.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:100867946"
+    "linkedinGeo": "100867946"
   },
   {
     "alpha2": "UZ",
@@ -103707,7 +103737,7 @@
     "google_site": "google.co.uz",
     "yahoo_site": "uz.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:107734735"
+    "linkedinGeo": "107734735"
   },
   {
     "alpha2": "VC",
@@ -103727,7 +103757,8 @@
     "google_site": "google.com.vc",
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "104703990"
   },
   {
     "alpha2": "VE",
@@ -103747,7 +103778,8 @@
     "google_site": "google.co.ve",
     "yahoo_site": "ve.search.yahoo.com",
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "101490751"
   },
   {
     "alpha2": "VG",
@@ -103767,7 +103799,8 @@
     "google_site": "google.vg",
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "105534858"
   },
   {
     "alpha2": "VI",
@@ -103787,7 +103820,8 @@
     "google_site": "google.co.vi",
     "yahoo_site": null,
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "102119762"
   },
   {
     "alpha2": "VN",
@@ -103811,7 +103845,8 @@
     ],
     "yahoo_site": "vn.search.yahoo.com",
     "bing_site": null,
-    "citys": []
+    "citys": [],
+    "linkedinGeo": "104195383"
   },
   {
     "alpha2": "VU",
@@ -103859,7 +103894,7 @@
     "google_site": "google.vu",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102185308"
+    "linkedinGeo": "102185308"
   },
   {
     "alpha2": "WF",
@@ -103878,7 +103913,7 @@
     "yahoo_site": null,
     "bing_site": null,
     "citys": [],
-    "linkedinGeo": "urn:li:fsd_geo:104246629"
+    "linkedinGeo": "104246629"
   },
   {
     "alpha2": "WS",
@@ -103944,7 +103979,7 @@
     ],
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104031721"
+    "linkedinGeo": "104031721"
   },
   {
     "alpha2": "YE",
@@ -104042,7 +104077,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:105962095"
+    "linkedinGeo": "105962095"
   },
   {
     "alpha2": "ZA",
@@ -104129,7 +104164,7 @@
     "google_site": "google.co.za",
     "yahoo_site": "za.search.yahoo.com",
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:104035573"
+    "linkedinGeo": "104035573"
   },
   {
     "alpha2": "ZM",
@@ -104187,7 +104222,7 @@
     "google_site": "google.co.zm",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102120260"
+    "linkedinGeo": "102120260"
   },
   {
     "alpha2": "ZW",
@@ -104251,7 +104286,7 @@
     "google_site": "google.co.zw",
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:101367137"
+    "linkedinGeo": "101367137"
   },
   {
     "alpha2": "KP",
@@ -104280,7 +104315,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:102356536"
+    "linkedinGeo": "102356536"
   },
   {
     "alpha2": "IO",
@@ -104299,7 +104334,7 @@
     "google_site": null,
     "yahoo_site": null,
     "bing_site": null,
-    "linkedinGeo": "urn:li:fsd_geo:106498958"
+    "linkedinGeo": "106498958"
   },
   {
     "alpha2": "EH",
@@ -104317,7 +104352,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "115461347"
   },
   {
     "alpha2": "SZ",
@@ -104335,7 +104371,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "106768907"
   },
   {
     "alpha2": "JE",
@@ -104353,7 +104390,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "102705533"
   },
   {
     "alpha2": "IM",
@@ -104371,7 +104409,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "106316481"
   },
   {
     "alpha2": "GG",
@@ -104389,7 +104428,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "104019891"
   },
   {
     "alpha2": "VA",
@@ -104407,7 +104447,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "107163060"
   },
   {
     "alpha2": "PN",
@@ -104425,7 +104466,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "104322374"
   },
   {
     "alpha2": "CX",
@@ -104443,7 +104485,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "102893931"
   },
   {
     "alpha2": "AN",
@@ -104461,7 +104504,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": null
   },
   {
     "alpha2": "CW",
@@ -104479,7 +104523,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "103619688"
   },
   {
     "alpha2": "BL",
@@ -104497,7 +104542,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "100936035"
   },
   {
     "alpha2": "MF",
@@ -104515,7 +104561,8 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "105519673"
   },
   {
     "alpha2": "GS",
@@ -104533,6 +104580,7 @@
     ],
     "google_site": null,
     "yahoo_site": null,
-    "bing_site": null
+    "bing_site": null,
+    "linkedinGeo": "103665423"
   }
 ]

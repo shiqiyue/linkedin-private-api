@@ -1,5 +1,5 @@
 import { Client } from '../src';
-import countryJson from './country.json'
+import countryJson from './country2.json'
 import { SocksProxyAgent } from 'socks-proxy-agent'
 var agent = new SocksProxyAgent(`socks://127.0.0.1:10808`);
 var JSESSIONID = "ajax:8462475366033195827";
