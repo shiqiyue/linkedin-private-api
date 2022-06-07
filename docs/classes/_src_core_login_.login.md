@@ -25,7 +25,7 @@
 
 \+ **new Login**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [Login](_src_core_login_.login.md)
 
-*Defined in [src/core/login.ts:21](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/core/login.ts#L21)*
+*Defined in [src/core/login.ts:21](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/login.ts#L21)*
 
 #### Parameters:
 
@@ -39,15 +39,15 @@ Name | Type |
 
 ### userCookie
 
-▸ **userCookie**(`__namedParameters`: { cookies: { JSESSIONID: string ; li_at?: undefined \| string  } ; useCache: boolean = true; username: undefined \| string  }): Promise<[Client](_src_core_client_.client.md)\>
+▸ **userCookie**(`__namedParameters`: { cookies: AuthCookies ; useCache: boolean = true; username: string  }): Promise<[Client](_src_core_client_.client.md)\>
 
-*Defined in [src/core/login.ts:111](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/core/login.ts#L111)*
+*Defined in [src/core/login.ts:111](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/login.ts#L111)*
 
 #### Parameters:
 
 Name | Type |
 ------ | ------ |
-`__namedParameters` | { cookies: { JSESSIONID: string ; li_at?: undefined \| string  } ; useCache: boolean = true; username: undefined \| string  } |
+`__namedParameters` | { cookies: AuthCookies ; useCache: boolean = true; username: string  } |
 
 **Returns:** Promise<[Client](_src_core_client_.client.md)\>
 
@@ -55,14 +55,14 @@ ___
 
 ### userPass
 
-▸ **userPass**(`__namedParameters`: { password: undefined \| string ; useCache: boolean = true; username: string  }): Promise<[Client](_src_core_client_.client.md)\>
+▸ **userPass**(`__namedParameters`: { password: string ; useCache: boolean = true; username: string  }): Promise<[Client](_src_core_client_.client.md)\>
 
-*Defined in [src/core/login.ts:78](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/core/login.ts#L78)*
+*Defined in [src/core/login.ts:78](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/login.ts#L78)*
 
 #### Parameters:
 
 Name | Type |
 ------ | ------ |
-`__namedParameters` | { password: undefined \| string ; useCache: boolean = true; username: string  } |
+`__namedParameters` | { password: string ; useCache: boolean = true; username: string  } |
 
 **Returns:** Promise<[Client](_src_core_client_.client.md)\>

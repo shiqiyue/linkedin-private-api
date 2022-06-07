@@ -3,6 +3,7 @@ import { URL } from 'url';
 
 import { linkedinApiUrl } from '../../config';
 import { paramsSerializer } from '../utils/paramsSerializer';
+import * as AxiosLogger from 'axios-logger';
 
 const buildUrl = (url: string) => new URL(url, linkedinApiUrl).toString();
 
@@ -26,19 +27,22 @@ export class Request {
       httpsAgent,
       ...(proxy && { proxy }),
     });
-    this.request.interceptors.request.use(function (config){
-      //console.log('请求参数:', config)
+    this.request.interceptors.request.use(AxiosLogger.requestLogger);
+    this.request.interceptors.response.use(AxiosLogger.responseLogger);
+
+/*    this.request.interceptors.request.use(function (config){
+      console.log('请求参数:', config)
       return config
     }, error => {
       return Promise.reject(error);
-    })
-    this.request.interceptors.response.use(function (response){
-      //console.log('返回结果', response)
+    })*/
+/*    this.request.interceptors.response.use(function (response){
+      console.log('返回结果', response)
       return response
     }, error => {
       console.log('返回错误:', error)
       return Promise.reject(error)
-    })
+    })*/
     this.request.defaults.adapter = require('axios/lib/adapters/http');
 
   }

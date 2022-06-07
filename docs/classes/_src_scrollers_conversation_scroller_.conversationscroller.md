@@ -33,17 +33,17 @@
 
 ### constructor
 
-\+ **new ConversationScroller**(`__namedParameters`: { createdBefore: undefined \| Date ; fetchConversations: FetchConversations ; recipients: undefined \| string \| string[]  }): [ConversationScroller](_src_scrollers_conversation_scroller_.conversationscroller.md)
+\+ **new ConversationScroller**(`__namedParameters`: { createdBefore: Date ; fetchConversations: FetchConversations ; recipients: string \| string[]  }): [ConversationScroller](_src_scrollers_conversation_scroller_.conversationscroller.md)
 
 *Overrides [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[constructor](_src_scrollers_created_before_scroller_.createdbeforescroller.md#constructor)*
 
-*Defined in [src/scrollers/conversation.scroller.ts:19](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/scrollers/conversation.scroller.ts#L19)*
+*Defined in [src/scrollers/conversation.scroller.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/scrollers/conversation.scroller.ts#L19)*
 
 #### Parameters:
 
 Name | Type |
 ------ | ------ |
-`__namedParameters` | { createdBefore: undefined \| Date ; fetchConversations: FetchConversations ; recipients: undefined \| string \| string[]  } |
+`__namedParameters` | { createdBefore: Date ; fetchConversations: FetchConversations ; recipients: string \| string[]  } |
 
 **Returns:** [ConversationScroller](_src_scrollers_conversation_scroller_.conversationscroller.md)
 
@@ -51,11 +51,11 @@ Name | Type |
 
 ### createdBefore
 
-• `Optional` **createdBefore**: undefined \| number
+• `Optional` **createdBefore**: number
 
 *Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[createdBefore](_src_scrollers_created_before_scroller_.createdbeforescroller.md#createdbefore)*
 
-*Defined in [src/scrollers/created-before-scroller.ts:4](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/scrollers/created-before-scroller.ts#L4)*
+*Defined in [src/scrollers/created-before-scroller.ts:4](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/scrollers/created-before-scroller.ts#L4)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 *Overrides [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[fieldName](_src_scrollers_created_before_scroller_.createdbeforescroller.md#fieldname)*
 
-*Defined in [src/scrollers/conversation.scroller.ts:17](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/scrollers/conversation.scroller.ts#L17)*
+*Defined in [src/scrollers/conversation.scroller.ts:17](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/scrollers/conversation.scroller.ts#L17)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 • `Optional` **recipients**: [ProfileId](../modules/_src_entities_mini_profile_entity_.md#profileid) \| [ProfileId](../modules/_src_entities_mini_profile_entity_.md#profileid)[]
 
-*Defined in [src/scrollers/conversation.scroller.ts:19](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/scrollers/conversation.scroller.ts#L19)*
+*Defined in [src/scrollers/conversation.scroller.ts:19](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/scrollers/conversation.scroller.ts#L19)*
 
 ## Methods
 
@@ -83,7 +83,7 @@ ___
 
 *Overrides [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[fetch](_src_scrollers_created_before_scroller_.createdbeforescroller.md#fetch)*
 
-*Defined in [src/scrollers/conversation.scroller.ts:37](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/scrollers/conversation.scroller.ts#L37)*
+*Defined in [src/scrollers/conversation.scroller.ts:37](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/scrollers/conversation.scroller.ts#L37)*
 
 **Returns:** Promise<[Conversation](../interfaces/_src_entities_conversation_entity_.conversation.md)[]\>
 
@@ -95,7 +95,7 @@ ___
 
 *Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[restart](_src_scrollers_created_before_scroller_.createdbeforescroller.md#restart)*
 
-*Defined in [src/scrollers/created-before-scroller.ts:43](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/scrollers/created-before-scroller.ts#L43)*
+*Defined in [src/scrollers/created-before-scroller.ts:43](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/scrollers/created-before-scroller.ts#L43)*
 
 **Returns:** void
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[scrollBack](_src_scrollers_created_before_scroller_.createdbeforescroller.md#scrollback)*
 
-*Defined in [src/scrollers/created-before-scroller.ts:33](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/scrollers/created-before-scroller.ts#L33)*
+*Defined in [src/scrollers/created-before-scroller.ts:33](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/scrollers/created-before-scroller.ts#L33)*
 
 **Returns:** Promise<[Conversation](../interfaces/_src_entities_conversation_entity_.conversation.md)[]\>
 
@@ -119,6 +119,6 @@ ___
 
 *Inherited from [CreatedBeforeScroller](_src_scrollers_created_before_scroller_.createdbeforescroller.md).[scrollNext](_src_scrollers_created_before_scroller_.createdbeforescroller.md#scrollnext)*
 
-*Defined in [src/scrollers/created-before-scroller.ts:18](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/scrollers/created-before-scroller.ts#L18)*
+*Defined in [src/scrollers/created-before-scroller.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/scrollers/created-before-scroller.ts#L18)*
 
 **Returns:** Promise<[Conversation](../interfaces/_src_entities_conversation_entity_.conversation.md)[]\>

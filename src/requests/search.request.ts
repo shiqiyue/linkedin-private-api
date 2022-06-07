@@ -16,17 +16,19 @@ export class SearchRequest {
     limit = 10,
     filters = {},
     keywords,
+                  origin = "TYPEAHEAD_ESCAPE_HATCH"
   }: {
     skip?: number;
     limit?: number;
     filters?: BlendedSearchFilters;
     keywords?: string;
+    origin?: string;
   }): Promise<GetBlendedSearchResponse> {
     const queryParams = {
       filters,
       count: limit,
       ...(keywords ? { keywords: encodeURIComponent(keywords) } : {}),
-      origin: 'TYPEAHEAD_ESCAPE_HATCH',
+      origin: origin,
       q: 'all',
       queryContext: {
         spellCorrectionEnabled: true,
@@ -34,9 +36,17 @@ export class SearchRequest {
       },
       start: skip,
     };
-
+    /*const headers = Object.assign(this.request.request.defaults.headers, {
+      accept: "application/json"
+    });
+    headers["Accept-Language"]= "en-US,en;q=0.5"
+    delete headers["x-li-page-instance"]
+    delete headers["x-li-track"]*/
     return this.request.get<GetBlendedSearchResponse>('search/blended', {
       params: queryParams,
+/*
+      headers
+*/
     });
   }
 
