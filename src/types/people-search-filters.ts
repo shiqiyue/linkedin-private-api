@@ -18,3 +18,20 @@ export interface PeopleSearchFilters {
   lastName?: string;
   title?: string;
 }
+
+export interface ClustersSearchFilters {
+  currentCompany?: string | string[];
+  pastCompany?: string | string[];
+  company?: string;
+  geoUrn?: string | string[];
+  industry?: string | string[];
+  network?: LinkedInNetworkType | LinkedInNetworkType[];
+  profileLanguage?: Language | Language[];
+  school?: string | string[];
+  connectionOf?: string;
+  contactInterest?: LinkedInContractInterest | LinkedInContractInterest[];
+  serviceCategory?: string | string[];
+  firstName?: string;
+  lastName?: string;
+  title?: string;
+}

@@ -2,15 +2,16 @@
 ```javascript
 https://www.linkedin.com/voyager/api/search/dash/clusters
 
-decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154
-&
-origin=SWITCH_SEARCH_VERTICAL
+decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154 & origin=SWITCH_SEARCH_VERTICAL
 &
 q=all
 &
 query=(keywords:shoe,flagshipSearchIntent:SEARCH_SRP,queryParameters:(resultType:List(PEOPLE)),includeFiltersInResponse:false)
-&
+&query=List(flagshipSearchIntent:SEARCH_SRP,queryParameters:(resultType:List(PEOPLE)),includeFiltersInResponse:false,keywords:shoe)
+query=(flagshipSearchIntent:SEARCH_SRP,queryParameters:(resultType:List(PEOPLE)),includeFiltersInResponse:false,keywords:shoe)
 start=50
+/voyager/api/search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154&origin=SWITCH_SEARCH_VERTICAL&q=all&start=0&query=List(flagshipSearchIntent:SEARCH_SRP,queryParameters:(resultType:List(PEOPLE)),includeFiltersInResponse:false,keywords:shoe)
+/voyager/api/search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154&origin=SWITCH_SEARCH_VERTICAL&q=all&start=0&query=(flagshipSearchIntent:SEARCH_SRP,queryParameters:(resultType:List(PEOPLE)),includeFiltersInResponse:false,keywords:shoe)
 ```
 
 # lazyload

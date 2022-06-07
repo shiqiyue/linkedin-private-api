@@ -3,6 +3,8 @@ import { JobSearchFilters } from '../types/job-search-filters';
 import { LinkedInRequest } from '../core/linkedin-request';
 import { GetBlendedSearchResponse } from '../responses/blended-search.reponse.get';
 import { BlendedSearchFilters } from '../types/blended-search-filters';
+import {ClustersSearchFilters} from "../types";
+import {paramsSerializer2, querySerializer} from "../utils";
 
 export class SearchRequest {
   private request: LinkedInRequest;
@@ -49,6 +51,23 @@ export class SearchRequest {
       headers
 */
     });
+  }
+
+  searchCluster({start=0, query= {}, keywords = ""}:{start?:number;query?:ClustersSearchFilters;keywords:string}): Promise<any>{
+    const q = {
+      flagshipSearchIntent: "SEARCH_SRP",
+      keywords: encodeURIComponent(keywords),
+      queryParameters: Object.assign({
+        resultType: ["PEOPLE"]
+      }, query),
+      includeFiltersInResponse: false
+    };
+
+    const queryStr = querySerializer(q)
+    let u = `search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154&origin=GLOBAL_SEARCH_HEADER&q=all&query=${queryStr}&start=${start}`;
+    console.log(u)
+    u = "search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154&origin=GLOBAL_SEARCH_HEADER&q=all&query=(keywords:%E9%9E%8B%E5%AD%90,flagshipSearchIntent:SEARCH_SRP,queryParameters:(geoUrn:List(102890883),network:List(F,S),resultType:List(PEOPLE)),includeFiltersInResponse:false)&start=0"
+    return this.request.get<any>(u);
   }
 
   searchGeo({keywords}:{keywords:string}):any{
