@@ -1,6 +1,7 @@
 import {Client, LinkedInNetworkType} from '../src';
 
 import {SocksProxyAgent} from 'socks-proxy-agent'
+import fs from "fs";
 
 var agent = new SocksProxyAgent(`socks://127.0.0.1:10808`);
 var JSESSIONID = "ajax:8462475366033195827";
@@ -31,20 +32,8 @@ JSESSIONID = "ajax:6265576855753707858";
       network: [LinkedInNetworkType.S, LinkedInNetworkType.F]
     }*/
   });
-  let profiles = await peopleScroller.scrollNext();
+  const profiles = await peopleScroller.scrollNext();
 
+  fs.writeFileSync("./fetchPeople2.json", JSON.stringify(profiles))
 
-  console.log(profiles);
-  profiles = await peopleScroller.scrollNext();
-
-
-
-
-  console.log(profiles);
-  profiles = await peopleScroller.scrollNext();
-
-
-
-
-  console.log(profiles);
 })();

@@ -1,0 +1,1162 @@
+[
+  {
+    "memberDistance": {
+      "value": "DISTANCE_2",
+      "$type": "com.linkedin.voyager.common.MemberDistance"
+    },
+    "image": {
+      "attributes": [
+        {
+          "sourceType": "PROFILE_PICTURE",
+          "*miniProfile": "urn:li:fs_miniProfile:ACoAACYvVoQB56xx9uE7GuChF5uPyy3ivk6skMU",
+          "$type": "com.linkedin.voyager.common.ImageAttribute"
+        }
+      ],
+      "accessibilityTextAttributes": [],
+      "$type": "com.linkedin.voyager.common.ImageViewModel"
+    },
+    "targetUrn": "urn:li:fs_miniProfile:ACoAACYvVoQB56xx9uE7GuChF5uPyy3ivk6skMU",
+    "socialProofImagePile": [
+      {
+        "attributes": [
+          {
+            "sourceType": "PROFILE_PICTURE",
+            "*miniProfile": "urn:li:fs_miniProfile:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+            "$type": "com.linkedin.voyager.common.ImageAttribute"
+          }
+        ],
+        "accessibilityTextAttributes": [],
+        "$type": "com.linkedin.voyager.common.ImageViewModel"
+      }
+    ],
+    "trackingUrn": "urn:li:member:640636548",
+    "navigationUrl": "https://www.linkedin.com/in/anna-chen-8b066a15a",
+    "title": {
+      "textDirection": "USER_LOCALE",
+      "text": "Anna chen",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "type": "PROFILE",
+    "$type": "com.linkedin.voyager.search.SearchHitV2",
+    "headless": false,
+    "socialProofText": "1 shared connection",
+    "snippetText": {
+      "attributes": [
+        {
+          "start": 9,
+          "length": 4,
+          "type": "BOLD",
+          "$type": "com.linkedin.voyager.common.TextAttribute"
+        }
+      ],
+      "text": "Current: shoe development at s.Oliver Group",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "secondaryTitle": {
+      "textDirection": "USER_LOCALE",
+      "text": "2nd",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "*badges": "urn:li:fs_memberBadges:ACoAACYvVoQB56xx9uE7GuChF5uPyy3ivk6skMU",
+    "publicIdentifier": "anna-chen-8b066a15a",
+    "headline": {
+      "textDirection": "USER_LOCALE",
+      "text": "shoe developer",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "nameMatch": false,
+    "subline": {
+      "textDirection": "USER_LOCALE",
+      "text": "Dongguan, Guangdong, China",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "trackingId": "tul/Ic2rTeyaK2/yfRuBTQ==",
+    "profile": {
+      "customPronoun": null,
+      "lastName": "chen",
+      "memorialized": null,
+      "dashEntityUrn": "urn:li:fsd_profile:ACoAACYvVoQB56xx9uE7GuChF5uPyy3ivk6skMU",
+      "standardizedPronoun": null,
+      "occupation": "shoe developer",
+      "objectUrn": "urn:li:member:640636548",
+      "backgroundImage": null,
+      "picture": {
+        "artifacts": [
+          {
+            "width": 100,
+            "fileIdentifyingUrlPathSegment": "100_100/0/1519634334077?e=1660176000&v=beta&t=fagcjlFzIP381pK6w2UnGYtWlp-a4Fner5A1iXrbBck",
+            "expiresAt": 1660176000000,
+            "height": 100,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200_200/0/1519634334077?e=1660176000&v=beta&t=-jU9QgvE7BTwu7AKFssn03XoBg0LzD1SIXPdtTvJFYI",
+            "expiresAt": 1660176000000,
+            "height": 200,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400_400/0/1519634334077?e=1660176000&v=beta&t=sWN0o3AYIzLHldScxA9Ijvuk7l9uBKrRniSwIldmhjY",
+            "expiresAt": 1660176000000,
+            "height": 400,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 800,
+            "fileIdentifyingUrlPathSegment": "800_800/0/1519634334077?e=1660176000&v=beta&t=V7RebzCOtcvYqvivmYoy4cBTtqOukL8yICi2buEligM",
+            "expiresAt": 1660176000000,
+            "height": 800,
+            "$type": "com.linkedin.common.VectorArtifact"
+          }
+        ],
+        "rootUrl": "https://media-exp1.licdn.com/dms/image/C5103AQFmBgjWfcd_aQ/profile-displayphoto-shrink_",
+        "$type": "com.linkedin.common.VectorImage"
+      },
+      "$type": "com.linkedin.voyager.identity.shared.MiniProfile",
+      "firstName": "Anna",
+      "entityUrn": "urn:li:fs_miniProfile:ACoAACYvVoQB56xx9uE7GuChF5uPyy3ivk6skMU",
+      "publicIdentifier": "anna-chen-8b066a15a",
+      "trackingId": "jlhB+mb2S5WaVMIAmv5Gow==",
+      "pictureUrls": [
+        "https://media-exp1.licdn.com/dms/image/C5103AQFmBgjWfcd_aQ/profile-displayphoto-shrink_100_100/0/1519634334077?e=1660176000&v=beta&t=fagcjlFzIP381pK6w2UnGYtWlp-a4Fner5A1iXrbBck",
+        "https://media-exp1.licdn.com/dms/image/C5103AQFmBgjWfcd_aQ/profile-displayphoto-shrink_200_200/0/1519634334077?e=1660176000&v=beta&t=-jU9QgvE7BTwu7AKFssn03XoBg0LzD1SIXPdtTvJFYI",
+        "https://media-exp1.licdn.com/dms/image/C5103AQFmBgjWfcd_aQ/profile-displayphoto-shrink_400_400/0/1519634334077?e=1660176000&v=beta&t=sWN0o3AYIzLHldScxA9Ijvuk7l9uBKrRniSwIldmhjY",
+        "https://media-exp1.licdn.com/dms/image/C5103AQFmBgjWfcd_aQ/profile-displayphoto-shrink_800_800/0/1519634334077?e=1660176000&v=beta&t=V7RebzCOtcvYqvivmYoy4cBTtqOukL8yICi2buEligM"
+      ],
+      "profileId": "ACoAACYvVoQB56xx9uE7GuChF5uPyy3ivk6skMU"
+    }
+  },
+  {
+    "memberDistance": {
+      "value": "DISTANCE_2",
+      "$type": "com.linkedin.voyager.common.MemberDistance"
+    },
+    "image": {
+      "attributes": [
+        {
+          "sourceType": "PROFILE_PICTURE",
+          "*miniProfile": "urn:li:fs_miniProfile:ACoAAAmtpeIBIIsythQ0YsG5Ilwt_RelHFqIHo4",
+          "$type": "com.linkedin.voyager.common.ImageAttribute"
+        }
+      ],
+      "accessibilityTextAttributes": [],
+      "$type": "com.linkedin.voyager.common.ImageViewModel"
+    },
+    "targetUrn": "urn:li:fs_miniProfile:ACoAAAmtpeIBIIsythQ0YsG5Ilwt_RelHFqIHo4",
+    "socialProofImagePile": [
+      {
+        "attributes": [
+          {
+            "sourceType": "PROFILE_PICTURE",
+            "*miniProfile": "urn:li:fs_miniProfile:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+            "$type": "com.linkedin.voyager.common.ImageAttribute"
+          }
+        ],
+        "accessibilityTextAttributes": [],
+        "$type": "com.linkedin.voyager.common.ImageViewModel"
+      }
+    ],
+    "trackingUrn": "urn:li:member:162375138",
+    "navigationUrl": "https://www.linkedin.com/in/zayedul-amin-khan-11646746",
+    "title": {
+      "textDirection": "USER_LOCALE",
+      "text": "Zayedul Amin Khan",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "type": "PROFILE",
+    "$type": "com.linkedin.voyager.search.SearchHitV2",
+    "headless": false,
+    "socialProofText": "1 shared connection",
+    "snippetText": {
+      "attributes": [
+        {
+          "start": 48,
+          "length": 4,
+          "type": "BOLD",
+          "$type": "com.linkedin.voyager.common.TextAttribute"
+        }
+      ],
+      "text": "Past: Technical Manager & Sourcing Responsible, Shoe BLOWFA Bangladesh. at BLOWFA",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "secondaryTitle": {
+      "textDirection": "USER_LOCALE",
+      "text": "2nd",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "*badges": "urn:li:fs_memberBadges:ACoAAAmtpeIBIIsythQ0YsG5Ilwt_RelHFqIHo4",
+    "publicIdentifier": "zayedul-amin-khan-11646746",
+    "headline": {
+      "textDirection": "USER_LOCALE",
+      "text": "Shoe Buying Director Olympia International UK",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "nameMatch": false,
+    "subline": {
+      "textDirection": "USER_LOCALE",
+      "text": "Bangladesh",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "trackingId": "LghjT7YESVeb9NrGCD2/fA==",
+    "profile": {
+      "customPronoun": null,
+      "lastName": "Khan",
+      "memorialized": null,
+      "dashEntityUrn": "urn:li:fsd_profile:ACoAAAmtpeIBIIsythQ0YsG5Ilwt_RelHFqIHo4",
+      "standardizedPronoun": null,
+      "occupation": "Shoe Buying Director Olympia International UK",
+      "objectUrn": "urn:li:member:162375138",
+      "backgroundImage": null,
+      "picture": {
+        "artifacts": [
+          {
+            "width": 100,
+            "fileIdentifyingUrlPathSegment": "100_100/0/1517430566741?e=1660176000&v=beta&t=Z72xmsyDaJhT6O2z_ZgZ67OEuZNt5Y-Br_kIBukg1NU",
+            "expiresAt": 1660176000000,
+            "height": 100,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200_200/0/1517430566741?e=1660176000&v=beta&t=xnv4wliEfsVSJ_9FRZ-MIRCZVIeFzFcz6S2ia1Y6HEo",
+            "expiresAt": 1660176000000,
+            "height": 200,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400_400/0/1517430566741?e=1660176000&v=beta&t=r_nx2IdtGjxgsJg7gVy8slSZGVC-eV4dt9E4YsQLfdc",
+            "expiresAt": 1660176000000,
+            "height": 400,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 800,
+            "fileIdentifyingUrlPathSegment": "800_800/0/1517430566741?e=1660176000&v=beta&t=MMX409zF4Nt3giP846TjiUdbHsucAPYXjWxYKbVHKI0",
+            "expiresAt": 1660176000000,
+            "height": 800,
+            "$type": "com.linkedin.common.VectorArtifact"
+          }
+        ],
+        "rootUrl": "https://media-exp1.licdn.com/dms/image/C5603AQGVGhe9WQpsGA/profile-displayphoto-shrink_",
+        "$type": "com.linkedin.common.VectorImage"
+      },
+      "$type": "com.linkedin.voyager.identity.shared.MiniProfile",
+      "firstName": "Zayedul Amin",
+      "entityUrn": "urn:li:fs_miniProfile:ACoAAAmtpeIBIIsythQ0YsG5Ilwt_RelHFqIHo4",
+      "publicIdentifier": "zayedul-amin-khan-11646746",
+      "trackingId": "nnoI+IpkTAW2D05nonIgPA==",
+      "pictureUrls": [
+        "https://media-exp1.licdn.com/dms/image/C5603AQGVGhe9WQpsGA/profile-displayphoto-shrink_100_100/0/1517430566741?e=1660176000&v=beta&t=Z72xmsyDaJhT6O2z_ZgZ67OEuZNt5Y-Br_kIBukg1NU",
+        "https://media-exp1.licdn.com/dms/image/C5603AQGVGhe9WQpsGA/profile-displayphoto-shrink_200_200/0/1517430566741?e=1660176000&v=beta&t=xnv4wliEfsVSJ_9FRZ-MIRCZVIeFzFcz6S2ia1Y6HEo",
+        "https://media-exp1.licdn.com/dms/image/C5603AQGVGhe9WQpsGA/profile-displayphoto-shrink_400_400/0/1517430566741?e=1660176000&v=beta&t=r_nx2IdtGjxgsJg7gVy8slSZGVC-eV4dt9E4YsQLfdc",
+        "https://media-exp1.licdn.com/dms/image/C5603AQGVGhe9WQpsGA/profile-displayphoto-shrink_800_800/0/1517430566741?e=1660176000&v=beta&t=MMX409zF4Nt3giP846TjiUdbHsucAPYXjWxYKbVHKI0"
+      ],
+      "profileId": "ACoAAAmtpeIBIIsythQ0YsG5Ilwt_RelHFqIHo4"
+    }
+  },
+  {
+    "memberDistance": {
+      "value": "DISTANCE_2",
+      "$type": "com.linkedin.voyager.common.MemberDistance"
+    },
+    "image": {
+      "attributes": [
+        {
+          "sourceType": "PROFILE_PICTURE",
+          "*miniProfile": "urn:li:fs_miniProfile:ACoAAAGz8AsBJlqrJ7PQGeAQgC4zQsiW6jhjbTk",
+          "$type": "com.linkedin.voyager.common.ImageAttribute"
+        }
+      ],
+      "accessibilityTextAttributes": [],
+      "$type": "com.linkedin.voyager.common.ImageViewModel"
+    },
+    "targetUrn": "urn:li:fs_miniProfile:ACoAAAGz8AsBJlqrJ7PQGeAQgC4zQsiW6jhjbTk",
+    "socialProofImagePile": [
+      {
+        "attributes": [
+          {
+            "sourceType": "PROFILE_PICTURE",
+            "*miniProfile": "urn:li:fs_miniProfile:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+            "$type": "com.linkedin.voyager.common.ImageAttribute"
+          }
+        ],
+        "accessibilityTextAttributes": [],
+        "$type": "com.linkedin.voyager.common.ImageViewModel"
+      }
+    ],
+    "trackingUrn": "urn:li:member:28569611",
+    "navigationUrl": "https://www.linkedin.com/in/laura-conwell-o-brien-40b6999",
+    "title": {
+      "textDirection": "USER_LOCALE",
+      "text": "Laura Conwell-O'Brien",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "type": "PROFILE",
+    "$type": "com.linkedin.voyager.search.SearchHitV2",
+    "headless": false,
+    "socialProofText": "1 shared connection",
+    "snippetText": {
+      "attributes": [
+        {
+          "start": 43,
+          "length": 4,
+          "type": "BOLD",
+          "$type": "com.linkedin.voyager.common.TextAttribute"
+        }
+      ],
+      "text": "Current: Executive Director at The Atlanta Shoe Market",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "secondaryTitle": {
+      "textDirection": "USER_LOCALE",
+      "text": "2nd",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "*badges": "urn:li:fs_memberBadges:ACoAAAGz8AsBJlqrJ7PQGeAQgC4zQsiW6jhjbTk",
+    "publicIdentifier": "laura-conwell-o-brien-40b6999",
+    "headline": {
+      "textDirection": "USER_LOCALE",
+      "text": "Executive Director The Atlanta Shoe Market",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "nameMatch": false,
+    "subline": {
+      "textDirection": "USER_LOCALE",
+      "text": "United States",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "trackingId": "5GjcYqlFT8imOoMWH4lFLA==",
+    "profile": {
+      "customPronoun": null,
+      "lastName": "Conwell-O'Brien",
+      "memorialized": null,
+      "dashEntityUrn": "urn:li:fsd_profile:ACoAAAGz8AsBJlqrJ7PQGeAQgC4zQsiW6jhjbTk",
+      "standardizedPronoun": null,
+      "occupation": "Executive Director The Atlanta Shoe Market",
+      "objectUrn": "urn:li:member:28569611",
+      "backgroundImage": null,
+      "picture": {
+        "artifacts": [
+          {
+            "width": 100,
+            "fileIdentifyingUrlPathSegment": "100_100/0/1584835796530?e=1660176000&v=beta&t=f6SvWKBv2IkNAjBtkCBjtI0cwlyw-BtVXYUOnKPTTtc",
+            "expiresAt": 1660176000000,
+            "height": 100,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200_200/0/1584835796530?e=1660176000&v=beta&t=gGmbmbaujWG51dtgQlXO6VsbDqx9nRjQpNWkB4ynQHo",
+            "expiresAt": 1660176000000,
+            "height": 200,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400_400/0/1584835796530?e=1660176000&v=beta&t=6qF4a72uDOVDye1ynHHMW0qKqLUGcD_fQGzV-rFZob8",
+            "expiresAt": 1660176000000,
+            "height": 400,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 800,
+            "fileIdentifyingUrlPathSegment": "800_800/0/1584835796530?e=1660176000&v=beta&t=7MncF6iJApFAF7uJfHyupVc_ohLx1Hk5VjxG367mzAg",
+            "expiresAt": 1660176000000,
+            "height": 800,
+            "$type": "com.linkedin.common.VectorArtifact"
+          }
+        ],
+        "rootUrl": "https://media-exp1.licdn.com/dms/image/C4D03AQHumlk65duqVQ/profile-displayphoto-shrink_",
+        "$type": "com.linkedin.common.VectorImage"
+      },
+      "$type": "com.linkedin.voyager.identity.shared.MiniProfile",
+      "firstName": "Laura",
+      "entityUrn": "urn:li:fs_miniProfile:ACoAAAGz8AsBJlqrJ7PQGeAQgC4zQsiW6jhjbTk",
+      "publicIdentifier": "laura-conwell-o-brien-40b6999",
+      "trackingId": "gyZBN5muQhKjzEfoWFp6kQ==",
+      "pictureUrls": [
+        "https://media-exp1.licdn.com/dms/image/C4D03AQHumlk65duqVQ/profile-displayphoto-shrink_100_100/0/1584835796530?e=1660176000&v=beta&t=f6SvWKBv2IkNAjBtkCBjtI0cwlyw-BtVXYUOnKPTTtc",
+        "https://media-exp1.licdn.com/dms/image/C4D03AQHumlk65duqVQ/profile-displayphoto-shrink_200_200/0/1584835796530?e=1660176000&v=beta&t=gGmbmbaujWG51dtgQlXO6VsbDqx9nRjQpNWkB4ynQHo",
+        "https://media-exp1.licdn.com/dms/image/C4D03AQHumlk65duqVQ/profile-displayphoto-shrink_400_400/0/1584835796530?e=1660176000&v=beta&t=6qF4a72uDOVDye1ynHHMW0qKqLUGcD_fQGzV-rFZob8",
+        "https://media-exp1.licdn.com/dms/image/C4D03AQHumlk65duqVQ/profile-displayphoto-shrink_800_800/0/1584835796530?e=1660176000&v=beta&t=7MncF6iJApFAF7uJfHyupVc_ohLx1Hk5VjxG367mzAg"
+      ],
+      "profileId": "ACoAAAGz8AsBJlqrJ7PQGeAQgC4zQsiW6jhjbTk"
+    }
+  },
+  {
+    "memberDistance": {
+      "value": "DISTANCE_2",
+      "$type": "com.linkedin.voyager.common.MemberDistance"
+    },
+    "image": {
+      "attributes": [
+        {
+          "sourceType": "PROFILE_PICTURE",
+          "*miniProfile": "urn:li:fs_miniProfile:ACoAAA_zOQIBhexd8c-K_d9V7gniDmdvVPyw-Gw",
+          "$type": "com.linkedin.voyager.common.ImageAttribute"
+        }
+      ],
+      "accessibilityTextAttributes": [],
+      "$type": "com.linkedin.voyager.common.ImageViewModel"
+    },
+    "targetUrn": "urn:li:fs_miniProfile:ACoAAA_zOQIBhexd8c-K_d9V7gniDmdvVPyw-Gw",
+    "socialProofImagePile": [
+      {
+        "attributes": [
+          {
+            "sourceType": "PROFILE_PICTURE",
+            "*miniProfile": "urn:li:fs_miniProfile:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+            "$type": "com.linkedin.voyager.common.ImageAttribute"
+          }
+        ],
+        "accessibilityTextAttributes": [],
+        "$type": "com.linkedin.voyager.common.ImageViewModel"
+      }
+    ],
+    "trackingUrn": "urn:li:member:267598082",
+    "navigationUrl": "https://www.linkedin.com/in/tiziano-marsilii-00275075",
+    "title": {
+      "textDirection": "USER_LOCALE",
+      "text": "tiziano marsilii",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "type": "PROFILE",
+    "$type": "com.linkedin.voyager.search.SearchHitV2",
+    "headless": false,
+    "socialProofText": "1 shared connection",
+    "snippetText": {
+      "attributes": [
+        {
+          "start": 9,
+          "length": 4,
+          "type": "BOLD",
+          "$type": "com.linkedin.voyager.common.TextAttribute"
+        }
+      ],
+      "text": "Current: shoe technician at NOVI FOOTWEAR",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "secondaryTitle": {
+      "textDirection": "USER_LOCALE",
+      "text": "2nd",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "*badges": "urn:li:fs_memberBadges:ACoAAA_zOQIBhexd8c-K_d9V7gniDmdvVPyw-Gw",
+    "publicIdentifier": "tiziano-marsilii-00275075",
+    "headline": {
+      "textDirection": "USER_LOCALE",
+      "text": "Senior shoe technician Asia at Matiz",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "nameMatch": false,
+    "subline": {
+      "textDirection": "USER_LOCALE",
+      "text": "China",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "trackingId": "EJm2A3U0QpidsVEfxgjPLA==",
+    "profile": {
+      "customPronoun": null,
+      "lastName": "marsilii",
+      "memorialized": null,
+      "dashEntityUrn": "urn:li:fsd_profile:ACoAAA_zOQIBhexd8c-K_d9V7gniDmdvVPyw-Gw",
+      "standardizedPronoun": null,
+      "occupation": "Senior shoe technician Asia at Matiz",
+      "objectUrn": "urn:li:member:267598082",
+      "backgroundImage": null,
+      "picture": {
+        "artifacts": [
+          {
+            "width": 100,
+            "fileIdentifyingUrlPathSegment": "100_100/0/1561115664826?e=1660176000&v=beta&t=I7Ri10UA05_ru4Xd2l8Q5eLoDSQS4NHuOtWo50uNcTI",
+            "expiresAt": 1660176000000,
+            "height": 100,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200_200/0/1561115664826?e=1660176000&v=beta&t=39AFGzBGMgBTbUaHoZGaf0GuQdLkpL3klnnNhCzPbn8",
+            "expiresAt": 1660176000000,
+            "height": 200,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400_400/0/1561115664826?e=1660176000&v=beta&t=mU1qXwHN-Mh2jaolWjzcV2Hq84JtJnWrBI2GtCQYnq8",
+            "expiresAt": 1660176000000,
+            "height": 400,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 800,
+            "fileIdentifyingUrlPathSegment": "800_800/0/1561115664826?e=1660176000&v=beta&t=NVYnxOdebg_2LvB5ROw3kUIhMQcCDedT4YxtNe0oJbc",
+            "expiresAt": 1660176000000,
+            "height": 800,
+            "$type": "com.linkedin.common.VectorArtifact"
+          }
+        ],
+        "rootUrl": "https://media-exp1.licdn.com/dms/image/C5103AQEzKaZDSpHAUQ/profile-displayphoto-shrink_",
+        "$type": "com.linkedin.common.VectorImage"
+      },
+      "$type": "com.linkedin.voyager.identity.shared.MiniProfile",
+      "firstName": "tiziano",
+      "entityUrn": "urn:li:fs_miniProfile:ACoAAA_zOQIBhexd8c-K_d9V7gniDmdvVPyw-Gw",
+      "publicIdentifier": "tiziano-marsilii-00275075",
+      "trackingId": "VfTVZHvfTqW+25xOAeQlOg==",
+      "pictureUrls": [
+        "https://media-exp1.licdn.com/dms/image/C5103AQEzKaZDSpHAUQ/profile-displayphoto-shrink_100_100/0/1561115664826?e=1660176000&v=beta&t=I7Ri10UA05_ru4Xd2l8Q5eLoDSQS4NHuOtWo50uNcTI",
+        "https://media-exp1.licdn.com/dms/image/C5103AQEzKaZDSpHAUQ/profile-displayphoto-shrink_200_200/0/1561115664826?e=1660176000&v=beta&t=39AFGzBGMgBTbUaHoZGaf0GuQdLkpL3klnnNhCzPbn8",
+        "https://media-exp1.licdn.com/dms/image/C5103AQEzKaZDSpHAUQ/profile-displayphoto-shrink_400_400/0/1561115664826?e=1660176000&v=beta&t=mU1qXwHN-Mh2jaolWjzcV2Hq84JtJnWrBI2GtCQYnq8",
+        "https://media-exp1.licdn.com/dms/image/C5103AQEzKaZDSpHAUQ/profile-displayphoto-shrink_800_800/0/1561115664826?e=1660176000&v=beta&t=NVYnxOdebg_2LvB5ROw3kUIhMQcCDedT4YxtNe0oJbc"
+      ],
+      "profileId": "ACoAAA_zOQIBhexd8c-K_d9V7gniDmdvVPyw-Gw"
+    }
+  },
+  {
+    "memberDistance": {
+      "value": "DISTANCE_2",
+      "$type": "com.linkedin.voyager.common.MemberDistance"
+    },
+    "image": {
+      "attributes": [
+        {
+          "sourceType": "PROFILE_PICTURE",
+          "*miniProfile": "urn:li:fs_miniProfile:ACoAAAmD8z0BrDLNHICtFQKZc7l5n6mcihhadbc",
+          "$type": "com.linkedin.voyager.common.ImageAttribute"
+        }
+      ],
+      "accessibilityTextAttributes": [],
+      "$type": "com.linkedin.voyager.common.ImageViewModel"
+    },
+    "targetUrn": "urn:li:fs_miniProfile:ACoAAAmD8z0BrDLNHICtFQKZc7l5n6mcihhadbc",
+    "socialProofImagePile": [
+      {
+        "attributes": [
+          {
+            "sourceType": "PROFILE_PICTURE",
+            "*miniProfile": "urn:li:fs_miniProfile:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+            "$type": "com.linkedin.voyager.common.ImageAttribute"
+          }
+        ],
+        "accessibilityTextAttributes": [],
+        "$type": "com.linkedin.voyager.common.ImageViewModel"
+      }
+    ],
+    "trackingUrn": "urn:li:member:159642429",
+    "navigationUrl": "https://www.linkedin.com/in/antonio-carlos-lopes-7b956945",
+    "title": {
+      "textDirection": "USER_LOCALE",
+      "text": "Antonio Carlos Lopes",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "type": "PROFILE",
+    "$type": "com.linkedin.voyager.search.SearchHitV2",
+    "headless": false,
+    "socialProofText": "1 shared connection",
+    "secondaryTitle": {
+      "textDirection": "USER_LOCALE",
+      "text": "2nd",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "*badges": "urn:li:fs_memberBadges:ACoAAAmD8z0BrDLNHICtFQKZc7l5n6mcihhadbc",
+    "publicIdentifier": "antonio-carlos-lopes-7b956945",
+    "headline": {
+      "textDirection": "USER_LOCALE",
+      "text": "Shoe Technician",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "nameMatch": false,
+    "subline": {
+      "textDirection": "USER_LOCALE",
+      "text": "China",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "trackingId": "rrS3+3L7TluQFeg1NHnJzg==",
+    "profile": {
+      "customPronoun": null,
+      "lastName": "Lopes",
+      "memorialized": null,
+      "dashEntityUrn": "urn:li:fsd_profile:ACoAAAmD8z0BrDLNHICtFQKZc7l5n6mcihhadbc",
+      "standardizedPronoun": null,
+      "occupation": "Shoe Technician",
+      "objectUrn": "urn:li:member:159642429",
+      "backgroundImage": null,
+      "picture": {
+        "artifacts": [
+          {
+            "width": 100,
+            "fileIdentifyingUrlPathSegment": "100_100/0/1517402974647?e=1660176000&v=beta&t=1Xda8DFaWj5r0uCwKw9rhjUppSsCBbWmAhc61qol1Zc",
+            "expiresAt": 1660176000000,
+            "height": 100,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200_200/0/1517402974647?e=1660176000&v=beta&t=_IqLtWPj3GDg3o6onDYppyhkAVOYap50Kp2ctbbzXbU",
+            "expiresAt": 1660176000000,
+            "height": 200,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400_400/0/1517402974647?e=1660176000&v=beta&t=NJXJIhNsJ6BXby3TxjWD4yTfXEFN6vFUX9O8EXSooZ0",
+            "expiresAt": 1660176000000,
+            "height": 400,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 800,
+            "fileIdentifyingUrlPathSegment": "800_800/0/1517402974647?e=1660176000&v=beta&t=ZMmttM1MHRaaF7jBOxFDPHzE_W5zkbIuo6NhgBPgbBc",
+            "expiresAt": 1660176000000,
+            "height": 800,
+            "$type": "com.linkedin.common.VectorArtifact"
+          }
+        ],
+        "rootUrl": "https://media-exp1.licdn.com/dms/image/C5603AQE_tLydAyJppg/profile-displayphoto-shrink_",
+        "$type": "com.linkedin.common.VectorImage"
+      },
+      "$type": "com.linkedin.voyager.identity.shared.MiniProfile",
+      "firstName": "Antonio Carlos",
+      "entityUrn": "urn:li:fs_miniProfile:ACoAAAmD8z0BrDLNHICtFQKZc7l5n6mcihhadbc",
+      "publicIdentifier": "antonio-carlos-lopes-7b956945",
+      "trackingId": "akw4He9fQ1WIQEpXprZ0uA==",
+      "pictureUrls": [
+        "https://media-exp1.licdn.com/dms/image/C5603AQE_tLydAyJppg/profile-displayphoto-shrink_100_100/0/1517402974647?e=1660176000&v=beta&t=1Xda8DFaWj5r0uCwKw9rhjUppSsCBbWmAhc61qol1Zc",
+        "https://media-exp1.licdn.com/dms/image/C5603AQE_tLydAyJppg/profile-displayphoto-shrink_200_200/0/1517402974647?e=1660176000&v=beta&t=_IqLtWPj3GDg3o6onDYppyhkAVOYap50Kp2ctbbzXbU",
+        "https://media-exp1.licdn.com/dms/image/C5603AQE_tLydAyJppg/profile-displayphoto-shrink_400_400/0/1517402974647?e=1660176000&v=beta&t=NJXJIhNsJ6BXby3TxjWD4yTfXEFN6vFUX9O8EXSooZ0",
+        "https://media-exp1.licdn.com/dms/image/C5603AQE_tLydAyJppg/profile-displayphoto-shrink_800_800/0/1517402974647?e=1660176000&v=beta&t=ZMmttM1MHRaaF7jBOxFDPHzE_W5zkbIuo6NhgBPgbBc"
+      ],
+      "profileId": "ACoAAAmD8z0BrDLNHICtFQKZc7l5n6mcihhadbc"
+    }
+  },
+  {
+    "memberDistance": {
+      "value": "DISTANCE_2",
+      "$type": "com.linkedin.voyager.common.MemberDistance"
+    },
+    "image": {
+      "attributes": [
+        {
+          "sourceType": "PROFILE_PICTURE",
+          "*miniProfile": "urn:li:fs_miniProfile:ACoAAByAqo8BULe2ulfyz4q_xZd2T3KETiE-_ns",
+          "$type": "com.linkedin.voyager.common.ImageAttribute"
+        }
+      ],
+      "accessibilityTextAttributes": [],
+      "$type": "com.linkedin.voyager.common.ImageViewModel"
+    },
+    "targetUrn": "urn:li:fs_miniProfile:ACoAAByAqo8BULe2ulfyz4q_xZd2T3KETiE-_ns",
+    "socialProofImagePile": [
+      {
+        "attributes": [
+          {
+            "sourceType": "PROFILE_PICTURE",
+            "*miniProfile": "urn:li:fs_miniProfile:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+            "$type": "com.linkedin.voyager.common.ImageAttribute"
+          }
+        ],
+        "accessibilityTextAttributes": [],
+        "$type": "com.linkedin.voyager.common.ImageViewModel"
+      }
+    ],
+    "trackingUrn": "urn:li:member:478194319",
+    "navigationUrl": "https://www.linkedin.com/in/bruno-reis-9a7190114",
+    "title": {
+      "textDirection": "USER_LOCALE",
+      "text": "Bruno Reis",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "type": "PROFILE",
+    "$type": "com.linkedin.voyager.search.SearchHitV2",
+    "headless": false,
+    "socialProofText": "1 shared connection",
+    "snippetText": {
+      "attributes": [
+        {
+          "start": 14,
+          "length": 4,
+          "type": "BOLD",
+          "$type": "com.linkedin.voyager.common.TextAttribute"
+        }
+      ],
+      "text": "Current: Lead Shoe Architect  at Camuto Group",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "secondaryTitle": {
+      "textDirection": "USER_LOCALE",
+      "text": "2nd",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "*badges": "urn:li:fs_memberBadges:ACoAAByAqo8BULe2ulfyz4q_xZd2T3KETiE-_ns",
+    "publicIdentifier": "bruno-reis-9a7190114",
+    "headline": {
+      "textDirection": "USER_LOCALE",
+      "text": "Lead Shoe Architect at Camuto Group",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "nameMatch": false,
+    "subline": {
+      "textDirection": "USER_LOCALE",
+      "text": "China",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "trackingId": "VxzHKzVGREOIMu8zXzqIwg==",
+    "profile": {
+      "customPronoun": null,
+      "lastName": "Reis",
+      "memorialized": null,
+      "dashEntityUrn": "urn:li:fsd_profile:ACoAAByAqo8BULe2ulfyz4q_xZd2T3KETiE-_ns",
+      "standardizedPronoun": null,
+      "occupation": "Lead Shoe Architect at Camuto Group",
+      "objectUrn": "urn:li:member:478194319",
+      "backgroundImage": null,
+      "picture": {
+        "artifacts": [
+          {
+            "width": 100,
+            "fileIdentifyingUrlPathSegment": "100_100/0/1551185819670?e=1660176000&v=beta&t=uqRieECe4_F1oDHu2RTthK4POfjiTnKprmtSCID4_iQ",
+            "expiresAt": 1660176000000,
+            "height": 100,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200_200/0/1551185819670?e=1660176000&v=beta&t=XfhUlYQNZWR2hvbakyj9VyhoWi-sJOg3qAsXpAUemNg",
+            "expiresAt": 1660176000000,
+            "height": 200,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400_400/0/1551185819670?e=1660176000&v=beta&t=Iz6FwaEz8GcsM1pECyWD9OGZsdzYGIsUAfJ6bDziYYI",
+            "expiresAt": 1660176000000,
+            "height": 400,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 800,
+            "fileIdentifyingUrlPathSegment": "800_800/0/1551185819670?e=1660176000&v=beta&t=WE0SonXT6Q5m7UlkQvG3iNASaZ75UcN8RffgOgulg_s",
+            "expiresAt": 1660176000000,
+            "height": 800,
+            "$type": "com.linkedin.common.VectorArtifact"
+          }
+        ],
+        "rootUrl": "https://media-exp1.licdn.com/dms/image/C5103AQFpJ_lr8HVSaw/profile-displayphoto-shrink_",
+        "$type": "com.linkedin.common.VectorImage"
+      },
+      "$type": "com.linkedin.voyager.identity.shared.MiniProfile",
+      "firstName": "Bruno",
+      "entityUrn": "urn:li:fs_miniProfile:ACoAAByAqo8BULe2ulfyz4q_xZd2T3KETiE-_ns",
+      "publicIdentifier": "bruno-reis-9a7190114",
+      "trackingId": "BGKlJX2vQSGQ++7WbOCKgw==",
+      "pictureUrls": [
+        "https://media-exp1.licdn.com/dms/image/C5103AQFpJ_lr8HVSaw/profile-displayphoto-shrink_100_100/0/1551185819670?e=1660176000&v=beta&t=uqRieECe4_F1oDHu2RTthK4POfjiTnKprmtSCID4_iQ",
+        "https://media-exp1.licdn.com/dms/image/C5103AQFpJ_lr8HVSaw/profile-displayphoto-shrink_200_200/0/1551185819670?e=1660176000&v=beta&t=XfhUlYQNZWR2hvbakyj9VyhoWi-sJOg3qAsXpAUemNg",
+        "https://media-exp1.licdn.com/dms/image/C5103AQFpJ_lr8HVSaw/profile-displayphoto-shrink_400_400/0/1551185819670?e=1660176000&v=beta&t=Iz6FwaEz8GcsM1pECyWD9OGZsdzYGIsUAfJ6bDziYYI",
+        "https://media-exp1.licdn.com/dms/image/C5103AQFpJ_lr8HVSaw/profile-displayphoto-shrink_800_800/0/1551185819670?e=1660176000&v=beta&t=WE0SonXT6Q5m7UlkQvG3iNASaZ75UcN8RffgOgulg_s"
+      ],
+      "profileId": "ACoAAByAqo8BULe2ulfyz4q_xZd2T3KETiE-_ns"
+    }
+  },
+  {
+    "memberDistance": {
+      "value": "DISTANCE_2",
+      "$type": "com.linkedin.voyager.common.MemberDistance"
+    },
+    "image": {
+      "attributes": [
+        {
+          "sourceType": "PROFILE_PICTURE",
+          "*miniProfile": "urn:li:fs_miniProfile:ACoAABSoL5MBvyq4hg8zrMl6fZkzCMVs3iSZ-aM",
+          "$type": "com.linkedin.voyager.common.ImageAttribute"
+        }
+      ],
+      "accessibilityTextAttributes": [],
+      "$type": "com.linkedin.voyager.common.ImageViewModel"
+    },
+    "targetUrn": "urn:li:fs_miniProfile:ACoAABSoL5MBvyq4hg8zrMl6fZkzCMVs3iSZ-aM",
+    "insights": [
+      {
+        "type": "MARKETPLACE_SERVICES",
+        "insightText": {
+          "textDirection": "USER_LOCALE",
+          "attributes": [
+            {
+              "start": 0,
+              "length": 17,
+              "type": "BOLD",
+              "$type": "com.linkedin.voyager.common.TextAttribute"
+            }
+          ],
+          "text": "Provides services - Social Media Marketing, Content Marketing, Brand Marketing, Advertising, Demand Generation, Lead Generation",
+          "$type": "com.linkedin.voyager.common.TextViewModel"
+        },
+        "$type": "com.linkedin.voyager.search.Insight"
+      }
+    ],
+    "trackingUrn": "urn:li:member:346566547",
+    "navigationUrl": "https://www.linkedin.com/in/shannonguoguo",
+    "title": {
+      "textDirection": "USER_LOCALE",
+      "text": "Shannon- fly knit shoes uppers",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "type": "PROFILE",
+    "$type": "com.linkedin.voyager.search.SearchHitV2",
+    "headless": false,
+    "snippetText": {
+      "attributes": [
+        {
+          "start": 49,
+          "length": 4,
+          "type": "BOLD",
+          "$type": "com.linkedin.voyager.common.TextAttribute"
+        }
+      ],
+      "text": "Current: Sales Manager-Footwear Accessory at SMS Shoe Accessory Co.,Ltd",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "secondaryTitle": {
+      "textDirection": "USER_LOCALE",
+      "text": "2nd",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "*badges": "urn:li:fs_memberBadges:ACoAABSoL5MBvyq4hg8zrMl6fZkzCMVs3iSZ-aM",
+    "publicIdentifier": "shannonguoguo",
+    "headline": {
+      "textDirection": "USER_LOCALE",
+      "text": "SMS Shoe Accessory Co.,Ltd",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "nameMatch": false,
+    "subline": {
+      "textDirection": "USER_LOCALE",
+      "text": "China",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "trackingId": "r8OlLtgBThqDFI6jeGO6iw==",
+    "profile": {
+      "customPronoun": null,
+      "lastName": "fly knit shoes uppers",
+      "memorialized": null,
+      "dashEntityUrn": "urn:li:fsd_profile:ACoAABSoL5MBvyq4hg8zrMl6fZkzCMVs3iSZ-aM",
+      "standardizedPronoun": null,
+      "occupation": "SMS Shoe Accessory Co.,Ltd",
+      "objectUrn": "urn:li:member:346566547",
+      "backgroundImage": null,
+      "picture": {
+        "artifacts": [
+          {
+            "width": 100,
+            "fileIdentifyingUrlPathSegment": "100_100/0/1587970532074?e=1660176000&v=beta&t=iN3rwGjLOYfgJaXSFjOlb3SPT8p2nVqRHU2z7O-qHCQ",
+            "expiresAt": 1660176000000,
+            "height": 100,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200_200/0/1587970532074?e=1660176000&v=beta&t=hOjpYzKiwbK4dI7_EjT8bh7dwyCzZpQZuyg-r_ezjZI",
+            "expiresAt": 1660176000000,
+            "height": 200,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400_400/0/1587970532074?e=1660176000&v=beta&t=lx5flNOMViipzZ_Ej-1yWRR1iJFVPnHB33sPWfQnJs8",
+            "expiresAt": 1660176000000,
+            "height": 400,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 800,
+            "fileIdentifyingUrlPathSegment": "800_800/0/1587970532074?e=1660176000&v=beta&t=k-qqC61zxkSCYevvwGeGZUWjKMKKPbdBU7mbLbSSg_o",
+            "expiresAt": 1660176000000,
+            "height": 800,
+            "$type": "com.linkedin.common.VectorArtifact"
+          }
+        ],
+        "rootUrl": "https://media-exp1.licdn.com/dms/image/C5603AQFJ951v91gMxw/profile-displayphoto-shrink_",
+        "$type": "com.linkedin.common.VectorImage"
+      },
+      "$type": "com.linkedin.voyager.identity.shared.MiniProfile",
+      "firstName": "Shannon-",
+      "entityUrn": "urn:li:fs_miniProfile:ACoAABSoL5MBvyq4hg8zrMl6fZkzCMVs3iSZ-aM",
+      "publicIdentifier": "shannonguoguo",
+      "trackingId": "XpR8EFNITVaX5BVI39YokQ==",
+      "pictureUrls": [
+        "https://media-exp1.licdn.com/dms/image/C5603AQFJ951v91gMxw/profile-displayphoto-shrink_100_100/0/1587970532074?e=1660176000&v=beta&t=iN3rwGjLOYfgJaXSFjOlb3SPT8p2nVqRHU2z7O-qHCQ",
+        "https://media-exp1.licdn.com/dms/image/C5603AQFJ951v91gMxw/profile-displayphoto-shrink_200_200/0/1587970532074?e=1660176000&v=beta&t=hOjpYzKiwbK4dI7_EjT8bh7dwyCzZpQZuyg-r_ezjZI",
+        "https://media-exp1.licdn.com/dms/image/C5603AQFJ951v91gMxw/profile-displayphoto-shrink_400_400/0/1587970532074?e=1660176000&v=beta&t=lx5flNOMViipzZ_Ej-1yWRR1iJFVPnHB33sPWfQnJs8",
+        "https://media-exp1.licdn.com/dms/image/C5603AQFJ951v91gMxw/profile-displayphoto-shrink_800_800/0/1587970532074?e=1660176000&v=beta&t=k-qqC61zxkSCYevvwGeGZUWjKMKKPbdBU7mbLbSSg_o"
+      ],
+      "profileId": "ACoAABSoL5MBvyq4hg8zrMl6fZkzCMVs3iSZ-aM"
+    }
+  },
+  {
+    "memberDistance": {
+      "value": "DISTANCE_2",
+      "$type": "com.linkedin.voyager.common.MemberDistance"
+    },
+    "image": {
+      "attributes": [
+        {
+          "sourceType": "PROFILE_PICTURE",
+          "*miniProfile": "urn:li:fs_miniProfile:ACoAAA4j_HUBqMtJpdmxEgn-mMDyHegJHRjvgQo",
+          "$type": "com.linkedin.voyager.common.ImageAttribute"
+        }
+      ],
+      "accessibilityTextAttributes": [],
+      "$type": "com.linkedin.voyager.common.ImageViewModel"
+    },
+    "targetUrn": "urn:li:fs_miniProfile:ACoAAA4j_HUBqMtJpdmxEgn-mMDyHegJHRjvgQo",
+    "socialProofImagePile": [
+      {
+        "attributes": [
+          {
+            "sourceType": "PROFILE_PICTURE",
+            "*miniProfile": "urn:li:fs_miniProfile:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+            "$type": "com.linkedin.voyager.common.ImageAttribute"
+          }
+        ],
+        "accessibilityTextAttributes": [],
+        "$type": "com.linkedin.voyager.common.ImageViewModel"
+      }
+    ],
+    "trackingUrn": "urn:li:member:237239413",
+    "navigationUrl": "https://www.linkedin.com/in/jorge-eliseu-aires-3b154b67",
+    "title": {
+      "textDirection": "USER_LOCALE",
+      "text": "Jorge Eliseu Aires",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "type": "PROFILE",
+    "$type": "com.linkedin.voyager.search.SearchHitV2",
+    "headless": false,
+    "socialProofText": "1 shared connection",
+    "snippetText": {
+      "attributes": [
+        {
+          "start": 28,
+          "length": 4,
+          "type": "BOLD",
+          "$type": "com.linkedin.voyager.common.TextAttribute"
+        },
+        {
+          "start": 103,
+          "length": 4,
+          "type": "BOLD",
+          "$type": "com.linkedin.voyager.common.TextAttribute"
+        }
+      ],
+      "text": "Summary: ...l begins my own shoe company amazing at the Brazilian domestic market !  I returned to the shoe...",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "secondaryTitle": {
+      "textDirection": "USER_LOCALE",
+      "text": "2nd",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "*badges": "urn:li:fs_memberBadges:ACoAAA4j_HUBqMtJpdmxEgn-mMDyHegJHRjvgQo",
+    "publicIdentifier": "jorge-eliseu-aires-3b154b67",
+    "headline": {
+      "textDirection": "USER_LOCALE",
+      "text": "shoe technician /production manager",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "nameMatch": false,
+    "subline": {
+      "textDirection": "USER_LOCALE",
+      "text": "China",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "trackingId": "VJ2u2y7DSyq6+Yb95uYn2Q==",
+    "profile": {
+      "customPronoun": null,
+      "lastName": "Aires",
+      "memorialized": null,
+      "dashEntityUrn": "urn:li:fsd_profile:ACoAAA4j_HUBqMtJpdmxEgn-mMDyHegJHRjvgQo",
+      "standardizedPronoun": null,
+      "occupation": "shoe technician /production manager",
+      "objectUrn": "urn:li:member:237239413",
+      "backgroundImage": null,
+      "picture": {
+        "artifacts": [
+          {
+            "width": 100,
+            "fileIdentifyingUrlPathSegment": "100_100/0/1620451117882?e=1660176000&v=beta&t=5n6GLTJ3_08mOy9krraT47Plafxa3CSQ1_4zZN78PXI",
+            "expiresAt": 1660176000000,
+            "height": 100,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200_200/0/1620451117882?e=1660176000&v=beta&t=plmU2Uznbyo5arg-9o3Z2-6yvQHXrvHQq8lbvrYba5o",
+            "expiresAt": 1660176000000,
+            "height": 200,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400_400/0/1620451117882?e=1660176000&v=beta&t=i-oYK8F9kUG5DST2EQGENuFmdaiqkOIT_7KLYdPP0vM",
+            "expiresAt": 1660176000000,
+            "height": 400,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 800,
+            "fileIdentifyingUrlPathSegment": "800_800/0/1620451117882?e=1660176000&v=beta&t=tQS2N4aikLsvScOPio88WmwFTlPvGYm_SmPq7zc_oyk",
+            "expiresAt": 1660176000000,
+            "height": 800,
+            "$type": "com.linkedin.common.VectorArtifact"
+          }
+        ],
+        "rootUrl": "https://media-exp1.licdn.com/dms/image/C5603AQHyxGlauqxpCA/profile-displayphoto-shrink_",
+        "$type": "com.linkedin.common.VectorImage"
+      },
+      "$type": "com.linkedin.voyager.identity.shared.MiniProfile",
+      "firstName": "Jorge Eliseu",
+      "entityUrn": "urn:li:fs_miniProfile:ACoAAA4j_HUBqMtJpdmxEgn-mMDyHegJHRjvgQo",
+      "publicIdentifier": "jorge-eliseu-aires-3b154b67",
+      "trackingId": "LiBrZZwUSwyZGiqPyLKZuA==",
+      "pictureUrls": [
+        "https://media-exp1.licdn.com/dms/image/C5603AQHyxGlauqxpCA/profile-displayphoto-shrink_100_100/0/1620451117882?e=1660176000&v=beta&t=5n6GLTJ3_08mOy9krraT47Plafxa3CSQ1_4zZN78PXI",
+        "https://media-exp1.licdn.com/dms/image/C5603AQHyxGlauqxpCA/profile-displayphoto-shrink_200_200/0/1620451117882?e=1660176000&v=beta&t=plmU2Uznbyo5arg-9o3Z2-6yvQHXrvHQq8lbvrYba5o",
+        "https://media-exp1.licdn.com/dms/image/C5603AQHyxGlauqxpCA/profile-displayphoto-shrink_400_400/0/1620451117882?e=1660176000&v=beta&t=i-oYK8F9kUG5DST2EQGENuFmdaiqkOIT_7KLYdPP0vM",
+        "https://media-exp1.licdn.com/dms/image/C5603AQHyxGlauqxpCA/profile-displayphoto-shrink_800_800/0/1620451117882?e=1660176000&v=beta&t=tQS2N4aikLsvScOPio88WmwFTlPvGYm_SmPq7zc_oyk"
+      ],
+      "profileId": "ACoAAA4j_HUBqMtJpdmxEgn-mMDyHegJHRjvgQo"
+    }
+  },
+  {
+    "memberDistance": {
+      "value": "DISTANCE_2",
+      "$type": "com.linkedin.voyager.common.MemberDistance"
+    },
+    "image": {
+      "attributes": [
+        {
+          "sourceType": "PROFILE_PICTURE",
+          "*miniProfile": "urn:li:fs_miniProfile:ACoAAAaAP3wBmP1FktU88Q901CVec5WyKJECs6w",
+          "$type": "com.linkedin.voyager.common.ImageAttribute"
+        }
+      ],
+      "accessibilityTextAttributes": [],
+      "$type": "com.linkedin.voyager.common.ImageViewModel"
+    },
+    "targetUrn": "urn:li:fs_miniProfile:ACoAAAaAP3wBmP1FktU88Q901CVec5WyKJECs6w",
+    "socialProofImagePile": [
+      {
+        "attributes": [
+          {
+            "sourceType": "PROFILE_PICTURE",
+            "*miniProfile": "urn:li:fs_miniProfile:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+            "$type": "com.linkedin.voyager.common.ImageAttribute"
+          }
+        ],
+        "accessibilityTextAttributes": [],
+        "$type": "com.linkedin.voyager.common.ImageViewModel"
+      }
+    ],
+    "trackingUrn": "urn:li:member:109068156",
+    "navigationUrl": "https://www.linkedin.com/in/wesley-fu-19063a30",
+    "title": {
+      "textDirection": "USER_LOCALE",
+      "text": "Wesley Fu",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "type": "PROFILE",
+    "$type": "com.linkedin.voyager.search.SearchHitV2",
+    "headless": false,
+    "socialProofText": "1 shared connection",
+    "snippetText": {
+      "attributes": [
+        {
+          "start": 48,
+          "length": 4,
+          "type": "BOLD",
+          "$type": "com.linkedin.voyager.common.TextAttribute"
+        }
+      ],
+      "text": "Current: Head Of Product Development at VIETNAM SHOE MAJESTY CO. LTD",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "secondaryTitle": {
+      "textDirection": "USER_LOCALE",
+      "text": "2nd",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "*badges": "urn:li:fs_memberBadges:ACoAAAaAP3wBmP1FktU88Q901CVec5WyKJECs6w",
+    "publicIdentifier": "wesley-fu-19063a30",
+    "headline": {
+      "textDirection": "USER_LOCALE",
+      "text": "Head of Product Development",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "nameMatch": false,
+    "subline": {
+      "textDirection": "USER_LOCALE",
+      "text": "China",
+      "$type": "com.linkedin.voyager.common.TextViewModel"
+    },
+    "trackingId": "krwTB3NSQrejPYFkYSgArg==",
+    "profile": {
+      "customPronoun": null,
+      "lastName": "Fu",
+      "memorialized": null,
+      "dashEntityUrn": "urn:li:fsd_profile:ACoAAAaAP3wBmP1FktU88Q901CVec5WyKJECs6w",
+      "standardizedPronoun": null,
+      "occupation": "Head of Product Development",
+      "objectUrn": "urn:li:member:109068156",
+      "backgroundImage": null,
+      "picture": {
+        "artifacts": [
+          {
+            "width": 100,
+            "fileIdentifyingUrlPathSegment": "100_100/0/1604899191435?e=1660176000&v=beta&t=zLNa7AjpWoXWWCeNifiUHC978kuksRwggF___69uw08",
+            "expiresAt": 1660176000000,
+            "height": 100,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 200,
+            "fileIdentifyingUrlPathSegment": "200_200/0/1604899191435?e=1660176000&v=beta&t=6se9YuU0QrQdB_BVC0KqJPNvmMH_yFz8xyeuQXTGkvU",
+            "expiresAt": 1660176000000,
+            "height": 200,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 400,
+            "fileIdentifyingUrlPathSegment": "400_400/0/1604899191435?e=1660176000&v=beta&t=RC86gOTN-nbyVeSvsiKvfpGjzvIxtGXky-6B8V7H5zg",
+            "expiresAt": 1660176000000,
+            "height": 400,
+            "$type": "com.linkedin.common.VectorArtifact"
+          },
+          {
+            "width": 800,
+            "fileIdentifyingUrlPathSegment": "800_800/0/1604899191435?e=1660176000&v=beta&t=VBu68JM1rybzvAGzzFlDwvTNDfdXg2nV5j7JtFKmHfE",
+            "expiresAt": 1660176000000,
+            "height": 800,
+            "$type": "com.linkedin.common.VectorArtifact"
+          }
+        ],
+        "rootUrl": "https://media-exp1.licdn.com/dms/image/C5603AQEevzIy91PV4g/profile-displayphoto-shrink_",
+        "$type": "com.linkedin.common.VectorImage"
+      },
+      "$type": "com.linkedin.voyager.identity.shared.MiniProfile",
+      "firstName": "Wesley",
+      "entityUrn": "urn:li:fs_miniProfile:ACoAAAaAP3wBmP1FktU88Q901CVec5WyKJECs6w",
+      "publicIdentifier": "wesley-fu-19063a30",
+      "trackingId": "GFEAeyhYSceej2Sj2i+wVQ==",
+      "pictureUrls": [
+        "https://media-exp1.licdn.com/dms/image/C5603AQEevzIy91PV4g/profile-displayphoto-shrink_100_100/0/1604899191435?e=1660176000&v=beta&t=zLNa7AjpWoXWWCeNifiUHC978kuksRwggF___69uw08",
+        "https://media-exp1.licdn.com/dms/image/C5603AQEevzIy91PV4g/profile-displayphoto-shrink_200_200/0/1604899191435?e=1660176000&v=beta&t=6se9YuU0QrQdB_BVC0KqJPNvmMH_yFz8xyeuQXTGkvU",
+        "https://media-exp1.licdn.com/dms/image/C5603AQEevzIy91PV4g/profile-displayphoto-shrink_400_400/0/1604899191435?e=1660176000&v=beta&t=RC86gOTN-nbyVeSvsiKvfpGjzvIxtGXky-6B8V7H5zg",
+        "https://media-exp1.licdn.com/dms/image/C5603AQEevzIy91PV4g/profile-displayphoto-shrink_800_800/0/1604899191435?e=1660176000&v=beta&t=VBu68JM1rybzvAGzzFlDwvTNDfdXg2nV5j7JtFKmHfE"
+      ],
+      "profileId": "ACoAAAaAP3wBmP1FktU88Q901CVec5WyKJECs6w"
+    }
+  }
+]
