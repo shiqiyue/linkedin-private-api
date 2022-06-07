@@ -21,7 +21,7 @@
 
 •  **$type**: \"com.linkedin.voyager.common.ImageViewModel\"
 
-*Defined in [src/entities/linkedin-image-view-model.entity.ts:4](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/entities/linkedin-image-view-model.entity.ts#L4)*
+*Defined in [src/entities/linkedin-image-view-model.entity.ts:4](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/entities/linkedin-image-view-model.entity.ts#L4)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 •  **attributes**: [LinkedInImageAttribute](_src_entities_linkedin_image_attribute_entity_.linkedinimageattribute.md)[]
 
-*Defined in [src/entities/linkedin-image-view-model.entity.ts:5](https://github.com/shiqiyue/linkedin-private-api/blob/b8aba7b/src/entities/linkedin-image-view-model.entity.ts#L5)*
+*Defined in [src/entities/linkedin-image-view-model.entity.ts:5](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/entities/linkedin-image-view-model.entity.ts#L5)*

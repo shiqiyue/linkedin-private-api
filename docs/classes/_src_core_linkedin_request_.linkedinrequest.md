@@ -40,7 +40,7 @@
 
 *Inherited from [Request](_src_core_request_.request.md).[constructor](_src_core_request_.request.md#constructor)*
 
-*Defined in [src/core/request.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/request.ts#L20)*
+*Defined in [src/core/request.ts:20](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/request.ts#L20)*
 
 #### Parameters:
 
@@ -56,7 +56,7 @@ Name | Type | Default value |
 
 •  **auth**: AuthRequest = new AuthRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/linkedin-request.ts#L20)*
+*Defined in [src/core/linkedin-request.ts:20](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/linkedin-request.ts#L20)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **conversation**: ConversationRequest = new ConversationRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:10](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/linkedin-request.ts#L10)*
+*Defined in [src/core/linkedin-request.ts:10](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/linkedin-request.ts#L10)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **invitation**: InvitationRequest = new InvitationRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/linkedin-request.ts#L12)*
+*Defined in [src/core/linkedin-request.ts:12](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/linkedin-request.ts#L12)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **message**: MessageRequest = new MessageRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:14](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/linkedin-request.ts#L14)*
+*Defined in [src/core/linkedin-request.ts:14](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/linkedin-request.ts#L14)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 •  **profile**: ProfileRequest = new ProfileRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/linkedin-request.ts#L16)*
+*Defined in [src/core/linkedin-request.ts:16](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/linkedin-request.ts#L16)*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[request](_src_core_request_.request.md#request)*
 
-*Defined in [src/core/request.ts:20](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/request.ts#L20)*
+*Defined in [src/core/request.ts:20](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/request.ts#L20)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 •  **search**: SearchRequest = new SearchRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/linkedin-request.ts#L18)*
+*Defined in [src/core/linkedin-request.ts:18](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/linkedin-request.ts#L18)*
 
 ## Methods
 
@@ -116,7 +116,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)*
 
-*Defined in [src/core/request.ts:54](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/request.ts#L54)*
+*Defined in [src/core/request.ts:54](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/request.ts#L54)*
 
 #### Type parameters:
 
@@ -137,7 +137,7 @@ Name | Type |
 
 *Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)*
 
-*Defined in [src/core/request.ts:55](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/request.ts#L55)*
+*Defined in [src/core/request.ts:55](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/request.ts#L55)*
 
 #### Type parameters:
 
@@ -162,7 +162,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)*
 
-*Defined in [src/core/request.ts:62](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/request.ts#L62)*
+*Defined in [src/core/request.ts:62](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/request.ts#L62)*
 
 #### Type parameters:
 
@@ -184,7 +184,7 @@ Name | Type |
 
 *Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)*
 
-*Defined in [src/core/request.ts:63](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/request.ts#L63)*
+*Defined in [src/core/request.ts:63](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/request.ts#L63)*
 
 #### Type parameters:
 
@@ -210,7 +210,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[setHeaders](_src_core_request_.request.md#setheaders)*
 
-*Defined in [src/core/request.ts:50](https://github.com/eilonmore/linkedin-private-api/blob/e0192ba/src/core/request.ts#L50)*
+*Defined in [src/core/request.ts:50](https://github.com/shiqiyue/linkedin-private-api/blob/0c4d2d1/src/core/request.ts#L50)*
 
 #### Parameters:
 

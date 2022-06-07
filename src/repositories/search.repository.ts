@@ -149,7 +149,8 @@ export class SearchRepository {
       keywords,
       skip,
       limit,
-      filters: { ...filters, resultType: LinkedInSearchType.PEOPLE }
+      filters: { ...filters, resultType: LinkedInSearchType.PEOPLE },
+      origin: "GLOBAL_SEARCH_HEADER"
     });
 
     const profiles = keyBy(getProfilesFromResponse<GetBlendedSearchResponse>(response), 'entityUrn');

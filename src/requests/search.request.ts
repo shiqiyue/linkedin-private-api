@@ -33,6 +33,7 @@ export class SearchRequest {
       queryContext: {
         spellCorrectionEnabled: true,
         relatedSearchesEnabled: true,
+        kcardTypes: "PROFILE|COMPANY"
       },
       start: skip,
     };

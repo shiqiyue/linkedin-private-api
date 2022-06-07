@@ -25,11 +25,21 @@ JSESSIONID = "ajax:6265576855753707858";
   // Search for profiles and send an invitation
   const peopleScroller = await client.search.searchPeople({
     keywords: 'shoe',
-    filters:{
+/*    filters:{
       network: [LinkedInNetworkType.S, LinkedInNetworkType.F]
-    }
+    }*/
   });
-  const profiles = await peopleScroller.scrollNext();
+  let profiles = await peopleScroller.scrollNext();
+
+
+  console.log(profiles);
+  profiles = await peopleScroller.scrollNext();
+
+
+
+
+  console.log(profiles);
+  profiles = await peopleScroller.scrollNext();
 
 
 
