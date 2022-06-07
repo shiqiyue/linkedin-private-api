@@ -24,8 +24,9 @@ JSESSIONID = "ajax:6265576855753707858";
     useCache: false
   })
 
-  const res = await client.search.fetchPeople2({start: 0,keywords: "鞋子", query: {geoUrn:["102890883"], network:[LinkedInNetworkType.F, LinkedInNetworkType.S]}});
+  const res = await client.search.fetchPeople2({start: 0,keywords: "shoe", query: {geoUrn:["102890883"], network:[LinkedInNetworkType.F, LinkedInNetworkType.S]}});
   console.log(res)
+  
   fs.writeFileSync("./fetchPeople.json", JSON.stringify(res))
 /*
   // Search for profiles and send an invitation

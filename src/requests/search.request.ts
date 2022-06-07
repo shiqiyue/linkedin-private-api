@@ -64,10 +64,21 @@ export class SearchRequest {
     };
 
     const queryStr = querySerializer(q)
-    let u = `search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154&origin=GLOBAL_SEARCH_HEADER&q=all&query=${queryStr}&start=${start}`;
+    const u = `search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154&origin=GLOBAL_SEARCH_HEADER&q=all&query=${queryStr}&start=${start}`;
     console.log(u)
-    u = "search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154&origin=GLOBAL_SEARCH_HEADER&q=all&query=(keywords:%E9%9E%8B%E5%AD%90,flagshipSearchIntent:SEARCH_SRP,queryParameters:(geoUrn:List(102890883),network:List(F,S),resultType:List(PEOPLE)),includeFiltersInResponse:false)&start=0"
+    //u = "search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154&origin=GLOBAL_SEARCH_HEADER&q=all&query=(keywords:%E9%9E%8B%E5%AD%90,flagshipSearchIntent:SEARCH_SRP,queryParameters:(geoUrn:List(102890883),network:List(F,S),resultType:List(PEOPLE)),includeFiltersInResponse:false)&start=0"
     return this.request.get<any>(u);
+  }
+
+  lazyLoadAction({ids }:{ids?:any[]}): Promise<any>{
+    const nids = [];
+    for (const id of ids) {
+      nids.push(encodeURIComponent(id).replace(/\(/g, '%28').replace(/\)/g, '%29'))
+    }
+    const url = `voyagerSearchDashLazyLoadedActions?decorationId=com.linkedin.voyager.dash.deco.search.SearchLazyLoadedActions-47&ids=List(${nids.join(',')})`
+
+    console.log(url)
+    return this.request.get<any>(url);
   }
 
   searchGeo({keywords}:{keywords:string}):any{

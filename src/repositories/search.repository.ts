@@ -166,15 +166,38 @@ export class SearchRepository {
 
     async fetchPeople2({
                            start = 0,
-                            keywords = "",
+                           keywords = "",
                            query = {},
-                       }: { start?: number;keywords?: string; query?: ClustersSearchFilters; } = {}): Promise<any> {
-        const response = await this.client.request.search.searchCluster({
+                       }: { start?: number; keywords?: string; query?: ClustersSearchFilters; } = {}): Promise<any> {
+        const res = await this.client.request.search.searchCluster({
             start: start,
             keywords,
             query
         });
-        return response
+        const paging = res?.data?.paging
+        const eles = res?.included
+        const lazyIds = []
+        let lazys = [];
+        const profiles = [];
+        for (const ele of eles) {
+            const eleType = ele.$type
+            if (eleType === "com.linkedin.voyager.dash.search.EntityResultViewModel") {
+                profiles.push(ele)
+            }
+            if (eleType === "com.linkedin.voyager.dash.search.LazyLoadedActions") {
+                lazyIds.push(ele.entityUrn)
+            }
+        }
+        if (lazyIds.length > 0) {
+            lazys = await this.client.request.search.lazyLoadAction({ids: lazyIds});
+        }
+
+        console.log(paging, lazys, profiles)
+        return {
+            paging,
+            lazys,
+            profiles
+        }
     }
 
     private async fetchCompanies({
