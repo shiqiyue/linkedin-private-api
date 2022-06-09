@@ -14,12 +14,22 @@ export function defaultDecorationIds():DecorationIds{
 }
 
 export async function remoteDecorationIds(agent): Promise<DecorationIds>{
-    const url = "https://raw.githubusercontent.com/shiqiyue/linkedin-private-api/master/src/core/latest_decorationId.json";
-    const response = await axios.get(url, {
-        httpsAgent: agent,
-        httpAgent: agent
-    });
+    let url = "https://raw.githubusercontent.com/shiqiyue/linkedin-private-api/master/src/core/latest_decorationId.json";
+    try{
+        const response = await axios.get(url, {
+            httpsAgent: agent,
+            httpAgent: agent
+        });
+        return response.data
+    }catch (e) {
+        url = "https://ghproxy.com" + url
+        const response = await axios.get(url, {
+            httpsAgent: agent,
+            httpAgent: agent
+        });
+        return response.data
+    }
 
-    return response.data
+
 
 }
