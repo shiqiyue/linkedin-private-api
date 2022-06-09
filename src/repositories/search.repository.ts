@@ -161,11 +161,12 @@ export class SearchRepository {
         const lazyIds = [];
         for (const profilesKey in profiles) {
             const urn = profilesKey.replace("urn:li:fs_miniProfile:", "")
-            const lazyId = `urn:li:fsd_lazyLoadedActions:(urn:li:fsd_profileActions:(${urn},SEARCH,EMPTY_CONTEXT_ENTITY_URN),PEOPLE,SEARCH_SRP`
+            const lazyId = `urn:li:fsd_lazyLoadedActions:(urn:li:fsd_profileActions:(${urn},SEARCH,EMPTY_CONTEXT_ENTITY_URN),PEOPLE,SEARCH_SRP)`
             lazyIds.push(lazyId)
         }
         const lazys = await this.client.request.search.lazyLoadAction({ids: lazyIds})
-        console.log(lazys)
+        this.handleProfileLazy2({profiles, lazys})
+
 
         return searchHits.map(searchHit => ({
             ...searchHit,
@@ -272,6 +273,73 @@ export class SearchRepository {
         }
         for (const e of profiles) {
             e.lazy = getLazyByLazyUrn(e.lazyLoadedActionsUrn)
+        }
+    }
+
+    private handleProfileLazy2({profiles, lazys}){
+        const lazyRecords = [];
+        const getLazyByUrn = function (urn) {
+            for (const lazyRecord of lazyRecords) {
+                if (lazyRecord.urn === urn) {
+                    return lazyRecord
+                }
+            }
+            return null
+        };
+        const getLazyByLazyUrn = function (urn) {
+            for (const lazyRecord of lazyRecords) {
+                if (lazyRecord.lazyUrn === urn) {
+                    return lazyRecord
+                }
+            }
+            return null
+        };
+        if(lazys){
+            for (const resultsKey in lazys.data.results) {
+                const lazyRecord = {
+                    lazyUrn: undefined,
+                    urn: undefined
+                }
+                lazyRecord.lazyUrn = lazys.data.results[resultsKey]
+                lazyRecord.urn = lazyRecord.lazyUrn.replace("urn:li:fsd_lazyLoadedActions:(urn:li:fsd_profileActions:(", "").replace(",SEARCH,EMPTY_CONTEXT_ENTITY_URN),PEOPLE,SEARCH_SRP)", "")
+                lazyRecords.push(lazyRecord)
+            }
+            for (const e of lazys.included) {
+                if(e.$type === "com.linkedin.voyager.dash.feed.FollowingState"){
+                    const lazyRecord = getLazyByUrn(e.entityUrn.replace("urn:li:fsd_followingState:urn:li:fsd_profile:", ""));
+                    if(lazyRecord){
+                        lazyRecord.followingState = e
+                    }
+                }
+                if(e.$type === "com.linkedin.voyager.dash.identity.profile.Profile"){
+                    const lazyRecord = getLazyByUrn(e.entityUrn.replace("urn:li:fsd_profile:", ""));
+                    if(lazyRecord){
+                        lazyRecord.profile = e
+                    }
+                }
+                if(e.$type === "com.linkedin.voyager.dash.relationships.MemberRelationship"){
+                    const lazyRecord = getLazyByUrn(e.entityUrn.replace("urn:li:fsd_memberRelationship:", ""));
+                    if(lazyRecord){
+                        lazyRecord.memberRelationship = e
+                    }
+                }
+                if(e.$type === "com.linkedin.voyager.dash.relationships.invitation.Invitation"){
+                    const lazyRecord = getLazyByUrn(e.inviteeMember.replace("urn:li:fsd_profile:", ""));
+                    if(lazyRecord){
+                        lazyRecord.invitation = e
+                    }
+                }
+                if(e.$type === "com.linkedin.voyager.dash.search.LazyLoadedActions"){
+                    const lazyRecord = getLazyByLazyUrn(e.entityUrn);
+                    if(lazyRecord){
+                        lazyRecord.actions = e
+                    }
+                }
+            }
+        }
+        for (const profileId in profiles) {
+            const urn = profileId.replace("urn:li:fs_miniProfile:", "")
+            profiles[profileId].lazy = getLazyByUrn(urn)
         }
     }
 

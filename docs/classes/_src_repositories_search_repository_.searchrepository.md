@@ -34,7 +34,7 @@
 
 \+ **new SearchRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [SearchRepository](_src_repositories_search_repository_.searchrepository.md)
 
-*Defined in [src/repositories/search.repository.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/c1b3769/src/repositories/search.repository.ts#L24)*
+*Defined in [src/repositories/search.repository.ts:25](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/repositories/search.repository.ts#L25)*
 
 #### Parameters:
 
@@ -50,7 +50,7 @@ Name | Type |
 
 •  **client**: [Client](_src_core_client_.client.md)
 
-*Defined in [src/repositories/search.repository.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/c1b3769/src/repositories/search.repository.ts#L24)*
+*Defined in [src/repositories/search.repository.ts:25](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/repositories/search.repository.ts#L25)*
 
 ## Methods
 
@@ -58,7 +58,7 @@ Name | Type |
 
 ▸ **fetchPeople2**(`__namedParameters?`: { keywords: string = ""; query: ClustersSearchFilters ; start: number = 0 }): Promise<any\>
 
-*Defined in [src/repositories/search.repository.ts:167](https://github.com/eilonmore/linkedin-private-api/blob/c1b3769/src/repositories/search.repository.ts#L167)*
+*Defined in [src/repositories/search.repository.ts:176](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/repositories/search.repository.ts#L176)*
 
 #### Parameters:
 
@@ -74,7 +74,7 @@ ___
 
 ▸ **searchCompanies**(`__namedParameters?`: { keywords: string ; limit: number = 10; skip: number = 0 }): [CompanySearchScroller](_src_scrollers_company_search_scroller_.companysearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:50](https://github.com/eilonmore/linkedin-private-api/blob/c1b3769/src/repositories/search.repository.ts#L50)*
+*Defined in [src/repositories/search.repository.ts:51](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/repositories/search.repository.ts#L51)*
 
 #### Parameters:
 
@@ -90,7 +90,7 @@ ___
 
 ▸ **searchConnectionsOf**(`__namedParameters`: { filters: Omit<PeopleSearchFilters, \"network\" \| \"connectionOf\"\> ; keywords: string ; limit: number = 10; profileId: string ; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:95](https://github.com/eilonmore/linkedin-private-api/blob/c1b3769/src/repositories/search.repository.ts#L95)*
+*Defined in [src/repositories/search.repository.ts:96](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/repositories/search.repository.ts#L96)*
 
 #### Parameters:
 
@@ -106,7 +106,7 @@ ___
 
 ▸ **searchGeo**(`__namedParameters`: { keywords: string  }): any
 
-*Defined in [src/repositories/search.repository.ts:87](https://github.com/eilonmore/linkedin-private-api/blob/c1b3769/src/repositories/search.repository.ts#L87)*
+*Defined in [src/repositories/search.repository.ts:88](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/repositories/search.repository.ts#L88)*
 
 #### Parameters:
 
@@ -122,7 +122,7 @@ ___
 
 ▸ **searchJobs**(`__namedParameters?`: { filters: JobSearchFilters ; keywords: string ; limit: number = 10; skip: number = 0 }): [JobSearchScroller](_src_scrollers_job_search_scroller_.jobsearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:117](https://github.com/eilonmore/linkedin-private-api/blob/c1b3769/src/repositories/search.repository.ts#L117)*
+*Defined in [src/repositories/search.repository.ts:118](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/repositories/search.repository.ts#L118)*
 
 #### Parameters:
 
@@ -138,7 +138,7 @@ ___
 
 ▸ **searchOwnConnections**(`__namedParameters?`: { filters: Omit<PeopleSearchFilters, \"network\"\> ; keywords: string ; limit: number = 10; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:67](https://github.com/eilonmore/linkedin-private-api/blob/c1b3769/src/repositories/search.repository.ts#L67)*
+*Defined in [src/repositories/search.repository.ts:68](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/repositories/search.repository.ts#L68)*
 
 #### Parameters:
 
@@ -154,7 +154,7 @@ ___
 
 ▸ **searchPeople**(`__namedParameters?`: { filters: PeopleSearchFilters ; keywords: string ; limit: number = 10; skip: number = 0 }): [PeopleSearchScroller](_src_scrollers_people_search_scroller_.peoplesearchscroller.md)
 
-*Defined in [src/repositories/search.repository.ts:30](https://github.com/eilonmore/linkedin-private-api/blob/c1b3769/src/repositories/search.repository.ts#L30)*
+*Defined in [src/repositories/search.repository.ts:31](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/repositories/search.repository.ts#L31)*
 
 #### Parameters:
 

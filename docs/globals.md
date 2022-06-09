@@ -9,6 +9,7 @@
 ### Modules
 
 * ["src/core/client"](modules/_src_core_client_.md)
+* ["src/core/decorationIds"](modules/_src_core_decorationids_.md)
 * ["src/core/index"](modules/_src_core_index_.md)
 * ["src/core/linkedin-request"](modules/_src_core_linkedin_request_.md)
 * ["src/core/login"](modules/_src_core_login_.md)

@@ -17,6 +17,7 @@
 * [Conversation](_src_index_.md#conversation)
 * [ConversationId](_src_index_.md#conversationid)
 * [ConversationUrn](_src_index_.md#conversationurn)
+* [DecorationIds](_src_index_.md#decorationids)
 * [EVENT\_TYPE](_src_index_.md#event_type)
 * [FeaturedType](_src_index_.md#featuredtype)
 * [INVITATION\_TYPE](_src_index_.md#invitation_type)
@@ -58,6 +59,8 @@
 * [ProfileId](_src_index_.md#profileid)
 * [ProfileUrn](_src_index_.md#profileurn)
 * [QuickReplayRecommendation](_src_index_.md#quickreplayrecommendation)
+* [defaultDecorationIds](_src_index_.md#defaultdecorationids)
+* [remoteDecorationIds](_src_index_.md#remotedecorationids)
 
 ## References
 
@@ -112,6 +115,12 @@ ___
 ### ConversationUrn
 
 Re-exports: [ConversationUrn](_src_entities_linkedin_conversation_entity_.md#conversationurn)
+
+___
+
+### DecorationIds
+
+Re-exports: [DecorationIds](../interfaces/_src_core_decorationids_.decorationids.md)
 
 ___
 
@@ -358,3 +367,15 @@ ___
 ### QuickReplayRecommendation
 
 Re-exports: [QuickReplayRecommendation](../interfaces/_src_entities_linkedin_quick_replay_recommendation_entity_.quickreplayrecommendation.md)
+
+___
+
+### defaultDecorationIds
+
+Re-exports: [defaultDecorationIds](_src_core_decorationids_.md#defaultdecorationids)
+
+___
+
+### remoteDecorationIds
+
+Re-exports: [remoteDecorationIds](_src_core_decorationids_.md#remotedecorationids)
