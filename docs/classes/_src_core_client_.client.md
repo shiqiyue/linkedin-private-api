@@ -20,6 +20,7 @@
 * [invitation](_src_core_client_.client.md#invitation)
 * [login](_src_core_client_.client.md#login)
 * [message](_src_core_client_.client.md#message)
+* [myProfile](_src_core_client_.client.md#myprofile)
 * [profile](_src_core_client_.client.md#profile)
 * [request](_src_core_client_.client.md#request)
 * [search](_src_core_client_.client.md#search)
@@ -30,7 +31,7 @@
 
 \+ **new Client**(`__namedParameters?`: { decorationIds: [DecorationIds](../interfaces/_src_core_decorationids_.decorationids.md) ; httpAgent: any ; httpsAgent: any ; proxy: AxiosProxyConfig  }): [Client](_src_core_client_.client.md)
 
-*Defined in [src/core/client.ts:22](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/client.ts#L22)*
+*Defined in [src/core/client.ts:25](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/client.ts#L25)*
 
 #### Parameters:
 
@@ -46,7 +47,7 @@ Name | Type | Default value |
 
 •  **conversation**: [ConversationRepository](_src_repositories_conversation_repository_.conversationrepository.md) = new ConversationRepository({ client: this })
 
-*Defined in [src/core/client.ts:36](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/client.ts#L36)*
+*Defined in [src/core/client.ts:39](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/client.ts#L39)*
 
 ___
 
@@ -54,7 +55,7 @@ ___
 
 •  **invitation**: [InvitationRepository](_src_repositories_invitation_repository_.invitationrepository.md) = new InvitationRepository({ client: this })
 
-*Defined in [src/core/client.ts:32](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/client.ts#L32)*
+*Defined in [src/core/client.ts:35](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/client.ts#L35)*
 
 ___
 
@@ -62,7 +63,7 @@ ___
 
 •  **login**: [Login](_src_core_login_.login.md) = new Login({ client: this })
 
-*Defined in [src/core/client.ts:28](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/client.ts#L28)*
+*Defined in [src/core/client.ts:31](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/client.ts#L31)*
 
 ___
 
@@ -70,7 +71,15 @@ ___
 
 •  **message**: [MessageRepository](_src_repositories_message_repository_.messagerepository.md) = new MessageRepository({ client: this })
 
-*Defined in [src/core/client.ts:38](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/client.ts#L38)*
+*Defined in [src/core/client.ts:41](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/client.ts#L41)*
+
+___
+
+### myProfile
+
+• `Optional` **myProfile**: [Profile](../interfaces/_src_entities_profile_entity_.profile.md)
+
+*Defined in [src/core/client.ts:25](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/client.ts#L25)*
 
 ___
 
@@ -78,7 +87,7 @@ ___
 
 •  **profile**: [ProfileRepository](_src_repositories_profile_repository_.profilerepository.md) = new ProfileRepository({ client: this })
 
-*Defined in [src/core/client.ts:34](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/client.ts#L34)*
+*Defined in [src/core/client.ts:37](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/client.ts#L37)*
 
 ___
 
@@ -86,7 +95,7 @@ ___
 
 •  **request**: [LinkedInRequest](_src_core_linkedin_request_.linkedinrequest.md)
 
-*Defined in [src/core/client.ts:22](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/client.ts#L22)*
+*Defined in [src/core/client.ts:23](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/client.ts#L23)*
 
 ___
 
@@ -94,4 +103,4 @@ ___
 
 •  **search**: [SearchRepository](_src_repositories_search_repository_.searchrepository.md) = new SearchRepository({ client: this })
 
-*Defined in [src/core/client.ts:30](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/client.ts#L30)*
+*Defined in [src/core/client.ts:33](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/client.ts#L33)*

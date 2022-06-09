@@ -29,7 +29,7 @@ JSESSIONID = "ajax:4686203357004250715";
   })
 
 
-  const fullProfile = await client.profile.getFullProfile({ publicIdentifier: "ricardo-leite-54a13237" });
+  const fullProfile = await client.profile.getOwnProfile();
 
   // const ownProfile = await client.profile.getOwnProfile();
 

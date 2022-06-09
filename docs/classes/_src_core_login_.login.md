@@ -25,7 +25,7 @@
 
 \+ **new Login**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [Login](_src_core_login_.login.md)
 
-*Defined in [src/core/login.ts:21](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/login.ts#L21)*
+*Defined in [src/core/login.ts:21](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/login.ts#L21)*
 
 #### Parameters:
 
@@ -41,7 +41,7 @@ Name | Type |
 
 ▸ **userCookie**(`__namedParameters`: { cookies: AuthCookies ; useCache: boolean = true; username: string  }): Promise<[Client](_src_core_client_.client.md)\>
 
-*Defined in [src/core/login.ts:111](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/login.ts#L111)*
+*Defined in [src/core/login.ts:111](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/login.ts#L111)*
 
 #### Parameters:
 
@@ -57,7 +57,7 @@ ___
 
 ▸ **userPass**(`__namedParameters`: { password: string ; useCache: boolean = true; username: string  }): Promise<[Client](_src_core_client_.client.md)\>
 
-*Defined in [src/core/login.ts:78](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/login.ts#L78)*
+*Defined in [src/core/login.ts:78](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/login.ts#L78)*
 
 #### Parameters:
 

@@ -10,6 +10,7 @@ import {
 import { LinkedInRequest } from './linkedin-request';
 import { Login } from './login';
 import {DecorationIds} from "./decorationIds";
+import {Profile} from "../entities";
 
 interface ClientOpts {
   proxy?: AxiosProxyConfig;
@@ -20,6 +21,8 @@ interface ClientOpts {
 
 export class Client {
   request: LinkedInRequest;
+
+  myProfile?: Profile;
 
   constructor({ proxy,httpAgent, httpsAgent,decorationIds }: ClientOpts = {}) {
     this.request = new LinkedInRequest({ proxy,httpAgent, httpsAgent,decorationIds });

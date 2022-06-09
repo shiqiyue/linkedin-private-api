@@ -24,7 +24,7 @@
 
 •  **FullProfileWithEntities**: string
 
-*Defined in [src/core/decorationIds.ts:4](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/decorationIds.ts#L4)*
+*Defined in [src/core/decorationIds.ts:4](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/decorationIds.ts#L4)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **ReusableTypeaheadCollection**: string
 
-*Defined in [src/core/decorationIds.ts:7](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/decorationIds.ts#L7)*
+*Defined in [src/core/decorationIds.ts:7](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/decorationIds.ts#L7)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **SearchClusterCollection**: string
 
-*Defined in [src/core/decorationIds.ts:5](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/decorationIds.ts#L5)*
+*Defined in [src/core/decorationIds.ts:5](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/decorationIds.ts#L5)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **SearchLazyLoadedActions**: string
 
-*Defined in [src/core/decorationIds.ts:6](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/decorationIds.ts#L6)*
+*Defined in [src/core/decorationIds.ts:6](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/decorationIds.ts#L6)*
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 •  **WebJobSearchHitLite**: string
 
-*Defined in [src/core/decorationIds.ts:8](https://github.com/shiqiyue/linkedin-private-api/blob/ff42743/src/core/decorationIds.ts#L8)*
+*Defined in [src/core/decorationIds.ts:8](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/decorationIds.ts#L8)*
