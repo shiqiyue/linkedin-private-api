@@ -64,7 +64,7 @@ export class SearchRequest {
     };
 
     const queryStr = querySerializer(q)
-    const u = `search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154&origin=GLOBAL_SEARCH_HEADER&q=all&query=${queryStr}&start=${start}`;
+    const u = `search/dash/clusters?decorationId=${this.request.decorationIds.SearchClusterCollection}&origin=GLOBAL_SEARCH_HEADER&q=all&query=${queryStr}&start=${start}`;
     console.log(u)
     //u = "search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154&origin=GLOBAL_SEARCH_HEADER&q=all&query=(keywords:%E9%9E%8B%E5%AD%90,flagshipSearchIntent:SEARCH_SRP,queryParameters:(geoUrn:List(102890883),network:List(F,S),resultType:List(PEOPLE)),includeFiltersInResponse:false)&start=0"
     return this.request.get<any>(u);
@@ -75,7 +75,8 @@ export class SearchRequest {
     for (const id of ids) {
       nids.push(encodeURIComponent(id).replace(/\(/g, '%28').replace(/\)/g, '%29'))
     }
-    const url = `voyagerSearchDashLazyLoadedActions?decorationId=com.linkedin.voyager.dash.deco.search.SearchLazyLoadedActions-47&ids=List(${nids.join(',')})`
+    const url = `voyagerSearchDashLazyLoadedActions?decorationId=${this.request.decorationIds.SearchLazyLoadedActions}&ids=List(${nids.join(',')})`;
+   // url = `voyagerSearchDashLazyLoadedActions?decorationId=com.linkedin.voyager.dash.deco.search.SearchLazyLoadedActions-48&ids=List(urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAACjJWwB1nL0koXu5sgiDrhOdNAEBzYSz8I%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAAKoTx4BzuxiLmnAB-8IkGbioS1pyUCb-kU%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAAXfwFoB7BEMU4WVtJymRcg4ETFqeV1X2jg%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAAapjhMBbN1sih3ReaUCd3LqQKoXhshcZuk%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAAkD72UBEVn2-aHK1if9Zlyt9cdLGfdJlzU%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAAoIDSQBzeWjq0nX5RsFCu9AQKDsZf4c-j4%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAABPWg2MBjdSDBzW7NR5ifQDI9Yzx_6EXJl4%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAABaiRqAB6_LokIHCuC4L0TevgbRxUVSvJLQ%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAABiiPOcBpivToLeTM6V90AIM89Xia1Wb568%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAACeAU9oBECIpnaYJdopLb4IbPZem7TlHhKk%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29)`
 
     console.log(url)
     return this.request.get<any>(url);
@@ -83,7 +84,7 @@ export class SearchRequest {
 
   searchGeo({keywords}:{keywords:string}):any{
     keywords = encodeURIComponent(keywords)
-    return this.request.get<GetBlendedSearchResponse>(`voyagerSearchDashReusableTypeahead?decorationId=com.linkedin.voyager.dash.deco.search.typeahead.ReusableTypeaheadCollection-26&keywords=${keywords}&q=type&query=(typeaheadFilterQuery:(geoSearchTypes:List(MARKET_AREA,COUNTRY_REGION,ADMIN_DIVISION_1,CITY)))&type=GEO`);
+    return this.request.get<GetBlendedSearchResponse>(`voyagerSearchDashReusableTypeahead?decorationId=${this.request.decorationIds.ReusableTypeaheadCollection}&keywords=${keywords}&q=type&query=(typeaheadFilterQuery:(geoSearchTypes:List(MARKET_AREA,COUNTRY_REGION,ADMIN_DIVISION_1,CITY)))&type=GEO`);
   }
 
   searchJobs({
@@ -102,7 +103,7 @@ export class SearchRequest {
       count: limit,
       ...(keywords ? { keywords: encodeURIComponent(keywords) } : {}),
       origin: 'JOB_SEARCH_RESULTS_PAGE',
-      decorationId: 'com.linkedin.voyager.deco.jserp.WebJobSearchHitLite-14',
+      decorationId: this.request.decorationIds.WebJobSearchHitLite,
       q: 'jserpFilters',
       queryContext: {
         primaryHitType: 'JOBS',

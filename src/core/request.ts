@@ -4,6 +4,7 @@ import { URL } from 'url';
 import { linkedinApiUrl } from '../../config';
 import { paramsSerializer } from '../utils/paramsSerializer';
 import * as AxiosLogger from 'axios-logger';
+import {DecorationIds, defaultDecorationIds} from "./decorationIds";
 
 const buildUrl = (url: string) => new URL(url, linkedinApiUrl).toString();
 
@@ -14,12 +15,16 @@ interface RequestOpts {
   proxy?: AxiosProxyConfig;
   httpAgent? : any;
   httpsAgent? : any;
+  decorationIds?: DecorationIds
+
 }
 
 export class Request {
   request: AxiosInstance;
 
-  constructor({ proxy,httpAgent,httpsAgent }: RequestOpts = {}) {
+  decorationIds: DecorationIds;
+
+  constructor({ proxy,httpAgent,httpsAgent,decorationIds }: RequestOpts = {}) {
     this.request = axios.create({
       paramsSerializer,
       withCredentials: true,
@@ -29,6 +34,11 @@ export class Request {
     });
     this.request.interceptors.request.use(AxiosLogger.requestLogger);
     this.request.interceptors.response.use(AxiosLogger.responseLogger);
+    if(decorationIds){
+      this.decorationIds = decorationIds
+    }else{
+      this.decorationIds = defaultDecorationIds()
+    }
 
 /*    this.request.interceptors.request.use(function (config){
       console.log('请求参数:', config)
