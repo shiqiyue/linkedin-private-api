@@ -1,7 +1,7 @@
 {
   "FullProfileWithEntities":"com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-35",
   "SearchClusterCollection": "com.linkedin.voyager.dash.deco.search.SearchClusterCollection-155",
-  "SearchLazyLoadedActions": "com.linkedin.voyager.dash.deco.search.SearchLazyLoadedActions-47",
+  "SearchLazyLoadedActions": "com.linkedin.voyager.dash.deco.search.SearchLazyLoadedActions-48",
   "ReusableTypeaheadCollection": "com.linkedin.voyager.dash.deco.search.typeahead.ReusableTypeaheadCollection-26",
   "WebJobSearchHitLite": "com.linkedin.voyager.deco.jserp.WebJobSearchHitLite-14"
 }
