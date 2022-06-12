@@ -22,7 +22,7 @@ export async function remoteDecorationIds(agent): Promise<DecorationIds>{
         });
         return response.data
     }catch (e) {
-        url = "https://ghproxy.com" + url
+        url = "https://ghproxy.com/" + url
         const response = await axios.get(url, {
             httpsAgent: agent,
             httpAgent: agent
