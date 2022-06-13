@@ -27,7 +27,7 @@ JSESSIONID = "ajax:6265576855753707858";
 
   // Search for profiles and send an invitation
   const peopleScroller = await client.search.searchPeople({
-    keywords: 'shoe',
+    keywords: 'marcia-malfatti',
 /*    filters:{
       network: [LinkedInNetworkType.S, LinkedInNetworkType.F]
     }*/

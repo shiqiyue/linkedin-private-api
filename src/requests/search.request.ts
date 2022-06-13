@@ -64,7 +64,7 @@ export class SearchRequest {
     };
 
     const queryStr = querySerializer(q)
-    const u = `search/dash/clusters?decorationId=${this.request.decorationIds.SearchClusterCollection}&origin=GLOBAL_SEARCH_HEADER&q=all&query=${queryStr}&start=${start}`;
+    const u = `search/dash/clusters?decorationId=${this.request.decorationIds.SearchClusterCollection}&origin=SWITCH_SEARCH_VERTICAL&q=all&query=${queryStr}&start=${start}`;
     console.log(u)
     //u = "search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-154&origin=GLOBAL_SEARCH_HEADER&q=all&query=(keywords:%E9%9E%8B%E5%AD%90,flagshipSearchIntent:SEARCH_SRP,queryParameters:(geoUrn:List(102890883),network:List(F,S),resultType:List(PEOPLE)),includeFiltersInResponse:false)&start=0"
     return this.request.get<any>(u);

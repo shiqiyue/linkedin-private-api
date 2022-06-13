@@ -24,7 +24,7 @@ JSESSIONID = "ajax:6265576855753707858";
     useCache: false
   })
 
-  const res = await client.search.fetchPeople2({start: 0,keywords: "shoe", query: { network:[LinkedInNetworkType.F, LinkedInNetworkType.S]}});
+  const res = await client.search.fetchPeople2({start: 0,keywords: "marcia-malfatti"});
   console.log(res)
 
   fs.writeFileSync("./fetchPeople.json", JSON.stringify(res))
