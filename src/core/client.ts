@@ -24,6 +24,8 @@ export class Client {
 
   myProfile?: Profile;
 
+  li_at?: string;
+
   constructor({ proxy,httpAgent, httpsAgent,decorationIds }: ClientOpts = {}) {
     this.request = new LinkedInRequest({ proxy,httpAgent, httpsAgent,decorationIds });
   }

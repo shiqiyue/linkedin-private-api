@@ -124,6 +124,7 @@ export class Login {
     }
 
     this.setRequestHeaders({ cookies });
+    this.client.li_at = cookies.li_at
 
     if (username) {
       //fs.writeFile(SESSIONS_PATH, JSON.stringify({ ...cachedSessions, [username]: cookies }));
