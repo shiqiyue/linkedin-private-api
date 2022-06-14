@@ -5,6 +5,7 @@ import { GetBlendedSearchResponse } from '../responses/blended-search.reponse.ge
 import { BlendedSearchFilters } from '../types/blended-search-filters';
 import {ClustersSearchFilters} from "../types";
 import {paramsSerializer2, querySerializer} from "../utils";
+import JSONbigint from 'json-bigint'
 
 export class SearchRequest {
   private request: LinkedInRequest;
@@ -79,7 +80,9 @@ export class SearchRequest {
    // url = `voyagerSearchDashLazyLoadedActions?decorationId=com.linkedin.voyager.dash.deco.search.SearchLazyLoadedActions-48&ids=List(urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAACjJWwB1nL0koXu5sgiDrhOdNAEBzYSz8I%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAAKoTx4BzuxiLmnAB-8IkGbioS1pyUCb-kU%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAAXfwFoB7BEMU4WVtJymRcg4ETFqeV1X2jg%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAAapjhMBbN1sih3ReaUCd3LqQKoXhshcZuk%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAAkD72UBEVn2-aHK1if9Zlyt9cdLGfdJlzU%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAAAoIDSQBzeWjq0nX5RsFCu9AQKDsZf4c-j4%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAABPWg2MBjdSDBzW7NR5ifQDI9Yzx_6EXJl4%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAABaiRqAB6_LokIHCuC4L0TevgbRxUVSvJLQ%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAABiiPOcBpivToLeTM6V90AIM89Xia1Wb568%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29,urn%3Ali%3Afsd_lazyLoadedActions%3A%28urn%3Ali%3Afsd_profileActions%3A%28ACoAACeAU9oBECIpnaYJdopLb4IbPZem7TlHhKk%2CSEARCH%2CEMPTY_CONTEXT_ENTITY_URN%29%2CPEOPLE%2CSEARCH_SRP%29)`
 
     console.log(url)
-    return this.request.get<any>(url);
+    return this.request.get<any>(url,{ transformResponse: function(data, headers) {
+        return JSONbigint().parse(data);
+      }});
   }
 
   searchGeo({keywords}:{keywords:string}):any{

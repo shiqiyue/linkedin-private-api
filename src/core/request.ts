@@ -33,6 +33,7 @@ export class Request {
       ...(proxy && { proxy }),
     });
     this.request.interceptors.request.use(AxiosLogger.requestLogger);
+
     this.request.interceptors.response.use(AxiosLogger.responseLogger);
     if(decorationIds){
       this.decorationIds = decorationIds

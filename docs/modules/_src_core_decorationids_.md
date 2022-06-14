@@ -21,7 +21,7 @@
 
 ▸ **defaultDecorationIds**(): [DecorationIds](../interfaces/_src_core_decorationids_.decorationids.md)
 
-*Defined in [src/core/decorationIds.ts:12](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/decorationIds.ts#L12)*
+*Defined in [src/core/decorationIds.ts:12](https://github.com/eilonmore/linkedin-private-api/blob/7c25b88/src/core/decorationIds.ts#L12)*
 
 **Returns:** [DecorationIds](../interfaces/_src_core_decorationids_.decorationids.md)
 
@@ -31,7 +31,7 @@ ___
 
 ▸ **remoteDecorationIds**(`agent`: any): Promise<[DecorationIds](../interfaces/_src_core_decorationids_.decorationids.md)\>
 
-*Defined in [src/core/decorationIds.ts:16](https://github.com/shiqiyue/linkedin-private-api/blob/5ccb708/src/core/decorationIds.ts#L16)*
+*Defined in [src/core/decorationIds.ts:16](https://github.com/eilonmore/linkedin-private-api/blob/7c25b88/src/core/decorationIds.ts#L16)*
 
 #### Parameters:
 
