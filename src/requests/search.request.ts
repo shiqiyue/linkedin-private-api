@@ -4,7 +4,7 @@ import { LinkedInRequest } from '../core/linkedin-request';
 import { GetBlendedSearchResponse } from '../responses/blended-search.reponse.get';
 import { BlendedSearchFilters } from '../types/blended-search-filters';
 import {ClustersSearchFilters} from "../types";
-import {paramsSerializer2, querySerializer} from "../utils";
+import {paramsSerializer2,paramsSerializer, querySerializer} from "../utils";
 import JSONbigint from 'json-bigint'
 
 export class SearchRequest {
@@ -46,6 +46,9 @@ export class SearchRequest {
     headers["Accept-Language"]= "en-US,en;q=0.5"
     delete headers["x-li-page-instance"]
     delete headers["x-li-track"]*/
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    console.log(paramsSerializer(queryParams))
     return this.request.get<GetBlendedSearchResponse>('search/blended', {
       params: queryParams,
 /*

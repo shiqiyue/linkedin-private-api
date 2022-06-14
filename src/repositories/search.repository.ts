@@ -81,7 +81,7 @@ export class SearchRepository {
             limit,
             keywords,
             filters: {...filters, network: LinkedInNetworkType.F},
-            fetchPeople: this.fetchPeople.bind(this),
+            fetchPeople: this.fetchPeople3.bind(this),
         });
     }
 
@@ -166,6 +166,37 @@ export class SearchRepository {
         }
         const lazys = await this.client.request.search.lazyLoadAction({ids: lazyIds})
         this.handleProfileLazy2({profiles, lazys})
+
+
+        return searchHits.map(searchHit => ({
+            ...searchHit,
+            profile: profiles[searchHit.targetUrn],
+        }));
+    }
+
+    private async fetchPeople3({
+                                  skip = 0,
+                                  limit = 10,
+                                  filters = {},
+                                  keywords,
+                              }: {
+        skip?: number;
+        limit?: number;
+        filters?: PeopleSearchFilters;
+        keywords?: string;
+    } = {}): Promise<PeopleSearchHit[]> {
+        const response = await this.client.request.search.searchBlended({
+            keywords,
+            skip,
+            limit,
+            filters: {...filters, resultType: LinkedInSearchType.PEOPLE},
+            origin: "SWITCH_SEARCH_VERTICAL"
+        });
+
+        const profiles = keyBy(getProfilesFromResponse<GetBlendedSearchResponse>(response), 'entityUrn');
+        const searchHits = flatten(
+            response?.data?.elements?.filter(e => e.type === SearchResultType.SEARCH_HITS && e.elements).map(e => e.elements!),
+        );
 
 
         return searchHits.map(searchHit => ({

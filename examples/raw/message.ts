@@ -15,7 +15,6 @@ const password = process.env.PASSWORD as string;
 
   const myConnectionsScroller = client.search.searchOwnConnections();
   const myConnections = await myConnectionsScroller.scrollNext();
-
   const sentMessage = await client.message.sendMessage({
     profileId: myConnections[1].profile.profileId,
     text: 'Hey!',

@@ -32,6 +32,7 @@ JSESSIONID = "ajax:6265576855753707858";
       network: [LinkedInNetworkType.S, LinkedInNetworkType.F]
     }*/
   });
+  client.search.searchOwnConnections()
   const profiles = await peopleScroller.scrollNext();
   fs.writeFileSync("./fetchPeople2.json", JSON.stringify(profiles))
 
