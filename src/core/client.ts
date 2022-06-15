@@ -11,6 +11,7 @@ import { LinkedInRequest } from './linkedin-request';
 import { Login } from './login';
 import {DecorationIds} from "./decorationIds";
 import {Profile} from "../entities";
+import {AuthCookies} from "../types";
 
 interface ClientOpts {
   proxy?: AxiosProxyConfig;
@@ -25,6 +26,8 @@ export class Client {
   myProfile?: Profile;
 
   li_at?: string;
+
+  AuthCookies?:AuthCookies;
 
   constructor({ proxy,httpAgent, httpsAgent,decorationIds }: ClientOpts = {}) {
     this.request = new LinkedInRequest({ proxy,httpAgent, httpsAgent,decorationIds });
@@ -41,4 +44,14 @@ export class Client {
   conversation = new ConversationRepository({ client: this });
 
   message = new MessageRepository({ client: this });
+
+  clone(): Client {
+    const client = new Client(this.request.configs);
+     client.login.userCookie({
+      cookies: this.AuthCookies,
+      useCache: false
+    })
+    client.myProfile = this.myProfile
+    return client
+  }
 }

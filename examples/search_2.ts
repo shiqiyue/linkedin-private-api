@@ -24,14 +24,14 @@ JSESSIONID = "ajax:3513817161874270460";
     useCache: false
   })
 
-  let peopleSearchScroller = client.search.searchOwnConnections();
+  let peopleSearchScroller = client.clone().search.searchOwnConnections();
   let res = [];
   while(!peopleSearchScroller.hitEndOfResults){
     res.push(...await peopleSearchScroller.scrollNext());
   }
   console.log(res)
 
-  peopleSearchScroller = client.search.searchOwnConnections();
+  peopleSearchScroller = client.clone().search.searchOwnConnections();
    res = []
   while(!peopleSearchScroller.hitEndOfResults){
     res.push(...await peopleSearchScroller.scrollNext());

@@ -108,27 +108,21 @@ export class Login {
     return this.client;
   }
 
-  async userCookie({
+   userCookie({
     username,
     cookies,
-    useCache = true,
   }: {
     username?: string;
     cookies: AuthCookies;
     useCache?: boolean;
-  }): Promise<Client> {
-    const cachedSessions = await this.readCacheFile();
-
-    if (this.tryCacheLogin({ useCache, cachedSessions, username })) {
-      return this.client;
-    }
+  }): Client {
+    console.log(username)
 
     this.setRequestHeaders({ cookies });
     this.client.li_at = cookies.li_at
+    this.client.AuthCookies = cookies
 
-    if (username) {
-      //fs.writeFile(SESSIONS_PATH, JSON.stringify({ ...cachedSessions, [username]: cookies }));
-    }
+
 
     return this.client;
   }

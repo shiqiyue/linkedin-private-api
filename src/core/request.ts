@@ -24,6 +24,8 @@ export class Request {
 
   decorationIds: DecorationIds;
 
+  configs?: any
+
   constructor({ proxy,httpAgent,httpsAgent,decorationIds }: RequestOpts = {}) {
     this.request = axios.create({
       paramsSerializer,
@@ -41,20 +43,12 @@ export class Request {
       this.decorationIds = defaultDecorationIds()
     }
 
-/*    this.request.interceptors.request.use(function (config){
-      console.log('请求参数:', config)
-      return config
-    }, error => {
-      return Promise.reject(error);
-    })*/
-/*    this.request.interceptors.response.use(function (response){
-      console.log('返回结果', response)
-      return response
-    }, error => {
-      console.log('返回错误:', error)
-      return Promise.reject(error)
-    })*/
     this.request.defaults.adapter = require('axios/lib/adapters/http');
+    this.configs = {}
+    this.configs.proxy = proxy
+    this.configs.httpAgent = httpAgent
+    this.configs.httpsAgent = httpsAgent
+    this.configs.decorationIds = decorationIds
 
   }
 
