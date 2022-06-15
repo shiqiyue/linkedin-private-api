@@ -24,8 +24,15 @@ JSESSIONID = "ajax:3513817161874270460";
     useCache: false
   })
 
-  const peopleSearchScroller = client.search.searchOwnConnections();
-  const res = []
+  let peopleSearchScroller = client.search.searchOwnConnections();
+  let res = [];
+  while(!peopleSearchScroller.hitEndOfResults){
+    res.push(...await peopleSearchScroller.scrollNext());
+  }
+  console.log(res)
+
+  peopleSearchScroller = client.search.searchOwnConnections();
+   res = []
   while(!peopleSearchScroller.hitEndOfResults){
     res.push(...await peopleSearchScroller.scrollNext());
   }

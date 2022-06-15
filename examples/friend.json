@@ -1,0 +1,258 @@
+{
+  "data": {
+    "entityUrn": "urn:li:collectionResponse:RbU2wmxmYMov7vhpUK+d2I8qLjDcONvuQT83adWc9XI=",
+    "paging": {
+      "count": 40,
+      "start": 0,
+      "links": []
+    },
+    "*elements": [
+      "urn:li:fsd_connection:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+      "urn:li:fsd_connection:ACoAAAHe1A4BZ7OSmXIVRB0NupZR6990b0dv6f8",
+      "urn:li:fsd_connection:ACoAAASqUHcBpKY76BQEh4zYF3Ee_Z6UHqjSeKg"
+    ],
+    "$type": "com.linkedin.restli.common.CollectionResponse"
+  },
+  "included": [
+    {
+      "lastName": "Chadha",
+      "memorialized": false,
+      "$recipeTypes": [
+        "com.linkedin.voyager.dash.deco.web.mynetwork.ConnectionProfile"
+      ],
+      "$type": "com.linkedin.voyager.dash.identity.profile.Profile",
+      "firstName": "Gauri",
+      "profilePicture": {
+        "$recipeTypes": [
+          "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture"
+        ],
+        "displayImageReference": {
+          "vectorImage": {
+            "$recipeTypes": [
+              "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution"
+            ],
+            "rootUrl": "https://media-exp1.licdn.com/dms/image/C5603AQGUJ_c-iDMUdQ/profile-displayphoto-shrink_",
+            "artifacts": [
+              {
+                "width": 100,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "100_100/0/1584264699453?e=1660780800&v=beta&t=sDQ47cEGYrNTVTdLTEQc_xqhFulnOWWb-qNTcVAb9-Y",
+                "expiresAt": 1660780800000,
+                "height": 100,
+                "$type": "com.linkedin.common.VectorArtifact"
+              },
+              {
+                "width": 200,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "200_200/0/1584264699453?e=1660780800&v=beta&t=p9GgtRH16D72wulsYniErDPd9xpw4HM4TsyPofaT9nE",
+                "expiresAt": 1660780800000,
+                "height": 200,
+                "$type": "com.linkedin.common.VectorArtifact"
+              },
+              {
+                "width": 400,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "400_400/0/1584264699453?e=1660780800&v=beta&t=Zp-pXn5azdIsUvcLUVbFVQtoiT2_T-_feDEKZqzv9q0",
+                "expiresAt": 1660780800000,
+                "height": 400,
+                "$type": "com.linkedin.common.VectorArtifact"
+              },
+              {
+                "width": 800,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "800_800/0/1584264699453?e=1660780800&v=beta&t=DieKfv4brml_UjBtOesgi171Q61VU4VSD7oBGSp9uOQ",
+                "expiresAt": 1660780800000,
+                "height": 800,
+                "$type": "com.linkedin.common.VectorArtifact"
+              }
+            ],
+            "$type": "com.linkedin.common.VectorImage"
+          }
+        },
+        "displayImageUrn": "urn:li:digitalmediaAsset:C5603AQGUJ_c-iDMUdQ",
+        "$type": "com.linkedin.voyager.dash.identity.profile.PhotoFilterPicture"
+      },
+      "entityUrn": "urn:li:fsd_profile:ACoAAASqUHcBpKY76BQEh4zYF3Ee_Z6UHqjSeKg",
+      "headline": "CA, LL.B. , IIM A Alumna , Tax Guru on CNBC Awaaz and Zee Business , Columnist",
+      "publicIdentifier": "gauri-chadha-58726722"
+    },
+    {
+      "lastName": "Fuchs",
+      "memorialized": false,
+      "$recipeTypes": [
+        "com.linkedin.voyager.dash.deco.web.mynetwork.ConnectionProfile"
+      ],
+      "$type": "com.linkedin.voyager.dash.identity.profile.Profile",
+      "firstName": "Jacob",
+      "profilePicture": {
+        "$recipeTypes": [
+          "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture"
+        ],
+        "displayImageReference": {
+          "vectorImage": {
+            "$recipeTypes": [
+              "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution"
+            ],
+            "rootUrl": "https://media-exp1.licdn.com/dms/image/C5103AQHzcONlGj-GyA/profile-displayphoto-shrink_",
+            "artifacts": [
+              {
+                "width": 100,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "100_100/0/1544841940714?e=1660780800&v=beta&t=oJoilGGj0fECM_ZmPYFtEVU0H9mCw0kuPtgEVQ27FoU",
+                "expiresAt": 1660780800000,
+                "height": 100,
+                "$type": "com.linkedin.common.VectorArtifact"
+              },
+              {
+                "width": 200,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "200_200/0/1544841940714?e=1660780800&v=beta&t=tf0phGkOsDaeIVMKJ-PM5UBAv0vKKzoos4Ls4o47a1s",
+                "expiresAt": 1660780800000,
+                "height": 200,
+                "$type": "com.linkedin.common.VectorArtifact"
+              },
+              {
+                "width": 400,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "400_400/0/1544841940714?e=1660780800&v=beta&t=jYSSps7Sk1OanVMFNVJGjKbXTA72VIwS4eF9Iu-cTh4",
+                "expiresAt": 1660780800000,
+                "height": 400,
+                "$type": "com.linkedin.common.VectorArtifact"
+              },
+              {
+                "width": 800,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "800_800/0/1544841940714?e=1660780800&v=beta&t=8NWRGvIkUPlgmi6_O8zLvd9yifzlDOePS4W2OED1IFk",
+                "expiresAt": 1660780800000,
+                "height": 800,
+                "$type": "com.linkedin.common.VectorArtifact"
+              }
+            ],
+            "$type": "com.linkedin.common.VectorImage"
+          }
+        },
+        "displayImageUrn": "urn:li:digitalmediaAsset:C5103AQHzcONlGj-GyA",
+        "$type": "com.linkedin.voyager.dash.identity.profile.PhotoFilterPicture"
+      },
+      "entityUrn": "urn:li:fsd_profile:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+      "headline": "shoe,Technician",
+      "publicIdentifier": "jacob-fuchs-54302932"
+    },
+    {
+      "lastName": "Chadha",
+      "memorialized": false,
+      "$recipeTypes": [
+        "com.linkedin.voyager.dash.deco.web.mynetwork.ConnectionProfile"
+      ],
+      "$type": "com.linkedin.voyager.dash.identity.profile.Profile",
+      "firstName": "Chetan",
+      "profilePicture": {
+        "$recipeTypes": [
+          "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture"
+        ],
+        "displayImageReference": {
+          "vectorImage": {
+            "$recipeTypes": [
+              "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution"
+            ],
+            "rootUrl": "https://media-exp1.licdn.com/dms/image/C4D03AQFw2YR1V2cjeg/profile-displayphoto-shrink_",
+            "artifacts": [
+              {
+                "width": 100,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "100_100/0/1592834367578?e=1660780800&v=beta&t=7OncrJdAfqON65cm-IBbGSa_rcnV68VPNUuys8oYf5s",
+                "expiresAt": 1660780800000,
+                "height": 100,
+                "$type": "com.linkedin.common.VectorArtifact"
+              },
+              {
+                "width": 200,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "200_200/0/1592834367578?e=1660780800&v=beta&t=AXvSWXpElSYgXd0WjlQkKQKoVDnpG3KgcWHfRqVDPM4",
+                "expiresAt": 1660780800000,
+                "height": 200,
+                "$type": "com.linkedin.common.VectorArtifact"
+              },
+              {
+                "width": 400,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "400_400/0/1592834367578?e=1660780800&v=beta&t=AMd-BHKG46cfnsiAzgxVSlnGDxUnuK2doEEGXUeRP7I",
+                "expiresAt": 1660780800000,
+                "height": 400,
+                "$type": "com.linkedin.common.VectorArtifact"
+              },
+              {
+                "width": 800,
+                "$recipeTypes": [
+                  "com.linkedin.voyager.dash.deco.common.VectorArtifact"
+                ],
+                "fileIdentifyingUrlPathSegment": "800_800/0/1592834367578?e=1660780800&v=beta&t=CWIEWSw4AX2_Xsq9uI5UYgOFbYeEZFED4KrM-Xtllg8",
+                "expiresAt": 1660780800000,
+                "height": 800,
+                "$type": "com.linkedin.common.VectorArtifact"
+              }
+            ],
+            "$type": "com.linkedin.common.VectorImage"
+          }
+        },
+        "displayImageUrn": "urn:li:digitalmediaAsset:C4D03AQFw2YR1V2cjeg",
+        "$type": "com.linkedin.voyager.dash.identity.profile.PhotoFilterPicture"
+      },
+      "entityUrn": "urn:li:fsd_profile:ACoAAAHe1A4BZ7OSmXIVRB0NupZR6990b0dv6f8",
+      "headline": "Partner at Chadha & Chadha",
+      "publicIdentifier": "chadhachetan"
+    },
+    {
+      "createdAt": 1654574367000,
+      "connectedMember": "urn:li:fsd_profile:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+      "entityUrn": "urn:li:fsd_connection:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+      "*connectedMemberResolutionResult": "urn:li:fsd_profile:ACoAAAbEQcMB0UVWb1jrh7LdrF6mpeRP951QmWM",
+      "$recipeTypes": [
+        "com.linkedin.voyager.dash.deco.web.mynetwork.ConnectionListWithProfile"
+      ],
+      "$type": "com.linkedin.voyager.dash.relationships.Connection"
+    },
+    {
+      "createdAt": 1651926978000,
+      "connectedMember": "urn:li:fsd_profile:ACoAAASqUHcBpKY76BQEh4zYF3Ee_Z6UHqjSeKg",
+      "entityUrn": "urn:li:fsd_connection:ACoAAASqUHcBpKY76BQEh4zYF3Ee_Z6UHqjSeKg",
+      "*connectedMemberResolutionResult": "urn:li:fsd_profile:ACoAAASqUHcBpKY76BQEh4zYF3Ee_Z6UHqjSeKg",
+      "$recipeTypes": [
+        "com.linkedin.voyager.dash.deco.web.mynetwork.ConnectionListWithProfile"
+      ],
+      "$type": "com.linkedin.voyager.dash.relationships.Connection"
+    },
+    {
+      "createdAt": 1652097566000,
+      "connectedMember": "urn:li:fsd_profile:ACoAAAHe1A4BZ7OSmXIVRB0NupZR6990b0dv6f8",
+      "entityUrn": "urn:li:fsd_connection:ACoAAAHe1A4BZ7OSmXIVRB0NupZR6990b0dv6f8",
+      "*connectedMemberResolutionResult": "urn:li:fsd_profile:ACoAAAHe1A4BZ7OSmXIVRB0NupZR6990b0dv6f8",
+      "$recipeTypes": [
+        "com.linkedin.voyager.dash.deco.web.mynetwork.ConnectionListWithProfile"
+      ],
+      "$type": "com.linkedin.voyager.dash.relationships.Connection"
+    }
+  ]
+}
