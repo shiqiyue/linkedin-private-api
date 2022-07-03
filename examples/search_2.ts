@@ -38,7 +38,7 @@ JSESSIONID = "ajax:3513817161874270460";
   }
   console.log(res)
 
-  const profile =  await client.profile.getFullProfile({publicIdentifier:"ACoAAAHe1A4BZ7OSmXIVRB0NupZR6990b0dv6f8"})
+  const profile =  await client.profile.getFullProfile({publicIdentifier:"shoe-baaz-5111a1182"})
 
   fs.writeFileSync("./fetchFriends.json", JSON.stringify(res))
   fs.writeFileSync("./fullProfile.json", JSON.stringify(profile))

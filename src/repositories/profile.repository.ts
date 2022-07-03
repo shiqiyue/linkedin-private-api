@@ -50,6 +50,24 @@ export class ProfileRepository {
     };
   }
 
+  async getProfile2({ publicIdentifier }: { publicIdentifier: string }):Promise<any> {
+    const response = await this.client.request.profile.getProfile2({ publicIdentifier });
+    const results = response.included || [];
+    const country = results.find(r => r.$type === "com.linkedin.voyager.dash.common.Geo" )?.[0] ;
+    const profile = results.find(r => r.$type === PROFILE_TYPE && r.publicIdentifier === publicIdentifier) as LinkedInProfile;
+    const memberRelationShip = results.find(r => r.$type === "com.linkedin.voyager.dash.relationships.MemberRelationship" )
+    const inviteeMember = results.find(r => r.$type === "com.linkedin.voyager.dash.relationships.invitation.Invitation" )
+    const company = results.find(r => r.$type === "com.linkedin.voyager.dash.identity.profile.Position");
+
+    return {
+      ...profile,
+      country,
+      memberRelationShip,
+      inviteeMember,
+      company
+    }
+  }
+
   async getOwnProfile(): Promise<Profile | null> {
     const response = await this.client.request.profile.getOwnProfile();
 

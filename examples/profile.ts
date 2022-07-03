@@ -2,11 +2,12 @@ import { Client } from '../src';
 
 
 import { SocksProxyAgent } from 'socks-proxy-agent'
+import fs from "fs";
 var agent = new SocksProxyAgent(`socks://127.0.0.1:10808`);
 var JSESSIONID = "ajax:8462475366033195827";
 var li_at = "AQEDATp3vT0FeQRWAAABgEd2ry0AAAGBUJ0tVlYAG--0uWMuRh8DweF5nMjcNPSv6tcgDxGIbMU488u8p_MCM4_y53xtqGTdhIMp5BuqlHJgHby3lIyZh4L6-OAsAkOpBBlsgUS-pzJek-aEOXkHqrlr";
- li_at = "AQEDATjPoZgFoJWCAAABgJcNU3QAAAGBPBLpX04Ah3A2KVah6vIJHLR8f8jzlki9bAp5a0_h8oWzRx304W-vPVdNFxQ9h_7B1magXVjfoEwOhNLTHzG3NJD2lyGvZiaKn1mSaTRFnr_FAgG-CIfzfQRU";
-JSESSIONID = "ajax:4686203357004250715";
+ li_at = "AQEDATp3vT0FeQRWAAABgEd2ry0AAAGBnsEkkFYAidIYTrTZcrhjBoBByWIXL2fipdyj0CvUopH7iUJJuHGNBXpOU1EnIQ4tIQD5ZH-FHaHhP2-h5Je6EDk7ANDCMfOxsGiEeW9sQTIYrVRoijkdE-ue";
+JSESSIONID = "ajax:8462475366033195827";
 
 (async () => {
   const client = new Client({
@@ -29,9 +30,12 @@ JSESSIONID = "ajax:4686203357004250715";
   })
 
 
-  const fullProfile = await client.profile.getOwnProfile();
-
+  //const fullProfile = await client.profile.getOwnProfile();
+  const profile =  await client.profile.getProfile2({publicIdentifier:"petersacco91"})
+  //const profile =  await client.profile.getProfile({publicIdentifier: 'petersacco91'})
   // const ownProfile = await client.profile.getOwnProfile();
 
-  console.log( fullProfile);
+  console.log( profile);
+  fs.writeFileSync("./fetchProfile2.json", JSON.stringify(profile))
+
 })();

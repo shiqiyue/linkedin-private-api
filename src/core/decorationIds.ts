@@ -2,6 +2,8 @@ import latestDecorationId from './latest_decorationId.json'
 import axios from 'axios'
 export interface DecorationIds {
     FullProfileWithEntities: string;
+    WebTopCardCore: string;
+    TopCardSupplementary: string;
     SearchClusterCollection: string;
     SearchLazyLoadedActions: string;
     ReusableTypeaheadCollection: string;

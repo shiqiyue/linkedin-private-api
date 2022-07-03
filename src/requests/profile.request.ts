@@ -23,6 +23,17 @@ export class ProfileRequest {
         });
     }
 
+    getProfile2({ publicIdentifier }): Promise<any> {
+        const queryParams = {
+            q: 'memberIdentity',
+            memberIdentity: encodeURIComponent(publicIdentifier),
+            decorationId: this.request.decorationIds.TopCardSupplementary,
+        };
+        return this.request.get('identity/dash/profiles', {
+            params: queryParams,
+        });
+    }
+
 
     getOwnProfile(): Promise<GetOwnProfileResponse> {
         return this.request.get<GetOwnProfileResponse>('me');

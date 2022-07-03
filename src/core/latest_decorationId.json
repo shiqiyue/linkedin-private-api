@@ -2,6 +2,8 @@
   "FullProfileWithEntities":"com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-35",
   "SearchClusterCollection": "com.linkedin.voyager.dash.deco.search.SearchClusterCollection-155",
   "SearchLazyLoadedActions": "com.linkedin.voyager.dash.deco.search.SearchLazyLoadedActions-48",
+  "WebTopCardCore": "com.linkedin.voyager.dash.deco.identity.profile.WebTopCardCore-6",
+  "TopCardSupplementary": "com.linkedin.voyager.dash.deco.identity.profile.TopCardSupplementary-101",
   "ReusableTypeaheadCollection": "com.linkedin.voyager.dash.deco.search.typeahead.ReusableTypeaheadCollection-26",
   "WebJobSearchHitLite": "com.linkedin.voyager.deco.jserp.WebJobSearchHitLite-14"
 }
