@@ -23,6 +23,21 @@ export class InvitationRequest {
     return this.request.post('growth/normInvitations', requestPayload);
   }
 
+  sendInvitation2({
+                    inviteeProfileUrn,
+                    customMessage,
+                  }: {
+    inviteeProfileUrn: string;
+    customMessage?: string;
+  }): Promise<void> {
+    const requestPayload = {
+      inviteeProfileUrn,
+      invitationRelationshipOptionType: 'OTHER',
+      ...(customMessage && { customMessage }),
+    };
+    return this.request.post('voyagerRelationshipsDashMemberRelationships?action=verifyQuotaAndCreate', requestPayload);
+  }
+
   cancelInvitation({invitationId}:{invitationId: string}):Promise<void>{
     const requestPayload = {
       invitationId: invitationId,

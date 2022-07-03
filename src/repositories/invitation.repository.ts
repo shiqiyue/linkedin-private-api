@@ -72,6 +72,20 @@ export class InvitationRepository {
     return lastInvitation;
   }
 
+  async sendInvitation2({
+                          inviteeProfileUrn,
+                          customMessage,
+                       }: {
+    inviteeProfileUrn: string;
+    customMessage?: string;
+  }): Promise<Invitation> {
+    await this.client.request.invitation.sendInvitation2({inviteeProfileUrn, customMessage});
+
+    const lastInvitation = (await this.fetchSent({ skip: 0, limit: 1 }))[0];
+
+    return lastInvitation;
+  }
+
   async cancelInvitation({
       invitationId
                          }:{

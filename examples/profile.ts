@@ -31,11 +31,11 @@ JSESSIONID = "ajax:8462475366033195827";
 
 
   //const fullProfile = await client.profile.getOwnProfile();
-  const profile =  await client.profile.getProfile2({publicIdentifier:"petersacco91"})
+  const profile =  await client.profile.getProfile2({publicIdentifier:"ashley-r-a52bb9154"})
   //const profile =  await client.profile.getProfile({publicIdentifier: 'petersacco91'})
   // const ownProfile = await client.profile.getOwnProfile();
 
   console.log( profile);
-  fs.writeFileSync("./fetchProfile2.json", JSON.stringify(profile))
+  fs.writeFileSync("./fetchProfile5.json", JSON.stringify(profile))
 
 })();
