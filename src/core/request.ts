@@ -30,6 +30,7 @@ export class Request {
     this.request = axios.create({
       paramsSerializer,
       withCredentials: true,
+      timeout: 30000,
       httpAgent,
       httpsAgent,
       ...(proxy && { proxy }),
