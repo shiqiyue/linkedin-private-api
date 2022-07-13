@@ -93,6 +93,11 @@ export class SearchRequest {
     return this.request.get<GetBlendedSearchResponse>(`voyagerSearchDashReusableTypeahead?decorationId=${this.request.decorationIds.ReusableTypeaheadCollection}&keywords=${keywords}&q=type&query=(typeaheadFilterQuery:(geoSearchTypes:List(MARKET_AREA,COUNTRY_REGION,ADMIN_DIVISION_1,CITY)))&type=GEO`);
   }
 
+  searchIndustry({keywords}:{keywords:string}):any{
+    keywords = encodeURIComponent(keywords)
+    return this.request.get<GetBlendedSearchResponse>(`voyagerSearchDashReusableTypeahead?decorationId=${this.request.decorationIds.ReusableTypeaheadCollection}&keywords=${keywords}&q=type&query=(typeaheadFilterQuery:(standardizationEntityType:industry))&type=INDUSTRY`);
+  }
+
   searchJobs({
     skip = 0,
     limit = 10,

@@ -1,0 +1,753 @@
+[
+  {
+    "text": "Accounting",
+    "value": "Accounting",
+    "id": "urn:li:fsd_industry:47"
+  },
+  {
+    "text": "Airlines/Aviation",
+    "value": "Airlines/Aviation",
+    "id": "urn:li:fsd_industry:94"
+  },
+  {
+    "text": "Alternative Dispute Resolution",
+    "value": "Alternative Dispute Resolution",
+    "id": "urn:li:fsd_industry:120"
+  },
+  {
+    "text": "Alternative Medicine",
+    "value": "Alternative Medicine",
+    "id": "urn:li:fsd_industry:125"
+  },
+  {
+    "text": "Animation",
+    "value": "Animation",
+    "id": "urn:li:fsd_industry:127"
+  },
+  {
+    "text": "Apparel & Fashion",
+    "value": "Apparel & Fashion",
+    "id": "urn:li:fsd_industry:19"
+  },
+  {
+    "text": "Architecture & Planning",
+    "value": "Architecture & Planning",
+    "id": "urn:li:fsd_industry:50"
+  },
+  {
+    "text": "Arts and Crafts",
+    "value": "Arts and Crafts"
+  },
+  {
+    "text": "Automotive",
+    "value": "Automotive",
+    "id": "urn:li:fsd_industry:53"
+  },
+  {
+    "text": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace",
+    "id": "urn:li:fsd_industry:52"
+  },
+  {
+    "text": "Banking",
+    "value": "Banking",
+    "id": "urn:li:fsd_industry:41"
+  },
+  {
+    "text": "Biotechnology",
+    "value": "Biotechnology",
+    "id": "urn:li:fsd_industry:12"
+  },
+  {
+    "text": "Broadcast Media",
+    "value": "Broadcast Media",
+    "id": "urn:li:fsd_industry:36"
+  },
+  {
+    "text": "Building Materials",
+    "value": "Building Materials",
+    "id": "urn:li:fsd_industry:49"
+  },
+  {
+    "text": "Business Supplies and Equipment",
+    "value": "Business Supplies and Equipment",
+    "id": "urn:li:fsd_industry:138"
+
+  },
+  {
+    "text": "Capital Markets",
+    "value": "Capital Markets",
+    "id": "urn:li:fsd_industry:129"
+  },
+  {
+    "text": "Chemicals",
+    "value": "Chemicals",
+    "id": "urn:li:fsd_industry:54"
+  },
+  {
+    "text": "Civic & Social Organization",
+    "value": "Civic & Social Organization",
+    "id": "urn:li:fsd_industry:90"
+  },
+  {
+    "text": "Civil Engineering",
+    "value": "Civil Engineering",
+    "id": "urn:li:fsd_industry:51"
+  },
+  {
+    "text": "Commercial Real Estate",
+    "value": "Commercial Real Estate",
+    "id": "urn:li:fsd_industry:128"
+  },
+  {
+    "text": "Computer & Network Security",
+    "value": "Computer & Network Security",
+    "id": "urn:li:fsd_industry:118"
+  },
+  {
+    "text": "Computer Games",
+    "value": "Computer Games",
+    "id": "urn:li:fsd_industry:109"
+  },
+  {
+    "text": "Computer Hardware",
+    "value": "Computer Hardware",
+    "id": "urn:li:fsd_industry:3"
+  },
+  {
+    "text": "Computer Networking",
+    "value": "Computer Networking",
+    "id": "urn:li:fsd_industry:5"
+  },
+  {
+    "text": "Computer Software",
+    "value": "Computer Software",
+    "id": "urn:li:fsd_industry:4"
+  },
+  {
+    "text": "Construction",
+    "value": "Construction",
+    "id": "urn:li:fsd_industry:48"
+  },
+  {
+    "text": "Consumer Electronics",
+    "value": "Consumer Electronics",
+    "id": "urn:li:fsd_industry:24"
+  },
+  {
+    "text": "Consumer Goods",
+    "value": "Consumer Goods",
+    "id": "urn:li:fsd_industry:25"
+  },
+  {
+    "text": "Consumer Services",
+    "value": "Consumer Services",
+    "id": "urn:li:fsd_industry:91"
+  },
+  {
+    "text": "Cosmetics",
+    "value": "Cosmetics",
+    "id": "urn:li:fsd_industry:18"
+  },
+  {
+    "text": "Dairy",
+    "value": "Dairy",
+    "id": "urn:li:fsd_industry:65"
+  },
+  {
+    "text": "Defense & Space",
+    "value": "Defense & Space",
+    "id": "urn:li:fsd_industry:1"
+  },
+  {
+    "text": "Design",
+    "value": "Design",
+    "id": "urn:li:fsd_industry:99"
+  },
+  {
+    "text": "E-Learning",
+    "value": "E-Learning",
+    "id": "urn:li:fsd_industry:132"
+  },
+  {
+    "text": "Education Management",
+    "value": "Education Management",
+    "id": "urn:li:fsd_industry:69"
+  },
+  {
+    "text": "Electrical/Electronic Manufacturing",
+    "value": "Electrical/Electronic Manufacturing",
+    "id": "urn:li:fsd_industry:112"
+  },
+  {
+    "text": "Entertainment",
+    "value": "Entertainment",
+    "id": "urn:li:fsd_industry:28"
+  },
+  {
+    "text": "Environmental Services",
+    "value": "Environmental Services",
+    "id": "urn:li:fsd_industry:86"
+  },
+  {
+    "text": "Events Services",
+    "value": "Events Services",
+    "id": "urn:li:fsd_industry:110"
+  },
+  {
+    "text": "Executive Office",
+    "value": "Executive Office",
+    "id": "urn:li:fsd_industry:76"
+  },
+  {
+    "text": "Facilities Services",
+    "value": "Facilities Services",
+    "id": "urn:li:fsd_industry:122"
+  },
+  {
+    "text": "Farming",
+    "value": "Farming",
+    "id": "urn:li:fsd_industry:63"
+  },
+  {
+    "text": "Financial Services",
+    "value": "Financial Services",
+    "id": "urn:li:fsd_industry:43"
+  },
+  {
+    "text": "Fine Art",
+    "value": "Fine Art",
+    "id": "urn:li:fsd_industry:38"
+  },
+  {
+    "text": "Fishery",
+    "value": "Fishery",
+    "id": "urn:li:fsd_industry:66"
+  },
+  {
+    "text": "Food & Beverages",
+    "value": "Food & Beverages",
+    "id": "urn:li:fsd_industry:34"
+  },
+  {
+    "text": "Food Production",
+    "value": "Food Production",
+    "id": "urn:li:fsd_industry:23"
+  },
+  {
+    "text": "Furniture",
+    "value": "Furniture",
+    "id": "urn:li:fsd_industry:26"
+  },
+  {
+    "text": "Gambling & Casinos",
+    "value": "Gambling & Casinos",
+    "id": "urn:li:fsd_industry:29"
+  },
+  {
+    "text": "Glass, Ceramics & Concrete",
+    "value": "Glass, Ceramics & Concrete",
+    "id": "urn:li:fsd_industry:145"
+  },
+  {
+    "text": "Government Administration",
+    "value": "Government Administration",
+    "id": "urn:li:fsd_industry:75"
+  },
+  {
+    "text": "Government Relations",
+    "value": "Government Relations",
+    "id": "urn:li:fsd_industry:148"
+  },
+  {
+    "text": "Graphic Design",
+    "value": "Graphic Design",
+    "id": "urn:li:fsd_industry:140"
+  },
+  {
+    "text": "Health, Wellness and Fitness",
+    "value": "Health, Wellness and Fitness",
+    "id": "urn:li:fsd_industry:124"
+  },
+  {
+    "text": "Higher Education",
+    "value": "Higher Education",
+    "id": "urn:li:fsd_industry:68"
+  },
+  {
+    "text": "Hospital & Health Care",
+    "value": "Hospital & Health Care",
+    "id": "urn:li:fsd_industry:14"
+  },
+  {
+    "text": "Hospitality",
+    "value": "Hospitality",
+    "id": "urn:li:fsd_industry:31"
+  },
+  {
+    "text": "Human Resources",
+    "value": "Human Resources",
+    "id": "urn:li:fsd_industry:137"
+  },
+  {
+    "text": "Import and Export",
+    "value": "Import and Export",
+    "id": "urn:li:fsd_industry:134"
+  },
+  {
+    "text": "Individual & Family Services",
+    "value": "Individual & Family Services",
+    "id": "urn:li:fsd_industry:88"
+  },
+  {
+    "text": "Industrial Automation",
+    "value": "Industrial Automation",
+    "id": "urn:li:fsd_industry:147"
+  },
+  {
+    "text": "Information Services",
+    "value": "Information Services",
+    "id": "urn:li:fsd_industry:84"
+  },
+  {
+    "text": "Information Technology and Services",
+    "value": "Information Technology and Services",
+    "id": "urn:li:fsd_industry:96"
+
+  },
+  {
+    "text": "Insurance",
+    "value": "Insurance",
+    "id": "urn:li:fsd_industry:42"
+  },
+  {
+    "text": "International Affairs",
+    "value": "International Affairs",
+    "id": "urn:li:fsd_industry:74"
+  },
+  {
+    "text": "International Trade and Development",
+    "value": "International Trade and Development",
+    "id": "urn:li:fsd_industry:141"
+
+  },
+  {
+    "text": "Internet",
+    "value": "Internet",
+    "id": "urn:li:fsd_industry:6"
+
+  },
+  {
+    "text": "Investment Banking",
+    "value": "Investment Banking",
+    "id": "urn:li:fsd_industry:45"
+  },
+  {
+    "text": "Investment Management",
+    "value": "Investment Management",
+    "id": "urn:li:fsd_industry:46"
+  },
+  {
+    "text": "Judiciary",
+    "value": "Judiciary",
+    "id": "urn:li:fsd_industry:73"
+  },
+  {
+    "text": "Law Enforcement",
+    "value": "Law Enforcement",
+    "id": "urn:li:fsd_industry:77"
+  },
+  {
+    "text": "Law Practice",
+    "value": "Law Practice",
+    "id": "urn:li:fsd_industry:9"
+  },
+  {
+    "text": "Legal Services",
+    "value": "Legal Services",
+    "id": "urn:li:fsd_industry:10"
+  },
+  {
+    "text": "Legislative Office",
+    "value": "Legislative Office",
+    "id": "urn:li:fsd_industry:72"
+  },
+  {
+    "text": "Leisure, Travel & Tourism",
+    "value": "Leisure, Travel & Tourism",
+    "id": "urn:li:fsd_industry:30"
+  },
+  {
+    "text": "Libraries",
+    "value": "Libraries",
+    "id": "urn:li:fsd_industry:85"
+  },
+  {
+    "text": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain",
+    "id": "urn:li:fsd_industry:116"
+
+  },
+  {
+    "text": "Luxury Goods & Jewelry",
+    "value": "Luxury Goods & Jewelry",
+    "id": "urn:li:fsd_industry:143"
+  },
+  {
+    "text": "Machinery",
+    "value": "Machinery",
+    "id": "urn:li:fsd_industry:55"
+  },
+  {
+    "text": "Management Consulting",
+    "value": "Management Consulting",
+    "id": "urn:li:fsd_industry:11"
+  },
+  {
+    "text": "Maritime",
+    "value": "Maritime",
+    "id": "urn:li:fsd_industry:95"
+  },
+  {
+    "text": "Market Research",
+    "value": "Market Research",
+    "id": "urn:li:fsd_industry:97"
+  },
+  {
+    "text": "Marketing and Advertising",
+    "value": "Marketing and Advertising",
+    "id": "urn:li:fsd_industry:80"
+
+  },
+  {
+    "text": "Mechanical or Industrial Engineering",
+    "value": "Mechanical or Industrial Engineering",
+    "id": "urn:li:fsd_industry:135"
+  },
+  {
+    "text": "Media Production",
+    "value": "Media Production",
+    "id": "urn:li:fsd_industry:126"
+  },
+  {
+    "text": "Medical Devices",
+    "value": "Medical Devices",
+    "id": "urn:li:fsd_industry:17"
+
+  },
+  {
+    "text": "Medical Practice",
+    "value": "Medical Practice",
+    "id": "urn:li:fsd_industry:13"
+  },
+  {
+    "text": "Mental Health Care",
+    "value": "Mental Health Care",
+    "id": "urn:li:fsd_industry:139"
+  },
+  {
+    "text": "Military",
+    "value": "Military",
+    "id": "urn:li:fsd_industry:71"
+  },
+  {
+    "text": "Mining & Metals",
+    "value": "Mining & Metals",
+    "id": "urn:li:fsd_industry:56"
+  },
+  {
+    "text": "Mobile Games",
+    "value": "Mobile Games",
+    "id": "urn:li:fsd_industry:3131"
+  },
+  {
+    "text": "Motion Pictures and Film",
+    "value": "Motion Pictures and Film",
+    "id": "urn:li:fsd_industry:35"
+
+  },
+  {
+    "text": "Museums and Institutions",
+    "value": "Museums and Institutions",
+    "id": "urn:li:fsd_industry:37"
+
+  },
+  {
+    "text": "Music",
+    "value": "Music",
+    "id": "urn:li:fsd_industry:115"
+  },
+  {
+    "text": "Nanotechnology",
+    "value": "Nanotechnology",
+    "id": "urn:li:fsd_industry:114"
+  },
+  {
+    "text": "Newspapers",
+    "value": "Newspapers",
+    "id": "urn:li:fsd_industry:81"
+  },
+  {
+    "text": "Non-Profit Organization Management",
+    "value": "Non-Profit Organization Management",
+    "id": "urn:li:fsd_industry:100"
+  },
+  {
+    "text": "Oil & Energy",
+    "value": "Oil & Energy",
+    "id": "urn:li:fsd_industry:57"
+  },
+  {
+    "text": "Online Media",
+    "value": "Online Media",
+    "id": "urn:li:fsd_industry:113"
+  },
+  {
+    "text": "Outsourcing/Offshoring",
+    "value": "Outsourcing/Offshoring",
+    "id": "urn:li:fsd_industry:123"
+  },
+  {
+    "text": "Package/Freight Delivery",
+    "value": "Package/Freight Delivery",
+    "id": "urn:li:fsd_industry:87"
+  },
+  {
+    "text": "Packaging and Containers",
+    "value": "Packaging and Containers",
+    "id": "urn:li:fsd_industry:146"
+
+  },
+  {
+    "text": "Paper & Forest Products",
+    "value": "Paper & Forest Products",
+    "id": "urn:li:fsd_industry:61"
+  },
+  {
+    "text": "Performing Arts",
+    "value": "Performing Arts",
+    "id": "urn:li:fsd_industry:39"
+  },
+  {
+    "text": "Pharmaceuticals",
+    "value": "Pharmaceuticals",
+    "id": "urn:li:fsd_industry:15"
+  },
+  {
+    "text": "Philanthropy",
+    "value": "Philanthropy",
+    "id": "urn:li:fsd_industry:131"
+  },
+  {
+    "text": "Photography",
+    "value": "Photography",
+    "id": "urn:li:fsd_industry:136"
+  },
+  {
+    "text": "Plastics",
+    "value": "Plastics",
+    "id": "urn:li:fsd_industry:117"
+  },
+  {
+    "text": "Political Organization",
+    "value": "Political Organization",
+    "id": "urn:li:fsd_industry:107"
+  },
+  {
+    "text": "Primary/Secondary Education",
+    "value": "Primary/Secondary Education",
+    "id": "urn:li:fsd_industry:67"
+  },
+  {
+    "text": "Printing",
+    "value": "Printing",
+    "id": "urn:li:fsd_industry:83"
+  },
+  {
+    "text": "Professional Training & Coaching",
+    "value": "Professional Training & Coaching",
+    "id": "urn:li:fsd_industry:105"
+  },
+  {
+    "text": "Program Development",
+    "value": "Program Development",
+    "id": "urn:li:fsd_industry:102"
+  },
+  {
+    "text": "Public Policy",
+    "value": "Public Policy",
+    "id": "urn:li:fsd_industry:79"
+  },
+  {
+    "text": "Public Relations and Communications",
+    "value": "Public Relations and Communications",
+    "id": "urn:li:fsd_industry:98"
+
+  },
+  {
+    "text": "Public Safety",
+    "value": "Public Safety",
+    "id": "urn:li:fsd_industry:78"
+  },
+  {
+    "text": "Publishing",
+    "value": "Publishing",
+    "id": "urn:li:fsd_industry:82"
+  },
+  {
+    "text": "Railroad Manufacture",
+    "value": "Railroad Manufacture",
+    "id": "urn:li:fsd_industry:62"
+  },
+  {
+    "text": "Ranching",
+    "value": "Ranching",
+    "id": "urn:li:fsd_industry:64"
+  },
+  {
+    "text": "Real Estate",
+    "value": "Real Estate",
+    "id": "urn:li:fsd_industry:44"
+  },
+  {
+    "text": "Recreational Facilities and Services",
+    "value": "Recreational Facilities and Services",
+    "id": "urn:li:fsd_industry:40"
+
+  },
+  {
+    "text": "Religious Institutions",
+    "value": "Religious Institutions",
+    "id": "urn:li:fsd_industry:89"
+  },
+  {
+    "text": "Renewables & Environment",
+    "value": "Renewables & Environment",
+    "id": "urn:li:fsd_industry:144"
+  },
+  {
+    "text": "Research",
+    "value": "Research",
+    "id": "urn:li:fsd_industry:70"
+  },
+  {
+    "text": "Restaurants",
+    "value": "Restaurants",
+    "id": "urn:li:fsd_industry:32"
+  },
+  {
+    "text": "Retail",
+    "value": "Retail",
+    "id": "urn:li:fsd_industry:27"
+  },
+  {
+    "text": "Security and Investigations",
+    "value": "Security and Investigations",
+    "id": "urn:li:fsd_industry:121"
+
+  },
+  {
+    "text": "Semiconductors",
+    "value": "Semiconductors",
+    "id": "urn:li:fsd_industry:7"
+  },
+  {
+    "text": "Shipbuilding",
+    "value": "Shipbuilding",
+    "id": "urn:li:fsd_industry:58"
+  },
+  {
+    "text": "Sporting Goods",
+    "value": "Sporting Goods",
+    "id": "urn:li:fsd_industry:20"
+  },
+  {
+    "text": "Sports",
+    "value": "Sports",
+    "id": "urn:li:fsd_industry:33"
+  },
+  {
+    "text": "Staffing and Recruiting",
+    "value": "Staffing and Recruiting",
+    "id": "urn:li:fsd_industry:104"
+
+  },
+  {
+    "text": "Supermarkets",
+    "value": "Supermarkets",
+    "id": "urn:li:fsd_industry:22"
+  },
+  {
+    "text": "Telecommunications",
+    "value": "Telecommunications",
+    "id": "urn:li:fsd_industry:8"
+  },
+  {
+    "text": "Textiles",
+    "value": "Textiles",
+    "id": "urn:li:fsd_industry:60"
+  },
+  {
+    "text": "Think Tanks",
+    "value": "Think Tanks",
+    "id": "urn:li:fsd_industry:130"
+  },
+  {
+    "text": "Tobacco",
+    "value": "Tobacco",
+    "id": "urn:li:fsd_industry:21"
+  },
+  {
+    "text": "Translation and Localization",
+    "value": "Translation and Localization",
+    "id": "urn:li:fsd_industry:108"
+
+  },
+  {
+    "text": "Transportation/Trucking/Railroad",
+    "value": "Transportation/Trucking/Railroad",
+    "id": "urn:li:fsd_industry:92"
+  },
+  {
+    "text": "Utilities",
+    "value": "Utilities",
+    "id": "urn:li:fsd_industry:59"
+  },
+  {
+    "text": "Venture Capital & Private Equity",
+    "value": "Venture Capital & Private Equity",
+    "id": "urn:li:fsd_industry:106"
+  },
+  {
+    "text": "Veterinary",
+    "value": "Veterinary",
+    "id": "urn:li:fsd_industry:16"
+  },
+  {
+    "text": "Warehousing",
+    "value": "Warehousing",
+    "id": "urn:li:fsd_industry:93"
+  },
+  {
+    "text": "Wholesale",
+    "value": "Wholesale",
+    "id": "urn:li:fsd_industry:133"
+  },
+  {
+    "text": "Wine and Spirits",
+    "value": "Wine and Spirits",
+    "id": "urn:li:fsd_industry:142"
+
+  },
+  {
+    "text": "Wireless",
+    "value": "Wireless",
+    "id": "urn:li:fsd_industry:119"
+  },
+  {
+    "text": "Writing and Editing",
+    "value": "Writing and Editing",
+    "id": "urn:li:fsd_industry:103"
+
+  }
+]

@@ -1,1 +1,107 @@
-{"source":"LinkedIn","firstname":"Chetan","lastname":"Chadha","headline":"Partner at Chadha & Chadha","industryName":"Law Practice","summary":"Heading Gurgaon office of Chadha & Chadha, an IP Boutique, with experience in all areas of IP including Patent & Trademark Litigation, Prosecution, Oppositions, Licensing, Transactions.\n\nCo-chair of the INTA Bulletin - Asia Pacific Subcommittee.\n\nCouncil Member of India Global Advisory Council of INTA\n\nFICPI member; FICPI Committee member of Membership Committee; APAA Copyright Committee member.\n\nInterested in working with companies to unlock the value of their IP.\n\n\nSpecialties: IP strategy, protection and enforcement.","emailAddress":"chetandelhi@gmail.com","location":"","occupation":"Partner","address":"","birthdate":{"month":4,"day":14},"phoneNumbers":[{"type":"MOBILE","number":"91-9810433023"}],"twitterHandles":["chetanchadha"],"picture":"","education":[{"activities":"","degreeName":"Managing and Transforming Professional Service Firms","fieldOfStudy":"","timePeriod":{"endDate":{"year":2010},"startDate":{"year":2010}},"schoolName":"Harvard Business School Executive Education","school":{"active":true,"name":"Harvard Business School Executive Education","logo":""}},{"activities":"","degreeName":"LL.B.","fieldOfStudy":"Law","timePeriod":{"endDate":{"year":2003},"startDate":{"year":2000}},"schoolName":"Delhi University","school":{"active":true,"name":"Delhi University","logo":""}}],"patents":[],"publications":[],"projects":[],"positions":[{"locationName":"","companyName":"Chadha & Chadha","linkedInCompanyId":"1035528","description":"Attorney at Law, Patent Agent","timePeriod":{"startDate":{"month":1,"year":2001}},"title":"Partner","company":{"employeeCountRange":{"start":51,"end":200},"industries":["Law Practice"],"logo":""}}],"languages":[],"skills":["Pharmaceutical Industry","Regulations","Strategy","Ethics"],"websites":[{"website":"http://www.iprattorneys.com","type":"COMPANY"}]}
+{
+  "source": "LinkedIn",
+  "firstname": "Chetan",
+  "lastname": "Chadha",
+  "headline": "Partner at Chadha & Chadha",
+  "industryName": "Law Practice",
+  "summary": "Heading Gurgaon office of Chadha & Chadha, an IP Boutique, with experience in all areas of IP including Patent & Trademark Litigation, Prosecution, Oppositions, Licensing, Transactions.\n\nCo-chair of the INTA Bulletin - Asia Pacific Subcommittee.\n\nCouncil Member of India Global Advisory Council of INTA\n\nFICPI member; FICPI Committee member of Membership Committee; APAA Copyright Committee member.\n\nInterested in working with companies to unlock the value of their IP.\n\n\nSpecialties: IP strategy, protection and enforcement.",
+  "emailAddress": "chetandelhi@gmail.com",
+  "location": "",
+  "occupation": "Partner",
+  "address": "",
+  "birthdate": {
+    "month": 4,
+    "day": 14
+  },
+  "phoneNumbers": [
+    {
+      "type": "MOBILE",
+      "number": "91-9810433023"
+    }
+  ],
+  "twitterHandles": [
+    "chetanchadha"
+  ],
+  "picture": "",
+  "education": [
+    {
+      "activities": "",
+      "degreeName": "Managing and Transforming Professional Service Firms",
+      "fieldOfStudy": "",
+      "timePeriod": {
+        "endDate": {
+          "year": 2010
+        },
+        "startDate": {
+          "year": 2010
+        }
+      },
+      "schoolName": "Harvard Business School Executive Education",
+      "school": {
+        "active": true,
+        "name": "Harvard Business School Executive Education",
+        "logo": ""
+      }
+    },
+    {
+      "activities": "",
+      "degreeName": "LL.B.",
+      "fieldOfStudy": "Law",
+      "timePeriod": {
+        "endDate": {
+          "year": 2003
+        },
+        "startDate": {
+          "year": 2000
+        }
+      },
+      "schoolName": "Delhi University",
+      "school": {
+        "active": true,
+        "name": "Delhi University",
+        "logo": ""
+      }
+    }
+  ],
+  "patents": [],
+  "publications": [],
+  "projects": [],
+  "positions": [
+    {
+      "locationName": "",
+      "companyName": "Chadha & Chadha",
+      "linkedInCompanyId": "1035528",
+      "description": "Attorney at Law, Patent Agent",
+      "timePeriod": {
+        "startDate": {
+          "month": 1,
+          "year": 2001
+        }
+      },
+      "title": "Partner",
+      "company": {
+        "employeeCountRange": {
+          "start": 51,
+          "end": 200
+        },
+        "industries": [
+          "Law Practice"
+        ],
+        "logo": ""
+      }
+    }
+  ],
+  "languages": [],
+  "skills": [
+    "Pharmaceutical Industry",
+    "Regulations",
+    "Strategy",
+    "Ethics"
+  ],
+  "websites": [
+    {
+      "website": "http://www.iprattorneys.com",
+      "type": "COMPANY"
+    }
+  ]
+}
